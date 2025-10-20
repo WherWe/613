@@ -1,6 +1,9 @@
 # Node
 node_modules/
 
+# Generated vendor assets (copied from node_modules during postinstall)
+vendor/
+
 # macOS
 .DS_Store
 
@@ -12,3 +15,14 @@ yarn-error.log*
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Local environment files
+.env
+.env.local
+.vercel/**
+
+# OS / editor junk
+Thumbs.db
+.vscode/**
+!.vscode/tasks.json
+!.vscode/settings.json

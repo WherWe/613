@@ -1,8 +1,8 @@
 /* Local self-hosted fonts via Fontsource */
-@import url("/node_modules/@fontsource/cardo/400.css");
-@import url("/node_modules/@fontsource/cardo/700.css");
-@import url("/node_modules/@fontsource/noto-serif-hebrew/400.css");
-@import url("/node_modules/@fontsource/noto-serif-hebrew/700.css");
+@import url("../vendor/@fontsource/cardo/400.css");
+@import url("../vendor/@fontsource/cardo/700.css");
+@import url("../vendor/@fontsource/noto-serif-hebrew/400.css");
+@import url("../vendor/@fontsource/noto-serif-hebrew/700.css");
 
 /* Base font stacks */
 body {

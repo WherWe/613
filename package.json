@@ -4,6 +4,8 @@
   "description": "A lightweight, static web app to explore the 613 mitzvot from Sefer HaChinukh, with a dynamic table and Hebrew title support.",
   "main": "index.js",
   "scripts": {
+    "build:vendor": "node scripts/build-vendor.js",
+    "postinstall": "npm run build:vendor",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

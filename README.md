@@ -4,10 +4,7 @@ A lightweight, static web app to explore the 613 mitzvot from Sefer HaChinukh, w
 
 ## Tech Stack
 
-- Frontend: Static HTML + vanilla JavaScript + CSS
-- Data: JSON files (English and Hebrew variants)
-- Local server: Python `http.server` via `serve.py` (adds CORS headers)
-- Shell helper: `start_server.sh` (starts the local server)
+// Note: Previously used a local Python server for dev; now the app is fully static.
 
 ## Repository Structure
 
@@ -18,8 +15,9 @@ A lightweight, static web app to explore the 613 mitzvot from Sefer HaChinukh, w
 ├─ mitzvot_data_he.json         # Hebrew data (metadata + mitzvot array)
 ├─ Sefer HaChinukh - en - merged.json  # Source (English) - reference
 ├─ Sefer HaChinukh - he - merged.json  # Source (Hebrew)  - reference
-├─ serve.py                     # Local HTTP server with permissive CORS
-├─ start_server.sh              # Convenience script to start the server
+├─ Archive/server/              # Server helpers (no longer required)
+│   ├─ serve.py
+│   └─ start_server.sh
 ├─ 613.code-workspace           # VS Code workspace file
 └─ .vscode/                     # VS Code tasks, etc.
 ```
