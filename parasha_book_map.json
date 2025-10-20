@@ -1,0 +1,120 @@
+{
+  "books": [
+    {
+      "key": "bereshit",
+      "en": "Bereshit",
+      "he": "בראשית",
+      "order": 1,
+      "parashot": [
+        { "en": "Bereshit", "he": "בראשית", "order": 1 },
+        { "en": "Noach", "he": "נח", "order": 2 },
+        { "en": "Lech Lecha", "he": "לך לך", "order": 3 },
+        { "en": "Vayera", "he": "וירא", "order": 4 },
+        { "en": "Chayei Sarah", "he": "חיי שרה", "order": 5 },
+        { "en": "Toldot", "he": "תולדות", "order": 6 },
+        { "en": "Vayetze", "he": "ויצא", "order": 7 },
+        { "en": "Vayishlach", "he": "וישלח", "order": 8 },
+        { "en": "Vayeshev", "he": "וישב", "order": 9 },
+        { "en": "Miketz", "he": "מקץ", "order": 10 },
+        { "en": "Vayigash", "he": "ויגש", "order": 11 },
+        { "en": "Vayechi", "he": "ויחי", "order": 12 }
+      ]
+    },
+    {
+      "key": "shemot",
+      "en": "Shemot",
+      "he": "שמות",
+      "order": 2,
+      "parashot": [
+        { "en": "Shemot", "he": "שמות", "order": 1 },
+        { "en": "Va'eira", "he": "וארא", "order": 2 },
+        { "en": "Bo", "he": "בא", "order": 3 },
+        { "en": "Beshalach", "he": "בשלח", "order": 4 },
+        { "en": "Yitro", "he": "יתרו", "order": 5 },
+        { "en": "Mishpatim", "he": "משפטים", "order": 6 },
+        { "en": "Terumah", "he": "תרומה", "order": 7 },
+        { "en": "Tetzaveh", "he": "תצוה", "order": 8 },
+        { "en": "Ki Tisa", "he": "כי תשא", "order": 9 },
+        { "en": "Vayakhel", "he": "ויקהל", "order": 10 },
+        { "en": "Pekudei", "he": "פקודי", "order": 11 }
+      ]
+    },
+    {
+      "key": "vayikra",
+      "en": "Vayikra",
+      "he": "ויקרא",
+      "order": 3,
+      "parashot": [
+        { "en": "Vayikra", "he": "ויקרא", "order": 1 },
+        { "en": "Tzav", "he": "צו", "order": 2 },
+        { "en": "Shmini", "he": "שמיני", "order": 3 },
+        { "en": "Tazria", "he": "תזריע", "order": 4 },
+        { "en": "Metzora", "he": "מצורע", "order": 5 },
+        { "en": "Achrei Mot", "he": "אחרי מות", "order": 6 },
+        { "en": "Kedoshim", "he": "קדושים", "order": 7 },
+        { "en": "Emor", "he": "אמור", "order": 8 },
+        { "en": "Behar", "he": "בהר", "order": 9 },
+        { "en": "Bechukotai", "he": "בחוקתי", "order": 10 }
+      ]
+    },
+    {
+      "key": "bamidbar",
+      "en": "Bamidbar",
+      "he": "במדבר",
+      "order": 4,
+      "parashot": [
+        { "en": "Bamidbar", "he": "במדבר", "order": 1 },
+        { "en": "Nasso", "he": "נשא", "order": 2 },
+        { "en": "Beha'alotcha", "he": "בהעלותך", "order": 3 },
+        { "en": "Sh'lach", "he": "שלח", "order": 4 },
+        { "en": "Korach", "he": "קרח", "order": 5 },
+        { "en": "Chukat", "he": "חקת", "order": 6 },
+        { "en": "Balak", "he": "בלק", "order": 7 },
+        { "en": "Pinchas", "he": "פנחס", "order": 8 },
+        { "en": "Matot", "he": "מטות", "order": 9 },
+        { "en": "Masei", "he": "מסעי", "order": 10 }
+      ]
+    },
+    {
+      "key": "devarim",
+      "en": "Devarim",
+      "he": "דברים",
+      "order": 5,
+      "parashot": [
+        { "en": "Devarim", "he": "דברים", "order": 1 },
+        { "en": "Vaetchanan", "he": "ואתחנן", "order": 2 },
+        { "en": "Eikev", "he": "עקב", "order": 3 },
+        { "en": "Re'eh", "he": "ראה", "order": 4 },
+        { "en": "Shoftim", "he": "שופטים", "order": 5 },
+        { "en": "Ki Teitzei", "he": "כי תצא", "order": 6 },
+        { "en": "Ki Tavo", "he": "כי תבוא", "order": 7 },
+        { "en": "Nitzavim", "he": "נצבים", "order": 8 },
+        { "en": "Vayelech", "he": "וילך", "order": 9 },
+        { "en": "Ha'azinu", "he": "האזינו", "order": 10 },
+        { "en": "V'Zot HaBerachah", "he": "וזאת הברכה", "order": 11 }
+      ]
+    }
+  ],
+  "aliases": {
+    "Bereishit": "Bereshit",
+    "Lech-Lecha": "Lech Lecha",
+    "Vayeira": "Vayera",
+    "Chayei Sara": "Chayei Sarah",
+    "Va'eira": "Va'eira",
+    "Vaera": "Va'eira",
+    "Ki Tetze": "Ki Teitzei",
+    "Ki Teitze": "Ki Teitzei",
+    "Behaalotcha": "Beha'alotcha",
+    "Beha'alotcha": "Beha'alotcha",
+    "Bechukot": "Bechukotai",
+    "Vezot Haberacha": "V'Zot HaBerachah",
+    "V'Zot HaBerachah": "V'Zot HaBerachah",
+    "Ha'azinu": "Ha'azinu",
+    "Shemini": "Shmini",
+    "Naso": "Nasso",
+    "Shelach": "Sh'lach",
+    "Acharei Mot": "Achrei Mot",
+    "Pinchas": "Pinchas",
+    "Vayeilech": "Vayelech"
+  }
+}

@@ -1,0 +1,18 @@
+/* Local self-hosted fonts via Fontsource */
+@import url("/node_modules/@fontsource/cardo/400.css");
+@import url("/node_modules/@fontsource/cardo/700.css");
+@import url("/node_modules/@fontsource/noto-serif-hebrew/400.css");
+@import url("/node_modules/@fontsource/noto-serif-hebrew/700.css");
+
+/* Base font stacks */
+body {
+  font-family: "Cardo", Georgia, "Times New Roman", serif;
+}
+
+/* Ensure Hebrew text uses the Hebrew font */
+[lang="he"],
+.text-he,
+.title-he,
+.interlinear-he {
+  font-family: "Noto Serif Hebrew", "Times New Roman", serif;
+}

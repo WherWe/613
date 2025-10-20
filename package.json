@@ -1,0 +1,19 @@
+{
+  "name": "613",
+  "version": "1.0.0",
+  "description": "A lightweight, static web app to explore the 613 mitzvot from Sefer HaChinukh, with a dynamic table and Hebrew title support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource/cardo": "^5.2.8",
+    "@fontsource/noto-serif-hebrew": "^5.2.8",
+    "bootstrap": "^5.3.8",
+    "tom-select": "^2.4.3"
+  }
+}
