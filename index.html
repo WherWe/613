@@ -3,7 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The 613 Mitzvot - Dynamic Version (test hooky!)</title>
+  <title>The 613 Mitzvot | Interactive Sefer HaChinukh</title>
+  <meta name="description" content="Explore the 613 mitzvot with interactive tools, search, and filters. Based on Sefer HaChinukh. English and Hebrew. Discover, learn, and study the commandments." />
+  <meta name="keywords" content="613 mitzvot, commandments, Sefer HaChinukh, Torah, Jewish, Judaism, interactive, English, Hebrew, parasha, mitzvah" />
+  <meta property="og:title" content="The 613 Mitzvot | Interactive Sefer HaChinukh" />
+  <meta property="og:description" content="Explore all 613 mitzvot interactively. Search, filter, and learn about each commandment in English and Hebrew." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.taryag.online/" />
+  <meta property="og:image" content="https://www.taryag.online/images/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The 613 Mitzvot | Interactive Sefer HaChinukh" />
+  <meta name="twitter:description" content="Explore all 613 mitzvot interactively. Search, filter, and learn about each commandment in English and Hebrew." />
+  <meta name="twitter:image" content="https://www.taryag.online/images/og-image.jpg" />
     <!-- Bootstrap CSS (from vendor) -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
     <!-- Local fonts (Cardo + Noto Serif Hebrew) -->
@@ -18,7 +29,11 @@
       <div class="header">
         <div class="header-top">
           <div class="header-title-wrapper">
-            <h1>The 613 Mitzvot (v3)</h1>
+            <h1 class="app-title">
+              <span class="title-en">The 613 Mitzvot</span>
+              <span class="title-sep" aria-hidden="true">|</span>
+              <span class="title-he" lang="he" dir="rtl">תרי״ג מצוות</span>
+            </h1>
             <div class="header-hebrew-text">
               <div class="bsd">בס״ד</div>
               <div class="based-on">מבוסס על ספר החינוך</div>
@@ -38,65 +53,64 @@
 
       <div class="controls">
         <div class="filter-controls">
-              <div class="primary-filters">
-                <select id="typeFilter" class="filter-select">
-                  <option value="">All Types</option>
-                  <option value="Positive">Positive</option>
-                  <option value="Negative">Negative</option>
-                </select>
-                <select id="bookFilter" class="filter-select">
-                  <option value="">All Books</option>
-                </select>
-                <select id="parashaFilter" class="filter-select">
-                  <option value="">All Parashot</option>
-                </select>
-                <button id="moreFiltersBtn" class="more-filters-btn" onclick="app.toggleMoreFilters()">
-                  <span id="moreFiltersText">More Filters</span>
-                  <span id="moreFiltersIcon">▼</span>
-                </button>
-                <div class="language-controls" id="tableLanguageToggle" style="display: none">
-                  <label>Description:</label>
-                  <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
-                  <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
-                  <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
-                </div>
-              </div>
-              <div class="secondary-filters" id="secondaryFilters" style="display: none;">
-                <select id="categoryFilter" class="filter-select">
-                  <option value="">All Categories</option>
-                </select>
-                <select id="appliesToFilter" class="filter-select">
-                  <option value="">Applies To: All</option>
-                </select>
-                <select id="locationFilter" class="filter-select">
-                  <option value="">All Locations</option>
-                </select>
-                <select id="timeScopeFilter" class="filter-select">
-                  <option value="">All Time Scopes</option>
-                </select>
-              </div>
+          <div class="primary-filters">
+            <select id="typeFilter" class="filter-select">
+              <option value="">All Types</option>
+              <option value="Positive">Positive</option>
+              <option value="Negative">Negative</option>
+            </select>
+            <select id="bookFilter" class="filter-select">
+              <option value="">All Books</option>
+            </select>
+            <select id="parashaFilter" class="filter-select">
+              <option value="">All Parashot</option>
+            </select>
+            <button id="moreFiltersBtn" class="more-filters-btn" onclick="app.toggleMoreFilters()">
+              <span id="moreFiltersText">More Filters</span>
+              <span id="moreFiltersIcon">▼</span>
+            </button>
+            <div class="language-controls" id="tableLanguageToggle" style="display: none">
+              <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
+              <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
+              <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
+            </div>
+          </div>
+          <div class="secondary-filters" id="secondaryFilters" style="display: none">
+            <select id="categoryFilter" class="filter-select">
+              <option value="">All Categories</option>
+            </select>
+            <select id="appliesToFilter" class="filter-select">
+              <option value="">Applies To: All</option>
+            </select>
+            <select id="locationFilter" class="filter-select">
+              <option value="">All Locations</option>
+            </select>
+            <select id="timeScopeFilter" class="filter-select">
+              <option value="">All Time Scopes</option>
+            </select>
           </div>
         </div>
+      </div>
 
-        <div class="loading" id="loading">
-          <div class="spinner"></div>
-          Loading mitzvot data...
-        </div>
+      <div class="loading" id="loading">
+        <div class="spinner"></div>
+        Loading mitzvot data...
+      </div>
 
-        <div class="error" id="error" style="display: none">Error loading mitzvot data. Please check that mitzvot_data.json is available.</div>
+      <div class="error" id="error" style="display: none">Error loading mitzvot data. Please check that mitzvot_data.json is available.</div>
 
-        <div class="table-container" id="tableContainer" style="display: none">
+      <div class="table-container" id="tableContainer" style="display: none">
         <table id="mitzvotTable">
           <thead>
             <tr>
               <th class="sortable" data-sort="id">
-                  <span class="sort-label">#</span>
-                  <span class="sort-indicator"></span>
-                </th>
-                <th class="sortable" data-sort="type">
-                  <span class="sort-label">Type</span>
-                  <span class="sort-indicator"></span>
-                </th>
+                <span class="sort-label">#</span>
+                <span class="sort-indicator"></span>
+              </th>
+              <th class="sortable" data-sort="type">
+                <span class="sort-label">Type</span>
+                <span class="sort-indicator"></span>
+              </th>
               <th>Mitzvah</th>
               <th>Icons</th>
               <th>Description</th>
@@ -212,7 +226,7 @@
           this.currentLanguage = "en";
           this.tableLanguage = "en"; // Language for table descriptions
           this.currentMitzvahId = null;
-            this.moreFiltersVisible = false;
+          this.moreFiltersVisible = false;
 
           // Track which mitzvot have images available
           this.mitzvotWithImages = new Set();
@@ -812,6 +826,26 @@
               // Find corresponding Hebrew data
               const mitzvahHe = this.heData ? this.heData.mitzvot.find((m) => m.id === mitzvah.id) : null;
 
+              // Build title based on selected language
+              const heTitle = mitzvah.title_he || (mitzvahHe ? mitzvahHe.title : null);
+              let titleHtml = "";
+              if (this.tableLanguage === "en") {
+                titleHtml = `<div class="title-en">${mitzvah.title}</div>`;
+              } else if (this.tableLanguage === "he") {
+                if (heTitle) {
+                  titleHtml = `<div class="title-he" lang="he" dir="rtl">${heTitle}</div>`;
+                } else {
+                  // Fallback to English if no Hebrew title
+                  titleHtml = `<div class="title-en">${mitzvah.title}</div>`;
+                }
+              } else {
+                // both
+                titleHtml = `<div class="title-en">${mitzvah.title}</div>`;
+                if (heTitle) {
+                  titleHtml += `<div class="title-he" lang="he" dir="rtl">${heTitle}</div>`;
+                }
+              }
+
               // Build description based on selected language
               let descriptionHtml = "";
               if (this.tableLanguage === "en") {
@@ -825,17 +859,33 @@
                 }
               }
 
+              // Build parasha based on selected language
+              const heParasha = mitzvahHe && (mitzvahHe.parasha_he || mitzvahHe.parasha) ? mitzvahHe.parasha_he || mitzvahHe.parasha : null;
+              let parashaHtml = "";
+              if (this.tableLanguage === "en") {
+                parashaHtml = `<div class="parasha-en">${mitzvah.parasha || ""}</div>`;
+              } else if (this.tableLanguage === "he") {
+                if (heParasha) {
+                  parashaHtml = `<div class="parasha-he text-he" lang="he" dir="rtl">${heParasha}</div>`;
+                } else {
+                  parashaHtml = `<div class="parasha-en">${mitzvah.parasha || ""}</div>`;
+                }
+              } else {
+                // both
+                parashaHtml = `<div class="parasha-en">${mitzvah.parasha || ""}</div>`;
+                if (heParasha) {
+                  parashaHtml += `<div class="parasha-he text-he" lang="he" dir="rtl">${heParasha}</div>`;
+                }
+              }
+
               return `
           <tr>
             <td class="mitzvah-number">${mitzvah.id}</td>
             <td><span class="mitzvah-type ${mitzvah.type.toLowerCase()}">${mitzvah.type}</span></td>
-            <td class="mitzvah-title">
-              <div class="title-en">${mitzvah.title}</div>
-              ${mitzvah.title_he ? `<div class="title-he" lang="he" dir="rtl">${mitzvah.title_he}</div>` : ""}
-            </td>
+            <td class="mitzvah-title">${titleHtml}</td>
             <td class="classification-icons">${this.getClassificationIcons(mitzvah)}</td>
             <td class="description">${descriptionHtml}</td>
-            <td class="parasha">${mitzvah.parasha}</td>
+            <td class="parasha">${parashaHtml}</td>
             <td>
               <div class="details-actions">
                 <button class="details-toggle" onclick="app.openSidebar(${mitzvah.id})" title="Show full details">
@@ -956,22 +1006,22 @@
           this.renderTable();
         }
 
-          toggleMoreFilters() {
-            this.moreFiltersVisible = !this.moreFiltersVisible;
-            const secondaryFilters = document.getElementById("secondaryFilters");
-            const moreFiltersText = document.getElementById("moreFiltersText");
-            const moreFiltersIcon = document.getElementById("moreFiltersIcon");
+        toggleMoreFilters() {
+          this.moreFiltersVisible = !this.moreFiltersVisible;
+          const secondaryFilters = document.getElementById("secondaryFilters");
+          const moreFiltersText = document.getElementById("moreFiltersText");
+          const moreFiltersIcon = document.getElementById("moreFiltersIcon");
 
-            if (this.moreFiltersVisible) {
-              secondaryFilters.style.display = "flex";
-              moreFiltersText.textContent = "Less Filters";
-              moreFiltersIcon.textContent = "▲";
-            } else {
-              secondaryFilters.style.display = "none";
-              moreFiltersText.textContent = "More Filters";
-              moreFiltersIcon.textContent = "▼";
-            }
+          if (this.moreFiltersVisible) {
+            secondaryFilters.style.display = "flex";
+            moreFiltersText.textContent = "Less Filters";
+            moreFiltersIcon.textContent = "▲";
+          } else {
+            secondaryFilters.style.display = "none";
+            moreFiltersText.textContent = "More Filters";
+            moreFiltersIcon.textContent = "▼";
           }
+        }
 
         renderSidebarContent() {
           const mitzvah = this.data.mitzvot.find((m) => m.id === this.currentMitzvahId);
