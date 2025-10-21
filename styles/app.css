@@ -138,6 +138,10 @@ body {
   margin-bottom: 5px;
 }
 
+.stat-total .stat-icon {
+  color: #3498db;
+}
+
 .stat-positive .stat-icon {
   color: #2ecc71;
 }

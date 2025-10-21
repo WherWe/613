@@ -638,7 +638,8 @@
           const negativeCount = this.filteredData.filter((m) => m.type === "Negative").length;
 
           statsContainer.innerHTML = `
-                    <div class="stat-card">
+                    <div class="stat-card stat-total">
+                        <i data-lucide="hash" class="stat-icon"></i>
                         <span class="stat-number">${totalCount}</span>
                         <span class="stat-label">Total</span>
                     </div>
