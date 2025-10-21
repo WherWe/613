@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="vendor/tom-select/css/tom-select.bootstrap5.css" />
     <!-- App styles -->
     <link rel="stylesheet" href="styles/app.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#0B1321" />
   </head>
   <body>
     <div class="container">
@@ -33,9 +37,10 @@
         <div class="header-top">
           <div class="header-title-wrapper">
             <h1 class="app-title">
-              <span class="title-en">The 613 Mitzvot</span>
-              <span class="title-sep" aria-hidden="true">|</span>
-              <span class="title-he" lang="he" dir="rtl">תרי״ג מצוות</span>
+              <span class="title-en">613</span>
+              <span class="title-sep" aria-hidden="true">–</span>
+              <span class="title-he" lang="he" dir="rtl">תרי״ג</span>
+              <!-- <span class="title-he" lang="he" dir="rtl">תרי״ג מצוות</span> -->
             </h1>
             <div class="header-hebrew-text">
               <div class="bsd">בס״ד</div>
@@ -230,6 +235,10 @@
           this.tableLanguage = "en"; // Language for table descriptions
           this.currentMitzvahId = null;
           this.moreFiltersVisible = false;
+
+          // Feature flags
+          // Disable MTG-style card previews for now
+          this.cardsEnabled = false;
 
           // Track which mitzvot have images available
           this.mitzvotWithImages = new Set();
@@ -895,7 +904,7 @@
                   📋
                 </button>
                 ${
-                  this.mitzvotWithImages.has(mitzvah.id)
+                  this.cardsEnabled && this.mitzvotWithImages.has(mitzvah.id)
                     ? `<button class="card-toggle" onclick="app.openCardModal(${mitzvah.id})" title="View as card">
                   🃏
                 </button>`
@@ -1150,6 +1159,8 @@
         }
 
         openCardModal(id) {
+          // Guard: Card feature disabled
+          if (!this.cardsEnabled) return;
           this.currentMitzvahId = id;
           this.renderCardContent();
 
