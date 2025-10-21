@@ -425,6 +425,23 @@ th.sortable.active {
   width: 12px;
 }
 
+/* Add subtle sort icon to sortable headers */
+th.sortable .sort-label::after {
+  content: "⇅";
+  font-size: 0.85em;
+  margin-left: 6px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+th.sortable:hover .sort-label::after {
+  opacity: 0.9;
+}
+
+th.sortable.active .sort-label::after {
+  opacity: 0;
+}
+
 /* Ensure Tom Select dropdowns appear above sticky table headers */
 .ts-dropdown {
   z-index: 1002 !important;

@@ -33,9 +33,19 @@
   </head>
   <body>
     <!-- Subtle Beta Banner -->
-    <div class="alert alert-light m-0 rounded-0 text-center py-2" role="alert" style="border-left: none; border-right: none; border-top: none; font-size: 0.9rem">
+    <div class="alert alert-light m-0 rounded-0 text-center py-2" role="alert" id="topBanner" style="border-left: none; border-right: none; border-top: none; font-size: 0.9rem; position: relative">
       <strong>⚠️ Beta:</strong> This project is still new and evolving. Please double-check with your own or official sources when using this information. Feedback welcome at
       <a href="mailto:moxaku@gmail.com" class="alert-link">moxaku@gmail.com</a>
+      <button
+        type="button"
+        onclick="document.getElementById('topBanner').style.display='none'"
+        style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; font-size: 1.2rem; line-height: 1; cursor: pointer; opacity: 0.5"
+        onmouseover="this.style.opacity='1'"
+        onmouseout="this.style.opacity='0.5'"
+        aria-label="Close"
+      >
+        &times;
+      </button>
     </div>
 
     <div class="container">
