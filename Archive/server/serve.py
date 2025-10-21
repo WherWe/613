@@ -32,13 +32,12 @@ def serve_files():
         print(f"Server running at http://localhost:{PORT}")
         print(f"Serving files from: {os.getcwd()}")
         print("\nAvailable files:")
-        print(f"   - Static HTML: http://localhost:{PORT}/613_mitzvot_table.html")
-        print(f"   - Dynamic HTML: http://localhost:{PORT}/613_mitzvot_dynamic.html")
+        print(f"   - Main App: http://localhost:{PORT}/index.html")
         print(f"   - JSON Data: http://localhost:{PORT}/mitzvot_data.json")
-        print("\nOpening dynamic version in browser...")
+        print("\nOpening app in browser...")
 
-        # Open the dynamic version in the browser
-        webbrowser.open(f'http://localhost:{PORT}/613_mitzvot_dynamic.html')
+        # Open the app in the browser
+        webbrowser.open(f'http://localhost:{PORT}/index.html')
 
         print("\nPress Ctrl+C to stop the server")
 

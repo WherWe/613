@@ -136,7 +136,7 @@
                 <span class="sort-indicator"></span>
               </th>
               <th>Mitzvah</th>
-              <th>Icons</th>
+              <th>Scope</th>
               <th>Description</th>
               <th class="sortable" data-sort="parasha">
                 <span class="sort-label">Parasha</span>
@@ -190,12 +190,6 @@
 
     <!-- SweetAlert2 (from vendor) -->
     <script src="vendor/sweetalert2/sweetalert2.all.min.js"></script>
-
-    <!-- Embedded data for standalone file:// usage -->
-    <script src="mitzvot_data_en.js"></script>
-    <script src="mitzvot_data_he.js"></script>
-    <!-- Precomputed images manifest to avoid probing (prevents 404 spam) -->
-    <script src="images_manifest.js"></script>
 
     <script>
       // Version: 2025-10-20-v1 - Add image extension fallback (.png -> .jpg -> .jpeg)
@@ -259,9 +253,6 @@
           // Disable MTG-style card previews for now
           this.cardsEnabled = false;
 
-          // Track which mitzvot have images available
-          this.mitzvotWithImages = new Set();
-
           // Tom Select instances map
           this.selects = {
             type: null,
@@ -279,7 +270,6 @@
         async init() {
           try {
             await this.loadData();
-            this.initImagesFromManifest();
             this.setupEventListeners();
             this.enhanceSelects();
             this.render();
@@ -428,53 +418,19 @@
 
         async loadData() {
           try {
-            // Try to load via fetch first (for server mode)
-            // Fall back to window globals for standalone file:// usage
-            let dataLoadedFromFetch = false;
+            // Load English data
+            const enResponse = await fetch("mitzvot_data.json");
+            if (!enResponse.ok) {
+              throw new Error(`Failed to load English data: ${enResponse.status}`);
+            }
+            this.data = await enResponse.json();
 
+            // Load Hebrew data
             try {
-              const enResponse = await fetch("mitzvot_data.json");
-              if (enResponse.ok) {
-                this.data = await enResponse.json();
-                dataLoadedFromFetch = true;
-              }
-            } catch (fetchErr) {
-              console.log("Fetch failed, using embedded data for standalone mode:", fetchErr.message);
-            }
+              const heResponse = await fetch("mitzvot_data_he.json");
+              if (heResponse.ok) {
+                this.heData = await heResponse.json();
 
-            // If fetch failed, use window globals (standalone mode)
-            if (!dataLoadedFromFetch && window.MITZVOT_DATA_EN) {
-              console.log("Loading from embedded data (standalone file:// mode)");
-              this.data = window.MITZVOT_DATA_EN;
-            }
-
-            // Ensure we have data
-            if (!this.data) {
-              throw new Error("No mitzvot data available (neither fetch nor embedded)");
-            }
-
-            // Try to load Hebrew data completely
-            try {
-              let heDataLoaded = false;
-
-              // Try fetch first
-              try {
-                const heResponse = await fetch("mitzvot_data_he.json");
-                if (heResponse.ok) {
-                  this.heData = await heResponse.json();
-                  heDataLoaded = true;
-                }
-              } catch (heFetchErr) {
-                // Fetch failed, will try embedded below
-              }
-
-              // Fall back to embedded
-              if (!heDataLoaded && window.MITZVOT_DATA_HE) {
-                this.heData = window.MITZVOT_DATA_HE;
-                heDataLoaded = true;
-              }
-
-              if (heDataLoaded && this.heData) {
                 // Create map for Hebrew titles
                 const heTitleById = new Map(this.heData.mitzvot.map((m) => [m.id, m.title]));
 
@@ -494,23 +450,6 @@
           } catch (error) {
             console.error("Error loading data:", error);
             throw error;
-          }
-        }
-
-        initImagesFromManifest() {
-          try {
-            const manifest = window.MITZVOT_IMAGES_MANIFEST;
-            if (manifest && manifest.byId) {
-              for (const idStr of Object.keys(manifest.byId)) {
-                const id = parseInt(idStr, 10);
-                if (!Number.isNaN(id)) this.mitzvotWithImages.add(id);
-              }
-              console.log(`Loaded ${this.mitzvotWithImages.size} mitzvot with images from manifest`);
-            } else {
-              console.warn("Images manifest not found; card icon visibility may be inaccurate.");
-            }
-          } catch (e) {
-            console.warn("Failed to initialize images from manifest", e);
           }
         }
 
@@ -923,7 +862,7 @@
                   📋
                 </button>
                 ${
-                  this.cardsEnabled && this.mitzvotWithImages.has(mitzvah.id)
+                  this.cardsEnabled
                     ? `<button class="card-toggle" onclick="app.openCardModal(${mitzvah.id})" title="View as card">
                   🃏
                 </button>`
