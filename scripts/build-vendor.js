@@ -45,6 +45,9 @@ try {
   // Lucide icons
   copyFile(path.join(ROOT, "node_modules", "lucide", "dist", "umd", "lucide.min.js"), path.join(vendor, "lucide", "lucide.min.js"));
 
+  // SweetAlert2
+  copyFile(path.join(ROOT, "node_modules", "sweetalert2", "dist", "sweetalert2.all.min.js"), path.join(vendor, "sweetalert2", "sweetalert2.all.min.js"));
+
   console.log("Vendor build complete.");
 } catch (err) {
   console.error("Vendor build failed:", err);

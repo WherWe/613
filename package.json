@@ -18,6 +18,7 @@
     "@fontsource/noto-serif-hebrew": "^5.2.8",
     "bootstrap": "^5.3.8",
     "lucide": "^0.546.0",
+    "sweetalert2": "^11.14.5",
     "tom-select": "^2.4.3"
   }
 }
