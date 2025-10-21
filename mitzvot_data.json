@@ -23,10 +23,17 @@
       "classification": {
         "category": "Family Law",
         "sub_category": "Marriage and Procreation",
-        "applies_to": ["Men"],
+        "applies_to": [
+          "Men"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Genesis 1:28", "Talmud:Yevamot 61b-62b", "Talmud:Gittin 41b", "Shulchan Arukh:EH 1"]
+        "source_refs": [
+          "Genesis 1:28",
+          "Talmud:Yevamot 61b-62b",
+          "Talmud:Gittin 41b",
+          "Shulchan Arukh:EH 1"
+        ]
       },
       "book_en": "Bereshit",
       "book_he": "בראשית",
@@ -49,10 +56,19 @@
       "classification": {
         "category": "Covenant Signs",
         "sub_category": "Circumcision",
-        "applies_to": ["Men", "All Israel"],
+        "applies_to": [
+          "Men",
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Genesis 17:10-14", "Leviticus 12:3", "Talmud:Shabbat 132a", "Talmud:Yevamot 71a", "Shulchan Arukh:YD 260-266"]
+        "source_refs": [
+          "Genesis 17:10-14",
+          "Leviticus 12:3",
+          "Talmud:Shabbat 132a",
+          "Talmud:Yevamot 71a",
+          "Shulchan Arukh:YD 260-266"
+        ]
       },
       "book_en": "Bereshit",
       "book_he": "בראשית",
@@ -76,10 +92,16 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Forbidden Foods",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Genesis 32:33", "Talmud:Chullin 89b-96a", "Shulchan Arukh:YD 65"]
+        "source_refs": [
+          "Genesis 32:33",
+          "Talmud:Chullin 89b-96a",
+          "Shulchan Arukh:YD 65"
+        ]
       },
       "book_en": "Bereshit",
       "book_he": "בראשית",
@@ -103,10 +125,18 @@
       "classification": {
         "category": "Calendar and Time",
         "sub_category": "Sanctification of Months",
-        "applies_to": ["Court/Sanhedrin"],
+        "applies_to": [
+          "Court/Sanhedrin"
+        ],
         "location": "Eretz Yisrael",
         "time_scope": "Always (with ordained judges)",
-        "source_refs": ["Exodus 12:2", "Exodus 13:10", "Deuteronomy 16:1", "Talmud:Rosh Hashanah 22a", "Talmud:Sanhedrin 10b"]
+        "source_refs": [
+          "Exodus 12:2",
+          "Exodus 13:10",
+          "Deuteronomy 16:1",
+          "Talmud:Rosh Hashanah 22a",
+          "Talmud:Sanhedrin 10b"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -129,10 +159,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "14th Nissan (Temple Era)",
-        "source_refs": ["Exodus 12:6", "Talmud:Pesachim 58a-70a", "Mishneh Torah:Korban Pesach 1:12"]
+        "source_refs": [
+          "Exodus 12:6",
+          "Talmud:Pesachim 58a-70a",
+          "Mishneh Torah:Korban Pesach 1:12"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -155,10 +191,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "15th Nissan Evening (Temple Era)",
-        "source_refs": ["Exodus 12:8", "Talmud:Pesachim 69a-120a", "Mishneh Torah:Korban Pesach 1"]
+        "source_refs": [
+          "Exodus 12:8",
+          "Talmud:Pesachim 69a-120a",
+          "Mishneh Torah:Korban Pesach 1"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -182,10 +224,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:9", "Talmud:Pesachim 41a", "Mishneh Torah:Korban Pesach 8"]
+        "source_refs": [
+          "Exodus 12:9",
+          "Talmud:Pesachim 41a",
+          "Mishneh Torah:Korban Pesach 8"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -208,10 +256,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:10", "Talmud:Pesachim", "Mishneh Torah:Korban Pesach 9-10"]
+        "source_refs": [
+          "Exodus 12:10",
+          "Talmud:Pesachim",
+          "Mishneh Torah:Korban Pesach 9-10"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -234,10 +288,16 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Chametz Removal",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "14th Nissan",
-        "source_refs": ["Exodus 12:15", "Talmud:Pesachim 5a-21a", "Shulchan Arukh:OC 431-440"]
+        "source_refs": [
+          "Exodus 12:15",
+          "Talmud:Pesachim 5a-21a",
+          "Shulchan Arukh:OC 431-440"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -260,10 +320,16 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Matzah",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "15th Nissan Evening",
-        "source_refs": ["Exodus 12:18", "Talmud:Pesachim 35a-42a", "Shulchan Arukh:OC 453-466"]
+        "source_refs": [
+          "Exodus 12:18",
+          "Talmud:Pesachim 35a-42a",
+          "Shulchan Arukh:OC 453-466"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -286,10 +352,17 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Chametz Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Pesach (7 days)",
-        "source_refs": ["Exodus 12:19", "Exodus 12:39", "Talmud:Pesachim 5b-45b", "Shulchan Arukh:OC 440-442"]
+        "source_refs": [
+          "Exodus 12:19",
+          "Exodus 12:39",
+          "Talmud:Pesachim 5b-45b",
+          "Shulchan Arukh:OC 440-442"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -312,10 +385,16 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Chametz Mixtures",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Pesach (7 days)",
-        "source_refs": ["Exodus 12:20", "Talmud:Pesachim 28b-43a", "Shulchan Arukh:OC 446"]
+        "source_refs": [
+          "Exodus 12:20",
+          "Talmud:Pesachim 28b-43a",
+          "Shulchan Arukh:OC 446"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -337,10 +416,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice Eligibility",
-        "applies_to": ["Jews only"],
+        "applies_to": [
+          "Jews only"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:43", "Mekhilta DeRabbi Shimon Bar Yochai 12:43", "Mishneh Torah:Korban Pesach 9"]
+        "source_refs": [
+          "Exodus 12:43",
+          "Mekhilta DeRabbi Shimon Bar Yochai 12:43",
+          "Mishneh Torah:Korban Pesach 9"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -362,10 +447,15 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice Eligibility",
-        "applies_to": ["Jews only"],
+        "applies_to": [
+          "Jews only"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:45", "Talmud:Yevamot 71a"]
+        "source_refs": [
+          "Exodus 12:45",
+          "Talmud:Yevamot 71a"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -388,10 +478,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:46", "Talmud:Pesachim 60b-85b", "Mishneh Torah:Korban Pesach 9:3"]
+        "source_refs": [
+          "Exodus 12:46",
+          "Talmud:Pesachim 60b-85b",
+          "Mishneh Torah:Korban Pesach 9:3"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -415,10 +511,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:46", "Talmud:Pesachim 85a", "Talmud:Makkot 23b"]
+        "source_refs": [
+          "Exodus 12:46",
+          "Talmud:Pesachim 85a",
+          "Talmud:Makkot 23b"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -441,10 +543,15 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Pesach Sacrifice Eligibility",
-        "applies_to": ["Circumcised Jews only"],
+        "applies_to": [
+          "Circumcised Jews only"
+        ],
         "location": "Temple",
         "time_scope": "Pesach (Temple Era)",
-        "source_refs": ["Exodus 12:48", "Talmud:Pesachim"]
+        "source_refs": [
+          "Exodus 12:48",
+          "Talmud:Pesachim"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -467,10 +574,17 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Firstborn Animals",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Eretz Yisrael (primarily)",
         "time_scope": "Always",
-        "source_refs": ["Exodus 13:2", "Deuteronomy 15:19-22", "Talmud:Bekhorot 10a-13a", "Shulchan Arukh:YD 306-320"]
+        "source_refs": [
+          "Exodus 13:2",
+          "Deuteronomy 15:19-22",
+          "Talmud:Bekhorot 10a-13a",
+          "Shulchan Arukh:YD 306-320"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -493,10 +607,16 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Chametz Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Pesach (7 days)",
-        "source_refs": ["Exodus 13:3", "Talmud:Pesachim 35a", "Shulchan Arukh:OC 446-468"]
+        "source_refs": [
+          "Exodus 13:3",
+          "Talmud:Pesachim 35a",
+          "Shulchan Arukh:OC 446-468"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -518,10 +638,16 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Chametz Not Seen",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Pesach (7 days)",
-        "source_refs": ["Exodus 13:7", "Talmud:Beitzah 7b", "Shulchan Arukh:OC 434"]
+        "source_refs": [
+          "Exodus 13:7",
+          "Talmud:Beitzah 7b",
+          "Shulchan Arukh:OC 434"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -545,10 +671,16 @@
       "classification": {
         "category": "Festival Laws",
         "sub_category": "Pesach - Haggadah",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "15th Nissan Evening",
-        "source_refs": ["Exodus 13:8", "Talmud:Pesachim 116a", "Shulchan Arukh:OC 469-482"]
+        "source_refs": [
+          "Exodus 13:8",
+          "Talmud:Pesachim 116a",
+          "Shulchan Arukh:OC 469-482"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -571,10 +703,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Firstborn Donkeys",
-        "applies_to": ["Israelites (not Kohanim/Levites)"],
+        "applies_to": [
+          "Israelites (not Kohanim/Levites)"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 13:13", "Talmud:Bekhorot 11a", "Shulchan Arukh:YD 221"]
+        "source_refs": [
+          "Exodus 13:13",
+          "Talmud:Bekhorot 11a",
+          "Shulchan Arukh:YD 221"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -596,10 +734,16 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Firstborn Donkeys",
-        "applies_to": ["Israelites (not Kohanim/Levites)"],
+        "applies_to": [
+          "Israelites (not Kohanim/Levites)"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 13:13", "Talmud:Bekhorot 13a", "Shulchan Arukh:YD 221"]
+        "source_refs": [
+          "Exodus 13:13",
+          "Talmud:Bekhorot 13a",
+          "Shulchan Arukh:YD 221"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -622,10 +766,16 @@
       "classification": {
         "category": "Shabbat and Rest",
         "sub_category": "Shabbat Boundaries",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Shabbat",
-        "source_refs": ["Exodus 16:29", "Talmud:Eruvin 17b-61b", "Mishneh Torah:Shabbat 27:1-2"]
+        "source_refs": [
+          "Exodus 16:29",
+          "Talmud:Eruvin 17b-61b",
+          "Mishneh Torah:Shabbat 27:1-2"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -648,10 +798,15 @@
       "classification": {
         "category": "Faith and Belief",
         "sub_category": "Belief in God",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:2", "Mishneh Torah:Yesodei HaTorah 1"]
+        "source_refs": [
+          "Exodus 20:2",
+          "Mishneh Torah:Yesodei HaTorah 1"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -673,10 +828,16 @@
       "classification": {
         "category": "Faith and Belief",
         "sub_category": "Prohibition of Idolatry",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:3", "Talmud:Sanhedrin 56a-60b", "Talmud:Avodah Zarah"]
+        "source_refs": [
+          "Exodus 20:3",
+          "Talmud:Sanhedrin 56a-60b",
+          "Talmud:Avodah Zarah"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -699,10 +860,17 @@
       "classification": {
         "category": "Faith and Belief",
         "sub_category": "Prohibition of Idolatry",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:4", "Leviticus 19:4", "Talmud:Avodah Zarah 43b", "Shulchan Arukh:YD 139-141"]
+        "source_refs": [
+          "Exodus 20:4",
+          "Leviticus 19:4",
+          "Talmud:Avodah Zarah 43b",
+          "Shulchan Arukh:YD 139-141"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -724,10 +892,14 @@
       "classification": {
         "category": "Faith and Belief",
         "sub_category": "Prohibition of Idolatry",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:5"]
+        "source_refs": [
+          "Exodus 20:5"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -749,10 +921,14 @@
       "classification": {
         "category": "Faith and Belief",
         "sub_category": "Prohibition of Idolatry",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:5"]
+        "source_refs": [
+          "Exodus 20:5"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -787,10 +963,16 @@
       "classification": {
         "category": "Speech and Oaths",
         "sub_category": "False Oaths",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:7", "Talmud:Shevuot", "Shulchan Arukh:YD 236"]
+        "source_refs": [
+          "Exodus 20:7",
+          "Talmud:Shevuot",
+          "Shulchan Arukh:YD 236"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -813,10 +995,16 @@
       "classification": {
         "category": "Shabbat and Rest",
         "sub_category": "Shabbat Observance",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Shabbat",
-        "source_refs": ["Exodus 20:8", "Talmud:Shabbat", "Shulchan Arukh:OC 242-416"]
+        "source_refs": [
+          "Exodus 20:8",
+          "Talmud:Shabbat",
+          "Shulchan Arukh:OC 242-416"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -839,10 +1027,16 @@
       "classification": {
         "category": "Shabbat and Rest",
         "sub_category": "Shabbat Work Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Shabbat",
-        "source_refs": ["Exodus 20:10", "Talmud:Shabbat", "Shulchan Arukh:OC 242-416"]
+        "source_refs": [
+          "Exodus 20:10",
+          "Talmud:Shabbat",
+          "Shulchan Arukh:OC 242-416"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -865,10 +1059,17 @@
       "classification": {
         "category": "Family Law",
         "sub_category": "Honoring Parents",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:12", "Deuteronomy 5:16", "Talmud:Kiddushin 30b-32a", "Shulchan Arukh:YD 240"]
+        "source_refs": [
+          "Exodus 20:12",
+          "Deuteronomy 5:16",
+          "Talmud:Kiddushin 30b-32a",
+          "Shulchan Arukh:YD 240"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -891,10 +1092,16 @@
       "classification": {
         "category": "Criminal Law",
         "sub_category": "Murder Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:13", "Deuteronomy 5:17", "Talmud:Sanhedrin 72b-85b"]
+        "source_refs": [
+          "Exodus 20:13",
+          "Deuteronomy 5:17",
+          "Talmud:Sanhedrin 72b-85b"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -916,10 +1123,16 @@
       "classification": {
         "category": "Family Law",
         "sub_category": "Adultery Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:13", "Leviticus 18:20", "Talmud:Sanhedrin 52b-55a"]
+        "source_refs": [
+          "Exodus 20:13",
+          "Leviticus 18:20",
+          "Talmud:Sanhedrin 52b-55a"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -941,10 +1154,16 @@
       "classification": {
         "category": "Property Law",
         "sub_category": "Theft Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:13", "Leviticus 19:11", "Talmud:Bava Kamma"]
+        "source_refs": [
+          "Exodus 20:13",
+          "Leviticus 19:11",
+          "Talmud:Bava Kamma"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -967,10 +1186,16 @@
       "classification": {
         "category": "Judicial Law",
         "sub_category": "False Testimony",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:13", "Deuteronomy 19:16-21", "Talmud:Sanhedrin 29a"]
+        "source_refs": [
+          "Exodus 20:13",
+          "Deuteronomy 19:16-21",
+          "Talmud:Sanhedrin 29a"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -993,10 +1218,15 @@
       "classification": {
         "category": "Ethics and Character",
         "sub_category": "Coveting Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 20:14", "Deuteronomy 5:18"]
+        "source_refs": [
+          "Exodus 20:14",
+          "Deuteronomy 5:18"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1018,10 +1248,14 @@
       "classification": {
         "category": "Ethics and Character",
         "sub_category": "Desiring Prohibition",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Deuteronomy 5:18"]
+        "source_refs": [
+          "Deuteronomy 5:18"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1044,10 +1278,15 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Sanctuary Construction",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Eretz Yisrael",
         "time_scope": "Temple Era",
-        "source_refs": ["Exodus 25:8", "Mishneh Torah:Beit HaBechirah"]
+        "source_refs": [
+          "Exodus 25:8",
+          "Mishneh Torah:Beit HaBechirah"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1070,10 +1309,15 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Respect for Sanctuary",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Temple",
         "time_scope": "Temple Era",
-        "source_refs": ["Leviticus 19:30", "Talmud:Yevamot 6b"]
+        "source_refs": [
+          "Leviticus 19:30",
+          "Talmud:Yevamot 6b"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1096,10 +1340,15 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Guarding the Temple",
-        "applies_to": ["Kohanim and Levites"],
+        "applies_to": [
+          "Kohanim and Levites"
+        ],
         "location": "Temple",
         "time_scope": "Temple Era",
-        "source_refs": ["Numbers 18:2-4", "Mishneh Torah:Beit HaBechirah 8"]
+        "source_refs": [
+          "Numbers 18:2-4",
+          "Mishneh Torah:Beit HaBechirah 8"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1122,10 +1371,14 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "Levite Service",
-        "applies_to": ["Levites"],
+        "applies_to": [
+          "Levites"
+        ],
         "location": "Temple",
         "time_scope": "Temple Era",
-        "source_refs": ["Numbers 18:23"]
+        "source_refs": [
+          "Numbers 18:23"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1146,10 +1399,15 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "Priestly Service",
-        "applies_to": ["Kohanim"],
+        "applies_to": [
+          "Kohanim"
+        ],
         "location": "Temple",
         "time_scope": "Temple Era",
-        "source_refs": ["Exodus 30:19-20", "Numbers 18:7"]
+        "source_refs": [
+          "Exodus 30:19-20",
+          "Numbers 18:7"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1171,10 +1429,14 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "Service Restrictions",
-        "applies_to": ["Kohanim"],
+        "applies_to": [
+          "Kohanim"
+        ],
         "location": "Temple",
         "time_scope": "Temple Era",
-        "source_refs": ["Numbers 18:3"]
+        "source_refs": [
+          "Numbers 18:3"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1196,10 +1458,15 @@
       "classification": {
         "category": "Temple Service",
         "sub_category": "Priestly Gifts",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 30:13", "Mishneh Torah:Shekalim"]
+        "source_refs": [
+          "Exodus 30:13",
+          "Mishneh Torah:Shekalim"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1222,10 +1489,14 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "High Priest Requirements",
-        "applies_to": ["Kohen Gadol"],
+        "applies_to": [
+          "Kohen Gadol"
+        ],
         "location": "Temple",
         "time_scope": "Temple Era",
-        "source_refs": ["Leviticus 21:10-12"]
+        "source_refs": [
+          "Leviticus 21:10-12"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1248,10 +1519,15 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "Priestly Conduct",
-        "applies_to": ["Kohanim"],
+        "applies_to": [
+          "Kohanim"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Leviticus 21:1-6", "Shulchan Arukh:YD 369-373"]
+        "source_refs": [
+          "Leviticus 21:1-6",
+          "Shulchan Arukh:YD 369-373"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1274,10 +1550,14 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "High Priest Conduct",
-        "applies_to": ["Kohen Gadol"],
+        "applies_to": [
+          "Kohen Gadol"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Leviticus 21:11"]
+        "source_refs": [
+          "Leviticus 21:11"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1299,10 +1579,15 @@
       "classification": {
         "category": "Priestly Service",
         "sub_category": "Priestly Marriage",
-        "applies_to": ["Kohanim"],
+        "applies_to": [
+          "Kohanim"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Leviticus 21:7", "Shulchan Arukh:EH 6"]
+        "source_refs": [
+          "Leviticus 21:7",
+          "Shulchan Arukh:EH 6"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1323,10 +1608,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Damages - Animal",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 21:28-36", "Talmud:Bava Kamma 2a-54b", "Shulchan Arukh:CM 389-406"]
+        "source_refs": [
+          "Exodus 21:28-36",
+          "Talmud:Bava Kamma 2a-54b",
+          "Shulchan Arukh:CM 389-406"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1349,10 +1640,16 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Forbidden Foods",
-        "applies_to": ["All Israel"],
+        "applies_to": [
+          "All Israel"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 21:28", "Talmud:Bava Kamma 41a", "Mishneh Torah:Forbidden Foods 4"]
+        "source_refs": [
+          "Exodus 21:28",
+          "Talmud:Bava Kamma 41a",
+          "Mishneh Torah:Forbidden Foods 4"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1374,10 +1671,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Damages - Pit/Hazard",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 21:33-34", "Talmud:Bava Kamma 49b-53b", "Shulchan Arukh:CM 410"]
+        "source_refs": [
+          "Exodus 21:33-34",
+          "Talmud:Bava Kamma 49b-53b",
+          "Shulchan Arukh:CM 410"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1400,10 +1703,17 @@
       "classification": {
         "category": "Criminal and Civil Law",
         "sub_category": "Theft",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 21:37-22:3", "Talmud:Bava Kamma 79a-80a", "Talmud:Sanhedrin 72a-73a", "Mishneh Torah:Theft 1-9"]
+        "source_refs": [
+          "Exodus 21:37-22:3",
+          "Talmud:Bava Kamma 79a-80a",
+          "Talmud:Sanhedrin 72a-73a",
+          "Mishneh Torah:Theft 1-9"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1426,10 +1736,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Damages - Property Destruction",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 22:4-5", "Talmud:Bava Kamma 2a-24b", "Shulchan Arukh:CM 389-399"]
+        "source_refs": [
+          "Exodus 22:4-5",
+          "Talmud:Bava Kamma 2a-24b",
+          "Shulchan Arukh:CM 389-399"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1452,10 +1768,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Damages - Fire",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 22:5-6", "Talmud:Bava Kamma 59b-62b", "Mishneh Torah:Damages to Property 14"]
+        "source_refs": [
+          "Exodus 22:5-6",
+          "Talmud:Bava Kamma 59b-62b",
+          "Mishneh Torah:Damages to Property 14"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1477,10 +1799,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Bailment - Unpaid Guardian",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 22:6-8", "Talmud:Bava Metzia 93b-94b", "Shulchan Arukh:CM 291-301"]
+        "source_refs": [
+          "Exodus 22:6-8",
+          "Talmud:Bava Metzia 93b-94b",
+          "Shulchan Arukh:CM 291-301"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1509,10 +1837,17 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Claims and Litigation",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 22:8", "Talmud:Bava Kamma 106b-107a", "Talmud:Shevuot 38b-45a", "Shulchan Arukh:CM 87-101"]
+        "source_refs": [
+          "Exodus 22:8",
+          "Talmud:Bava Kamma 106b-107a",
+          "Talmud:Shevuot 38b-45a",
+          "Shulchan Arukh:CM 87-101"
+        ]
       }
     },
     {
@@ -1530,10 +1865,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Bailment - Paid Guardian and Rental",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 22:9-12", "Talmud:Bava Metzia 93a-94b", "Shulchan Arukh:CM 303-313"]
+        "source_refs": [
+          "Exodus 22:9-12",
+          "Talmud:Bava Metzia 93a-94b",
+          "Shulchan Arukh:CM 303-313"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1555,10 +1896,16 @@
       "classification": {
         "category": "Civil and Tort Law",
         "sub_category": "Bailment - Borrower",
-        "applies_to": ["Courts"],
+        "applies_to": [
+          "Courts"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
-        "source_refs": ["Exodus 22:13-14", "Talmud:Bava Metzia 94b-97a", "Shulchan Arukh:CM 340-346"]
+        "source_refs": [
+          "Exodus 22:13-14",
+          "Talmud:Bava Metzia 94b-97a",
+          "Shulchan Arukh:CM 340-346"
+        ]
       },
       "book_en": "Shemot",
       "book_he": "שמות",
@@ -1578,6 +1925,21 @@
         "The laws of the commandment: Rambam, may his memory be blessed, wrote (Mishneh Torah, Laws of Virgin Maiden 1:2) [that] anything that is in the city is assumed to be seduction until witnesses testify that it was rape, and anything that is in the field is assumed to be rape. And they, may their memory be blessed, said (Ketuvot 39a) that the marriage of a seducer is dependent upon the will of the father, the daughter and the seducer. And if he marries her, there is no penalty. The law of the High Priest who seduced or raped; the law of the penalty when intercourse was in its way; that the time of the penalty is only from three years until she becomes an adult; [that] that which is written, “to her father,” [means] specifically to her father, but if she does not have a [living] father, there is no law of penalty towards her - as seduction is with her consent, which is not the case with rape, as we we will write in its place with God’s help; and the women that do not have a penalty and they are ten; and the rest of its details — are [all] elucidated in the third and fourth chapter of <i>Ketuvot</i>. (See Mishneh Torah, Laws of Virgin Maiden 1.)",
         "And [it] is practiced in every place that there is a court of ordained judges, as we only judge cases of penalties with ordained judges. And one who transgresses it and does not fulfill this law has violated a positive commandment."
       ],
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Sexual Offenses",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Land of Israel (ordained judges)",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Exodus 22:15-16",
+          "Deuteronomy 22:28-29",
+          "Talmud:Ketuvot 29a-40a",
+          "Mishneh Torah:Virgin Maiden 1"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1597,6 +1959,21 @@
         "And the knowledge of the difference [between] these things — which is the mixing He permitted to us that does not contain any angle of magic and which is the one that has an angle of magic and is forbidden as the science of magic — is well-known. And do not think that the craft of magic and [of] demons (<i>shedim</i>) is the same thing. As behold, they, may their memory be blessed, said (Sanhedrin 67b), “‘With their tricks,’ that is the work of demons; ‘with their spells,’ that is the work of magic.” It is implied from this that the matter of magic is possible to do without demons. However, sometimes it is also done with demons. And those demons that are used for the craft of magic are called angels of destruction. So did Rashi, may his memory be blessed, explain — since the matter of magic is always only done to destroy. And about the details of the laws of magic, we will write at greater length in the negative commandment of the witch, with God’s help, as its place is there. As here there is only the warning of the law, meaning to say that we will not forgive them, but [rather] kill them. (See Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 15.)",
         "And this commandment to administer the laws of those that do magic is practiced by males — since it is fitting [for] and it was given to them to administer justice — and not females. And [this is] specifically in the Land of Israel with ordained judges and in a court of twenty-three [judges]. And a court that transgresses it — if it has the power to administer justice — has violated this negative commandment, besides that it violated the positive commandment, which is more generally to administer justice against those that are liable. And there are no lashes for this, as there is no act [involved] with it. And we do not give lashes for any negative commandment with which no act is involved — except for one who takes an oath, a rebel, and one who curses his fellow with the name [of God] (Makkot 16a)."
       ],
+      "classification": {
+        "category": "Idolatry and Forbidden Practices",
+        "sub_category": "Sorcery and Magic",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Land of Israel (ordained judges)",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Exodus 22:17",
+          "Leviticus 20:27",
+          "Talmud:Sanhedrin 67a-68a",
+          "Mishneh Torah:Sanhedrin 15"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1615,6 +1992,21 @@
         "The laws of the commandment are, for example, the many [prohibitions] that they, may their memory be blessed, warned us about; that they made known to us — in order to warn us more about the thing — that the Torah warned about it in twenty-one (and see the Lemberg edition, that reads, twenty-four) places (Bava Metzia 39b); that they also wrote to strengthen the commandment, that with the same expression that we were commanded about the love of the Omnipresent, we were [also] commanded about the love of the convert — as with the Omnipresent, it is written (Deuteronomy 6:5), “And you shall love your God”; and with the convert, it is written (Deuteronomy 10:19), “And you shall love the convert.” And many things like this are in Midrash and in a few places in the Gemara. (See Tur, Choshen Mishpat, 307.)",
         "And [it] is practiced in all places and at all times by males and by females. And one who transgresses it and disgraces him, has violated a negative commandment. But we do not give lashes for it, since it does not have an act [involved] with it."
       ],
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Treatment of Converts",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:20",
+          "Leviticus 19:33",
+          "Talmud:Bava Metzia 59b",
+          "Shulchan Arukh:CM 307"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1629,6 +2021,20 @@
       "parasha": "Mishpatim",
       "full_text": "<b>To not oppress the convert regarding money:</b> That we have been prevented to not oppress the convert regarding money — that if we have give and take (business matters) with him, to not oppress him — as it is stated (Exodus 22:20), “you shall not pressure him.” And they said in the Mekhilta DeRabbi Yishmael 22:2, “‘You shall not pressure him’ is regarding money.” And this negative commandment is in addition to the negative commandment in which he is included with all of Israel, as they are [covered] by the [that] negative commandment of monetary oppression. And they are warned about him [both] regarding words and regarding money, due to the reason that we have written. All of its statutes are in the commandment that preceded this (Sefer HaChinukh 63). And in the negative commandment of monetary oppression of Israel (Sefer HaChinukh 337), we will write a few of the details of fraud, with God’s help. (See Tur, Choshen Mishpat 307.)",
       "details": [],
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Treatment of Converts",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:20",
+          "Talmud:Bava Metzia 59b",
+          "Shulchan Arukh:CM 307"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1649,6 +2055,21 @@
         "And the orphans never receive [a curse] for anything that the custodian does; nor does the custodian either — since he is recalling on their behalf (Bava Metzia 74b). And so [too] is the law more generally regarding an agent who gives and takes with the knowledge of his sender, that neither of them receives [a curse]. And nonetheless, they said about them that it is permitted to oppress them a little for their benefit — for example a teacher towards his student in Torah or in a craft. However even for their benefit, it is a commandment to be more lenient upon them than upon other people. And they also said that there is a covenant made with them that their cries will be answered, as it is stated (Exodus 22:22), “I will surely hear his cry”; and that they are called orphans regarding the matter of this commandment until they do not need an adult for their business affairs, but rather administer all of their own needs like all other adults. And the rest of its details are elucidated in scattered places in the Gemara and in Midrash. (See Mishneh Torah, Laws of Human Dispositions 6.)",
         "And this commandment is practiced in every place and at all times by males and by females, that all people are obligated to treat them gently and honorably. And behold, one who transgresses it and angers them or taunts them or afflicts them or subjugates them or destroys their money — and all the more so, if he hits them — violates a negative commandment. And even though we do not administer lashes for this — as the affliction is not something [clearly] defined, such that we can give lashes for it, since the evil afflicter can make the lying claim that he afflicted them according to the law or for their benefit — God, may He be blessed, Who examines the hearts, will [redress] their pain. And behold his punishment is explicit in the Torah, as it is stated (Exodus 22:23), “and I shall kill you with the sword” — meaning to say, measure for measure, such that the wives of the afflicters become widows and their children, orphans, and [they will] not find someone who has mercy upon them. As in the way that a person measures, so will he be measured (Sotah 8b). And if the afflicter is a female, she will die and her husband will marry another woman who will afflict her children. And they, may their memory be blessed, expounded, “if he will surely cry to Me” — a son complains to his father, a wife to her husband, a widow and orphan to Me, “and I will listen, as I am gracious” (Exodus 22:26). And Ramban, may his memory be blessed, (on Sefer HaMitzvot, Negative Commandments 256) counts the prohibition towards the orphan and the widow as two negative commandments, because of the reason we wrote above (Sefer HaChinukh 7)."
       ],
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Treatment of Vulnerable",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:21-23",
+          "Talmud:Bava Batra 23a",
+          "Talmud:Gittin 52a",
+          "Mishneh Torah:Human Dispositions 6:10"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1666,6 +2087,21 @@
         "The root of the commandment is that God wanted His creations to be trained and habituated to the trait of kindness and of mercy, since it is a praiseworthy trait. And from the refinement of their bodies with good character traits, they will be fit to receive the good; as we have said that the good and blessing always descend upon the good, and not upon its opposite. And when God, may He be blessed, does good to the good, He fulfills His will, since He desires to do good to the world. And if it were not from the angle of this root, does He, blessed be He, not have enough for the lacking of the poor person without us? Rather, it was from His kindness, blessed be He, that He made us His messengers to give us merit. And there is also another reason in the matter — that God, blessed be He, wanted to support the poor person through [other] people because of the greatness of [that person’s] sin, so that he be chastised by pain in two ways: by the contracting of embarrassment through those his age; and by the reduction of his food. And in the manner that we said [that it is] in order to give us merit did a sage from our Sages answer a certain heretic who asked him if God loves the poor — as He commanded [to help] them — why does He not provide for them, etc., as it appears in Tractate Bava Batra 10a.",
         "The laws of the commandment are for example, which poor person is prioritized for this commandment; the many warnings that they, may their memory be blessed, warned us about it — as they said (Bava Batra 10a), that a person who has [the wherewithal] but withdraws his hand from this commandment is pushed off and disgraceful and abominable and disgusting and detestable until his vileness is close to being like the vileness of idolatry; and how beautiful and beloved and favored and blessed from several blessings is the one who supports it. It is all elucidated in [various] places in <i>Ketuvot</i> and in <i>[Bava] Batra</i> and in many [other] places in the Gemara. (See Tur, Choshen Mishpat 97.)"
       ],
+      "classification": {
+        "category": "Charity and Kindness",
+        "sub_category": "Loans to Poor",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:24",
+          "Deuteronomy 15:8",
+          "Talmud:Bava Batra 10a",
+          "Shulchan Arukh:CM 97"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1684,6 +2120,20 @@
         "From the laws of the commandment is that which they, may their memory be blessed, said (Bava Metzia 45b), “From where [do we know] about one who gave a hundred to his fellow and knows that he does not have it, that it is forbidden to pass in front of him (across from his home)? As it is stated, ‘do not be to him as a creditor’”; and that which they also said in Mekhilta DeRabbi Yishmael 22:24:4, “do not be to him as a creditor” — that he should not see him all the time. And other things are said about this matter in <i>[Bava] Metzia</i> and in [various] places in the Gemara. (See Tur, Choshen Mishpat 97.)",
         "And [it] is practiced by males and females in every place and at all times. And one who transgresses it and demands his loan [back] from his fellow and knows that he does not have it, but demands it [regardless] in order to cause him pain, has violated this negative commandment and it is as if he has violated the commandment of the King."
       ],
+      "classification": {
+        "category": "Charity and Kindness",
+        "sub_category": "Loans to Poor",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:24",
+          "Talmud:Bava Metzia 75b",
+          "Shulchan Arukh:CM 97"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1701,6 +2151,21 @@
         "It is from the roots of this commandment [that it is] because the good God desired the settlement of His people which He chose. And therefore He commanded to remove the obstacle from their path, that one should not swallow up the wealth of his friend without his [even] feeling it, until he finds his house empty of all good. As this is the way of interest, and the matter is well-known, and that is why it is called, “bite (<i>neshekh</i>).” And in the avoidance of this matter by the guarantor, the scribe and the witnesses, [other] people will [also] avoid it. And the rest of its details are in <i>[Bava] Metzia</i>. (See Tur, Yoreh Deah 160.)",
         "And [it] is practiced in every place and at all times by males and females. And one who transgresses it and becomes a scribe or a guarantor or a witness for the loan violates this negative commandment. But we do not administer lashes for it, since even the creditor does not [receive] lashes — as behold, it is given to returning. And [so] it is not right that these that come because of him be liable for lashes."
       ],
+      "classification": {
+        "category": "Financial Law",
+        "sub_category": "Interest Prohibition",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:24",
+          "Leviticus 25:36-37",
+          "Talmud:Bava Metzia 75b",
+          "Shulchan Arukh:YD 160"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1719,6 +2184,21 @@
         "From the laws of the commandment with judges — that which they said [that] the liability of the negative commandment is only with a name from the names of God, such as Lord, or Omnipotent, and God and similar to them, or with an appellation, such as Gracious or Zealous and similar to them, but without a name or appellation, such as [if he says,] “cursed is x,” or “let him not be blessed,” he does not have liability for the negative commandment, but it is [still] forbidden; that which they, may their memory be blessed, also explained about this matter that the liability is not only if he curses him in the Holy Tongue, but even in any language (Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 26:3), and that there is a need for witnesses and warning for this, as in all liabilities of negative commandments; and the rest of its details — are elucidated in <i>Sanhedrin</i>. (See Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 6.)",
         "And [it] is practiced in every place and at all times by males and females. And one who transgresses it and curses the judge with a name or with an appellation [of God] is lashed two [sets] of lashes; [one,] since [the judge] is like any proper [member] of Israel, whom are included in this prohibition — and as we will write in the Order of <i>Kedoshim Tehiyu</i> (Sefer HaChinukh 231) — and [another] one because he is a judge."
       ],
+      "classification": {
+        "category": "Respect for Authority",
+        "sub_category": "Judges and Courts",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:27",
+          "Talmud:Sanhedrin 66a",
+          "Mishneh Torah:Sanhedrin 26",
+          "Shulchan Arukh:CM 27"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1736,6 +2216,22 @@
         "Some of the laws of the commandment — for example, that which they explained that there is no guilt unless he pronounces the specific name, which is (<i>yud-hei-vav-hei</i>), or of (<i>alef-dalet-nun-yud</i>) according to the opinion of some commentators (Mishneh Torah, Laws of Foreign Worship and Customs of the Nations 2:7); that which they said (Sanhedrin 56a), that they would each and every day ask the witnesses with a nickname, “Yose should strike Yose,” when the case was finished they would move all the people outside and ask the senior witness and say to him, “Say with your mouth what you heard,” and he would say [it], they would [then] stand on their feet and tear [their clothing] and not [ever] mend [them], and the second witness would say, “I also heard like him,” and if there were many witnesses, they all say like this; that which they, may their memory be blessed said (Nedarim 87a), that the blasphemer, even though he recants within the time of speaking (right away) is [still] stoned; that one who curses God in the name of idolatry is to be attacked by zealots, but if they did not attack him and he comes to court, he is not stoned unless he “blesses” with a name from the specific names [of God], and the reason he is not stoned is because, even at the time of his anger, he himself knows that his words are complete foolishness, but zealots attack him nonetheless, since he was destructive and caused abomination and was brazen-faced to speak bad things like these; that which they said that anyone who hears the “blessing” of God from the mouth of an Israelite is obligated to tear [his clothes], but that one who hears it from a gentile is not obligated to tear, and Eliyakim and Shevna only tore because Ravshakeh was an apostate (Sanhedrin 60a); [that] all of the witnesses and the judges lean their hands one by one upon the head of the blasphemer and say to him, “Your blood is upon your head, since you caused [it to] yourself,” and there is none else in all of those killed by the court besides only the blasphemer that we lean upon, as it is stated (Leviticus 24:14), “and all those who heard lean, etc.”; and the rest of its details — are [all] elucidated in <i>Sanhedrin</i>, Chapter 7.",
         "And this prohibition is practiced in every place and at all times. And one who transgresses it and “blesses” the Name, in the way we said, is stoned in the Land by the mouth of ordained judges. And today, outside the Land — where we do not have ordained judges — all of Israel distance themselves from him and place a ban upon him. (See Tur, Choshen Mishpat 27.)"
       ],
+      "classification": {
+        "category": "Belief and Blasphemy",
+        "sub_category": "Blasphemy",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:27",
+          "Leviticus 24:16",
+          "Talmud:Sanhedrin 56a-60a",
+          "Mishneh Torah:Foreign Worship 2:7",
+          "Shulchan Arukh:CM 27"
+        ]
+      },
       "book_en": "Shemot",
       "book_he": "שמות",
       "book_order": 2,
@@ -1745,6 +2241,19 @@
     {
       "id": 71,
       "title": "To not curse a chieftain (<i>nassi</i>):",
+      "classification": {
+        "category": "Respect for Authority",
+        "sub_category": "Respect for Leaders",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:27",
+          "Sanhedrin 66a"
+        ]
+      },
       "description": "To not curse a chieftain, as it is stated (Exodus 22:27), “and a chieftain among your people shall you not malign.” And the explanation upon it came that the <i>nassi</i> is the king (Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 26:1). But nonetheless, this negative commandment also includes the <i>nassi</i> of Israel and that is the head of the Great Sanhedrin, who is also called the <i>nassi</i>; since the intention of the verse is about anyone who is the head authority over Israel, whether it is the government of the kingdom or whether it is the government of the Torah.",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1763,6 +2272,19 @@
     {
       "id": 72,
       "title": "To not skip in the laws of produce:",
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Priestly Tithes Order",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 22:28",
+          "Terumot 3:10"
+        ]
+      },
       "description": "To not skip in the laws of produce — some of them over [others] of them — but we should rather extract them in order. The elucidation of the matter is that after the wheat is threshed and cleaned, it is <i>tevel</i>, and the understanding of <i>tevel</i> is produce that has not been separated. And the obligation upon us with it, is to first remove the priestly tithe from it. And by Torah writ, even one [kernel of] wheat exempts the threshing floor (Kiddushin 29b), but the Sages said that [the mandatory amount] is one part in fifty. And afterwards, the obligation upon us from that which is left over is to remove the tithe from it, and that is called the first tithe. And afterwards, the obligation upon us from that which is left over is to remove another tithe, and that is the second tithe. And the priestly tithe is given to the priest, the first tithe to the Levite, and the second tithe [is kept,] that it be eaten by its owner in Jerusalem. And we are obligated to separate these portions from the produce in this order. And upon this came the preventing, that we not do first from this what is fitting to delay, and not delay what is fitting to do first (Mishnah Terumot 3:10) — as it is stated (Exodus 22:28), “Your fullness and your offering you shall not delay.” And it is as if it stated, “From your fullness and your offering, you shall not delay what is fitting to do first.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1781,6 +2303,19 @@
     {
       "id": 73,
       "title": "To not eat a torn animal:",
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Forbidden Animals",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 22:30",
+          "Chullin 42a"
+        ]
+      },
       "description": "To not eat from a torn animal, as it is stated (Exodus 22:30), “and meat in the field of a torn animal, you shall not eat.” And the obvious understanding of this verse is to warn us about an animal that a wolf or a lion tore in the field, and that it is torn in a way that it is inclined to die from this tearing. As certainly, its understanding does not include that if [the wolf or lion] touched the tip of its ear or tore from its wool, that it be called a torn animal for this. Rather, its correct understanding — and the tradition supports this — is that it was torn enough that it will die in the hour, or soon, because of that tearing. And they, may their memory be blessed, said (Chullin 57b) that this time is [up to] a year. And it should also be understood by all those that understand, that the Torah is not exacting that the tearing be by a wolf or a lion or a bear, but rather any animal that inflicts a wound which brings [another animal] to die is forbidden regardless. And those are the wounds that the Sages enumerated that kill, and it is as it comes in the Mishnah (Chullin 42a), “This is the general rule: anything that nothing like it stays alive is a torn animal.” And that which the verse stated, “in the field,” is not specific, but rather it is the way of Scripture to always state what is common, and it is the way of animals to get torn in the field. And so is it [found] in the Mekhilta DeRabbi Yishmael 23:30), “The Torah stated what is common.” And it was also needed to write, “in the field,” in order to teach many other things. As the words of the Torah are expounded in different ways — outside, they wear clothing of majesty, pure linen and silk and embroidery, and inside, there is gold and many pearls. And the clothing of this verse that is revealed and more obvious at the beginning of its study is to teach only about the torn animal, as we have written; and [also] about meat from a living animal, which is included in the [concept of] meat of a torn animal. And that which is inside is this: it teaches about any meat that went out of its boundary, that it is forbidden and becomes like a torn animal — for example consecrated meats that went outside [the Temple] courtyard, and lightly consecrated meats that went outside of [Jerusalem’s] wall, and the meat of a Pesach sacrifice that went outside of its assemblage and so [too,] a limb that went out from its mother’s womb. And the understanding of the Scripture comes like this, as if it stated, “and meat in the ‘field’ is ‘torn,’” meaning to say, meat that went out of its boundary — as that is [the meaning of] the expression, “field,” that it has no boundaries — is a “torn” animal. And the law of all of these that we mentioned is like a torn animal, and one who ate a <i>kazayit</i> from them is lashed.",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1804,6 +2339,19 @@
     {
       "id": 74,
       "title": "To not hear the claim of a litigant when it is not in front of his fellow litigant:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Judicial Procedure",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:1",
+          "Sanhedrin 7b"
+        ]
+      },
       "description": "That the judge not hear the claim of one, not in front of his adversary, as it is stated (Exodus 23:1), “You shall not raise a false report.” And the reason is because people will speak idle words when not in front of their adversary. And the judge is commanded about this so that he not bring the untruths of one of them into his soul. And so does Mekhilta DeRabbi Yishmael 23:1 come [to tell us] that this warning of “You shall not raise, etc.” is said about this. And they also said there that it is also a warning to the litigant, for him too, not to make his claims to the judge not in front of his adversary, and even if the judge wants to hear it. And about this, it is also said (Exodus 23:7), “From a false matter, distance yourself.” And they, may their memory be blessed, also said (Makkot 23a) that this negative commandment includes telling evil speech, and accepting it, and giving false testimony.",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1822,6 +2370,19 @@
     {
       "id": 75,
       "title": "Not to have a sinner testify:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Witness Qualification",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:1",
+          "Sanhedrin 27a"
+        ]
+      },
       "description": "That we not accept the testimony of a man who sins, and we not do anything on account of his testimony, as it is stated (Exodus 23:1), “do not place your hand with an evildoer to be a violent witness.” And the explanation comes about this (Sanhedrin 27a), “Do not place an evildoer as a witness, do not place a violent one as a witness,” meaning a violent person — to exclude violent people and thieves who are disqualified from testimony, as it is stated (Deuteronomy 19:16), “If a violent witness comes upon a man.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1840,6 +2401,19 @@
     {
       "id": 76,
       "title": "Not to incline after the many in capital punishments because of one:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Capital Cases",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "When Sanhedrin exists",
+        "source_refs": [
+          "Exodus 23:2",
+          "Sanhedrin 2a"
+        ]
+      },
       "description": "That a judge should not go after the opinion of the majority in capital punishments when the difference will only be one man. (See Sefer HaMitzvot, Negative Commandments 282.) And the elucidation of this is that when there is a disagreement among the judges about the case of a man, and some say that he is liable for the death penalty and some say that he is not liable — and those who [would] make him liable are one more than those who [would] make him innocent — that the judge should not do with the [suspected] sinner according to the words of those who make him liable; as it is stated (Exodus 23:2), “Do not be after the many to do bad” — meaning to say, do not go after the majority that would result in concluding a verdict of death. And this is the expression stated in the Scripture, “to do bad” — meaning to say, to a liability for the death penalty. And that is when there is an exact majority, meaning to say that the decision is only because of one person. But if the decision is with two, we follow their words, even “to do bad.” And in the Mekhilta DeRabbi Yishmael 23:2, “Leaning to the good is according to one, but to the bad is according to two.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1856,6 +2430,19 @@
     {
       "id": 77,
       "title": "That the one who advocated innocence at the beginning of capital cases not advocate guilt:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Capital Cases",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "When Sanhedrin exists",
+        "source_refs": [
+          "Exodus 23:2",
+          "Sanhedrin 34a"
+        ]
+      },
       "description": "That one of the judges not go after the opinion of another greater judge or even after the opinion of the majority, because he trusts him — to make liable or to make innocent — if the matter is not understood to him in his mind. And if it is a case that is dependent upon a decree of Scripture (<i>gezerat hakatuv</i>), a <i>gezerah shava</i> or a <i>hekesh</i> (the latter two being exegetical inferences based on similar wording in two sections), he must know it himself and not rely and trust one of the [other] judges or the majority; as it is stated (Exodus 23:2), “and you shall not answer about a dispute to incline.” [This is] meaning to say, do not say something about a dispute to incline — meaning only from the side of leaning towards the words of a great judge or towards the majority — and not from the side of your understanding. Or if you want to be silent from [saying] that which is in your heart about the case and [instead] to incline after their words, do not do so. And the language of the Mekhilta DeRabbi Yishmael 23:2 is “‘You shall not answer about a dispute to incline’ — that you not say, ‘It is enough for me that I be like Rabbi x,’ but rather, say what is in your heart. Maybe, monetary cases are also like this? [Hence] we learn to say, ‘to lean after the majority.’” And within this very negative commandment is included that the one who advocates innocence in capital cases not go back and advocate guilt; as it stated, “and you shall not answer about a dispute to incline” — meaning to say, “let not your words be inclined towards guilt” (Sanhedrin 34a). And so, too, included is that we do not open towards guilt in capital case. And the explanation then comes, “and you shall not answer about a dispute to incline,” meaning to say, the opening of your words should not be for guilt. As per force, we must explain it about the beginning of the case, since it is impossible to say that it warns that you not answer guilt about the whole case. As, if so, no man would ever be prosecuted.",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -1876,6 +2463,19 @@
     {
       "id": 78,
       "title": "The commandment of inclining towards the many:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Judicial Procedure",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:2",
+          "Sanhedrin 3b"
+        ]
+      },
       "description": "To incline towards the many, and that is when there arises a disagreement among the sages in a law of all the Torah laws, and so too in a private case. Meaning to say, a case that would be between Reuven and Shimon, for example — when there would be a disagreement between the judges of their city, that some of them rule guilty and some rule innocent, to always go after the majority; as it is stated (Exodus 32:2), “to incline towards the many.” And in the elucidation, they, may their memory be blessed, said (Chullin 11a), “The majority is by writ of the Torah.” And this choice of the majority appears to be when the two opposing groups are equally known for their Torah wisdom — as it cannot be said that a small group of sages would not be decisive against a great group of ignoramuses, and even like [the number] that went out from Egypt. But with approximately equal wisdom, the Torah informed us that the many opinions will always conform to the truth more than the minority. But whether — according to the opinion of the listener — they agree to the truth or they do not agree to the truth, logic dictates that we do not swerve from the path of the majority. And that which I say that the choice of the majority is always with two groups that disagree that are equal in the wisdom of truth is said so about every place except for the <i>Sanhedrin</i>. As with them, we are not exacting when they disagree as to which group knows more; but rather we always do like the words of their majority. And the reason is because they had an obligatory number [of people] by writ of the Torah; and it is as if the Torah explicitly commanded, “Do all of your matters according to the majority of these” — and also as they were all great sages.",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -1894,6 +2494,19 @@
     {
       "id": 79,
       "title": "To not have mercy upon a poor person in his case:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Judicial Impartiality",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:3",
+          "Leviticus 19:15"
+        ]
+      },
       "description": "To not have pity in judgment upon the weak and impoverished at the time of the judgment, but rather one must judge the case truthfully. [It should not be] from the angle of pity upon him, but rather [the judge] must treat [all] the same — whether he is rich or impoverished — to force him to pay what he is obligated; as it is stated (Exodus 23:3), “And you shall not favor an impoverished man in his dispute.” And this matter is repeated in another place (Leviticus 19:15), “do not lift up the face of the impoverished.” And the language of Sifra, Kedoshim, Chapter 4:2 is “Do not say, ‘He is a poor man and since I and this rich man are obliged to sustain him, I shall vindicate him in judgment, so that he can support himself honorably.’ [Hence,] we learn to say, ‘do not lift up the face of the impoverished.’”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1911,6 +2524,19 @@
     {
       "id": 80,
       "title": "The commandment of removing a burden:",
+      "classification": {
+        "category": "Charity and Kindness",
+        "sub_category": "Helping Others",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:5",
+          "Bava Metzia 32a"
+        ]
+      },
       "description": "<b> The commandment of removing a burden:</b> To remove a burden from upon the donkey that is weary from its burden upon the way, as it is stated (Exodus 23:5), “If you see the donkey of your enemy, etc.” — and the understanding of this enemy, is [another Jew]. And even though it is written (Leviticus 19:17), “Do not hate your brother in your heart,” which [refers to a Jew] — the Sages said (Pesachim 113b) that this matter is for example that he saw him commit a sin privately, and he warned [the one sinning] but [the sinner] did not yield, such that he is [then] permitted to hate him. And that which it states, “donkey,” is not specifically a donkey, but rather that the Scripture expressed that which is common — as donkeys are [used for carrying] a burden. And it is written, “you must certainly relieve with him” — meaning to say, help him, from the usage (Nehemiah 3:8), “and they relieved Jerusalem,” which is an expression of strengthening.",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -1929,6 +2555,19 @@
     {
       "id": 81,
       "title": "To not tip the judgment of an evildoer:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Judicial Impartiality",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:6",
+          "Sanhedrin 32b"
+        ]
+      },
       "description": "To not tip the judgment of one of the litigants when one knows that he is an evildoer and a master of sin, as it is stated (Exodus 23:6), “You shall not sway the judgment of your destitute in his quarrel.” And its explanation is that he is destitute in commandments, as its understanding is not that he is destitute in money; since it is not necessary to say that he not sway the judgment against him, to steal from him in his poverty. Rather, we have been commanded that even though he is an evildoer, the judge should not say, “Since he is an evildoer, I will sway the judgment against him” — as the judgment of evildoers is for God, and not for you. And so is it in <i>Mekhilta</i>, “[If] an evildoer and a proper man stand in front of you in judgment, you might say, etc.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1946,6 +2585,19 @@
     {
       "id": 82,
       "title": "To not conclude the judgment by estimation:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Rules of Evidence",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "When Sanhedrin exists",
+        "source_refs": [
+          "Exodus 23:7",
+          "Sanhedrin 37b"
+        ]
+      },
       "description": "That a court only kill the accused with witnesses that testify about the same matter about which he is to be killed; that they actually saw him with their eyes, [not] that they testify against him based on strong indications. And about this is it stated (Exodus 23:7), “and an innocent one and a righteous one you shall not kill” — meaning to say, be very careful not to kill a person about whom it is possible that he did not do what they said that he did. And so is it explained in Mekhilta DeRabbi Yishmael 23:7:2, as there they said, “If they saw him pursuing another to kill him, the knife in his hand, and they [warned him, ‘If you kill him, you will be killed.’ And the witnesses] averted their eyes [and did not see him striking him] and afterwards they found him (the victim) in the death throes, the knife dripping blood in the hand of the murderer — I might understand that he is liable [for execution. Hence,] we learn to say, ‘and a clean one and righteous one you shall not kill.’” Behold, because they averted their eyes at the time of the striking, this one is exempted. And the matter is proper and fitting to be like this. As if the Torah had permitted to establish the parameters of punishment with strong possibilities, it would come out from the matter that sometimes we would kill people for something they did not do, as there is great breadth to the possible. And know this and understand it, as it is a clear thing. And therefore, He, may He be elevated, closed this gate and commanded us about it. And all of “the precepts of the Lord are just, rejoicing the heart” (Psalms 19:9). And also included in this negative commandment is one about whom two witnesses have testified that he committed a [different] sin; for example, that one testifies that he did work on Shabbat and one testifies that he worshiped idolatry, such that this one is not condemned by their testimony, as it is stated, “and an innocent one and a righteous one do not kill.” And so did they, may their memory be blessed, say (Mekhilta DeRabbi Yishmael 23:7:2), “If one testified against another that he worshiped the sun, and another, [that he worshiped] the moon, I might understand that they combine (to constitute the necessary two witnesses). [Hence,] we learn to say, ‘and an innocent one and righteous one you shall not kill.’”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1964,6 +2616,19 @@
     {
       "id": 83,
       "title": "To not take a bribe:",
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Judicial Ethics",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:8",
+          "Deuteronomy 16:19"
+        ]
+      },
       "description": "That the judge not take a bribe from the litigants — even to judge truthfully — as it is stated (Exodus 23:8), “And you shall not take a bribe.” And this negative commandment is repeated in the Torah about this matter in another place (Deuteronomy 16:19). And so did they say in Sifrei Devarim 144:10, “‘You shall not take a bribe’ — even to make the innocent, innocent and the liable, liable.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -1982,6 +2647,19 @@
     {
       "id": 84,
       "title": "The commandment of the releasing (<i>shmitat</i>) of lands:",
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Sabbatical Year",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "Seventh year cycle",
+        "source_refs": [
+          "Exodus 23:11",
+          "Leviticus 25:2-5"
+        ]
+      },
       "description": "To make ownerless everything that the earth put out in the seventh year, which is called the <i>shemittah</i> (release) year, because of this process in which we are obligated; and that all who want to [take] its fruits may do so — as it is stated (Exodus 23:11), “But in the seventh you shall release it and abandon it, and the needy among your people will eat of it, and what they leave the beasts will eat; you shall do the same with your vineyards and your olive groves.” And the language of Mekhilta DeRabbi Shimon bar Yochai 23:11: “And were the vineyard and the olive groves not included?” [This] means to say that the beginning of the verse that stated, “release it and abandon it” includes everything that grows in the earth, whether they are fruits of the tree or fruits of the ground. And [so] why did Scripture specify these two? “To compare the other types of trees to the vineyard, to teach that like there is a positive commandment and a negative commandment with the vineyard — as behold, it is written explicitly about it (Leviticus 25:5), “and the grapes that you set aside, do not reap” — so too, is there a positive commandment and a negative commandment in all of the other trees.” And hence, it specified vineyard and olive grove, to teach about this matter. As the intention of the verse was not specifically about the vineyard and olive grove alone, but rather it is the same with all the other fruits of the tree. Rather, it mentioned one of them and it teaches about all of them, as this is one of the devices through which the Torah is expounded. And this commandment to make all of the fruits ownerless and the other commandment that God commanded us to rest in it — as it is stated (Exodus 34:21), “and rest from plowing and reaping” — are [both] connected.",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -2000,6 +2678,19 @@
     {
       "id": 85,
       "title": "The commandment to rest on Shabbat:",
+      "classification": {
+        "category": "Sabbath and Festivals",
+        "sub_category": "Shabbat Observance",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Weekly",
+        "source_refs": [
+          "Exodus 23:12",
+          "Exodus 20:8-11"
+        ]
+      },
       "description": "To rest from work on the Shabbat day, as it is stated (Exodus 23:12), “on the seventh day you shall rest” (Sefer HaMitzvot, Positive Commandments 154). All of its content is written above in the negative commandment that comes about it (Sefer HaChinukh 32). And the commandment of Shabbat is repeated up to twelve times.",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -2014,6 +2705,19 @@
     {
       "id": 86,
       "title": "To not swear by idolatry:",
+      "classification": {
+        "category": "Idolatry and Forbidden Practices",
+        "sub_category": "Prohibition of Idolatry",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:13",
+          "Sanhedrin 63b"
+        ]
+      },
       "description": "That we not swear by idolatry — and even to its worshipers — and that we not make a gentile swear by it, as it is stated (Exodus 23:13), “and you shall not mention the name of other gods.” And we have understood that included in this mentioning is whether one swears or causes to swear. And there are some that explain that the main negative commandment [here] is only coming about one who does business with a gentile on his holiday and makes him profit, as he goes and thanks [his god], and [so] he transgresses “you shall not mention”; meaning that others should not mention it in the forbidden manner, which is with intention to serve them. As this is forbidden also to [gentiles] by Torah writ, since the Children of Noach are prohibited in idolatry. And they, may their memory be blessed, added a distancing and said (Sanhedrin 63b) that a man should not say to his fellow, “Wait for me by the side of idolatry x.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -2032,6 +2736,19 @@
     {
       "id": 87,
       "title": "To not entice the Children of Israel towards idolatry:",
+      "classification": {
+        "category": "Idolatry and Forbidden Practices",
+        "sub_category": "Incitement to Idolatry",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:13",
+          "Sanhedrin 63b"
+        ]
+      },
       "description": "To not call people to worship idolatry and to urge them about it. And even though the one who calls does not worship it and does not do any of the actions [of idolatry] — just the calling alone — this is called an enticer. And so did they say in Sanhedrin 63b, “‘It should not be heard on your mouth’ — that is a warning to the enticer.” And so did they say in the <i>Mekhilta. </i>",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -2050,6 +2767,19 @@
     {
       "id": 88,
       "title": "The commandment of celebration on the festivals:",
+      "classification": {
+        "category": "Sabbath and Festivals",
+        "sub_category": "Pilgrimage Festivals",
+        "applies_to": [
+          "Jewish men"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Pesach, Shavuot, Sukkot",
+        "source_refs": [
+          "Exodus 23:14",
+          "Chagigah 6b"
+        ]
+      },
       "description": "To celebrate on the festivals; and that is that we have been commanded to come up for the festival to the Temple three times a year — and they are [before] Pesach, Shavuot and Sukkot, in order to celebrate there, as it is stated (Exodus 23:14), “Three festivals shall you celebrate for Me in the year.” And the matter of celebration is that we should go up there with a sacrifice and we slaughter it as peace-offerings (<i>shelamim</i>) in honor of the festival. And this commandment is repeated twice in the Torah. And they, may their memory be blessed, said in Tractate Chagigah 6b [that] three commandments were Israel commanded on the holiday — celebration, being seen and joy.",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -2068,6 +2798,19 @@
     {
       "id": 89,
       "title": "That we not slaughter the lamb of the Pesach-offering on the fourteenth of Nissan while chamets is still in our possession:",
+      "classification": {
+        "category": "Sabbath and Festivals",
+        "sub_category": "Passover Laws",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Fourteenth of Nissan",
+        "source_refs": [
+          "Exodus 23:18",
+          "Pesachim 5a"
+        ]
+      },
       "description": "That we not slaughter the lamb of the Pesach offering on the fourteenth of Nissan while chamets still be in our possession — until half of the day, as they, may their memory be blessed, expounded (Pesachim 5a),”[The word,] ‘but,’ divides” — as it is stated (Exodus 23:18), “Do not slaughter upon chamets the blood of My slaughtering.” And the explanation of it comes [to tell us] not to slaughter the lamb of the Pesach sacrifice while chamets still exist in your possession. And this preventing is repeated in the Torah, with a different expression. And we have also understood that included in the explanation is that chamets not be with the one who slaughters it (Pesachim 13b) and not be with the one that sprinkles its blood and not be with the one that makes its fat smoke and not be with one of the assemblage that is counted upon it (Pesachim 63b).",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -2086,6 +2829,19 @@
     {
       "id": 90,
       "title": "To not leave the entrails of the Pesach sacrifice to stay overnight:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sacrifice Procedures",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 23:18",
+          "Pesachim 64b"
+        ]
+      },
       "description": "Not to leave the entrails of the Pesach sacrifice until the morning, [such] that they not be sacrificed, and [so] become disqualified with this leaving over and become called <i>notar</i> (what is left over); as it is stated (Exodus 23:18), “and the fat of My festival offering shall not be left lying until morning.” And the same is true of other portions to be burned in other sacrifices. And the language of Mekhilta DeRabbi Yishmael 23:18 is “‘The fat shall not be left lying’ — the verse comes to teach that the fats are disqualified by lying over.” And this preventing was already repeated in another place, as it is stated (Exodus 34:25), “and the sacrifice of the festival of Pesach shall not be left lying until morning.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -2104,6 +2860,19 @@
     {
       "id": 91,
       "title": "The commandment of bringing the first-fruits:",
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "First Fruits",
+        "applies_to": [
+          "Jewish men"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 23:19",
+          "Bikkurim 1:1"
+        ]
+      },
       "description": "To bring the first-fruits to the Temple — and that is that we are obligated to bring there the first fruit that ripens on a tree and to give it to a priest. And not all trees are in this commandment from Torah writ, but rather only the seven species through which the Land of Israel is praised — and they are wheat, barley, the [fruit of the] vine, figs, pomegranates, olives and dates — as it is stated (Exodus 23:19), “The first fruits of your land you shall bring, etc.” and the explanation comes that it is only stated about these seven fruits. And according to what it appears, it is in this way that they, may their memory be blessed, learned to say like this: Since no other fruits at all are mentioned in any place in the Torah besides these, and He, blessed be He, commanded us to bring undifferentiated first-fruits from our Land, it follows that it is about the fruits that He informed us about in the Torah that are in the Land of Israel and through which it is praised, that He commanded us. And it is possible that our Rabbis, may their memory be blessed, have another [indication] from the verse, or maybe they are words of transmission. And so was it their way to bring them, that those close to Jerusalem would bring them soft (fresh) and those far would dry them [first].",
       "type": "Positive",
       "parasha": "Mishpatim",
@@ -2122,6 +2891,19 @@
     {
       "id": 92,
       "title": "To not cook meat in milk:",
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Meat and Milk Separation",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:19",
+          "Chullin 113a"
+        ]
+      },
       "description": "That we not cook animal meat in animal milk, as it is stated (Exodus 23:19), “you shall not cook a kid in its mother’s milk.” And the explanation came (Chullin 113a) that it is not specifically a kid, but rather all meat of an animal is implied — as the expression, “kid” is an expression that only [applies to] animal meat. And the verse [chose] the expression, “kid,” since meat is a soft thing, like a kid. And how is it that you learn like this? From that which you find in several places in the Torah where it is written, “kid,” and it was necessary [for the Torah] to explain, “a goat kid.” Behold, you have learned [from this] that in a place where it is stated only, “kid,” it is not specifically a goat kid, but rather all animal meat like it is implied.",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -2140,6 +2922,19 @@
     {
       "id": 93,
       "title": "To not make a covenant with the seven nations and likewise with any worshiper of idolatry:",
+      "classification": {
+        "category": "Idolatry and Forbidden Practices",
+        "sub_category": "Relations with Idolaters",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Everywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:32",
+          "Deuteronomy 7:2"
+        ]
+      },
       "description": "That we not make a covenant, meaning to say that we promise our friendship to the bad nation of heretics — which are the seven nations in the Torah which were holding our Land before our arriving there, and they are the Hittite, the Emorite, etc. — as it is stated (Exodus 23:32), “You shall not make a covenant with them and their gods.” [This] means to say that we should not make peace with them and leave them to worship idolatry.",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -2157,6 +2952,19 @@
     {
       "id": 94,
       "title": "To not have worshipers of idols dwell in our Land:",
+      "classification": {
+        "category": "Idolatry and Forbidden Practices",
+        "sub_category": "Relations with Idolaters",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 23:33",
+          "Avodah Zarah 64b"
+        ]
+      },
       "description": "To not have worshipers of idolatry dwell in our Land, as it is stated (Exodus 23:33), “They shall not dwell in your Land, lest they cause you to sin against Me.”",
       "type": "Negative",
       "parasha": "Mishpatim",
@@ -2175,6 +2983,19 @@
     {
       "id": 95,
       "title": "The commandment of building the Choice House:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Construction",
+        "applies_to": [
+          "Community of Israel"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "When conditions permit",
+        "source_refs": [
+          "Exodus 25:8",
+          "Zevachim 112b"
+        ]
+      },
       "description": "To build a house for the sake of God, meaning to say that we would bring Him sacrifices there and that pilgrimage and yearly gathering of all of Israel be there, as it is stated (Exodus 25:8), “And let them make Me a sanctuary.” And with it, this commandment includes the vessels needed for the service of the House of God — such as the menorah, the table, the altar, and all of the other vessels.",
       "type": "Positive",
       "parasha": "Terumah",
@@ -2205,6 +3026,19 @@
     {
       "id": 96,
       "title": "To not remove the poles of the ark from it:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Vessels",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 25:15",
+          "Yoma 72a"
+        ]
+      },
       "description": "To not remove the poles of the ark from the rings, as it is stated (Exodus 25:15), “The poles shall be in the rings of the ark; they shall not be removed from it.” And it is elucidated that this commandment is among the commandments practiced throughout the generations. As the understanding of “practiced throughout the generations” is not that the doing of that commandment never cease from Israel ever at any time. Rather the matter is like this: Any commandment that was only commanded to do at a specific time and not more — such as that which is written (Exodus 19:15), “Be in preparation for three days”; and so [too,] the warning of Sinai (Exodus 34:3), “neither shall the flocks and the herds graze across from that mountain”; and all that is similar to it, wherein the command was only temporary — those are called commandments that are not practiced throughout the generations. But any commandment that we were not commanded about [only] for a specific time — even though there is a pause at any given time because of our exile or by reason of something else, such as now when, on account of our sins, we do not have the ark — is called a commandment practiced throughout the generations. As any time that we have the ark, we are obligated not to remove its poles from it, so that the Levites [may] take [the ark] out with them, if we need to bring it from one place to another place as a result of war or from whatever reason that [may] arise.",
       "type": "Negative",
       "parasha": "Terumah",
@@ -2222,6 +3056,19 @@
     {
       "id": 97,
       "title": "The commandment of arranging the bread of display and the frankincense:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Service",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 25:30",
+          "Menachot 99b"
+        ]
+      },
       "description": "To always place bread in the Temple in front of God, as it is stated (Exodus 25:30), “And on the table you shall set the bread of display, to be before Me always.” (See Sefer HaMitzvot, Positive Commandments 27.)",
       "type": "Positive",
       "parasha": "Terumah",
@@ -2241,6 +3088,19 @@
     {
       "id": 98,
       "title": "The commandment of arranging lights in the Temple:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Service",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 27:21",
+          "Yoma 14b"
+        ]
+      },
       "description": "To prepare perpetual lights in front of God, may He be blessed, as it stated (Exodus 27:21), “Aharon and his sons will arrange it,” meaning to say, he will set it up in front of God, may He be blessed. And this is the law of preparing the lights that is mentioned in the Gemara (Yoma 14b).",
       "type": "Positive",
       "parasha": "Tetzaveh",
@@ -2260,6 +3120,19 @@
     {
       "id": 99,
       "title": "The commandment of wearing the priestly clothes:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Garments",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 28:4",
+          "Zevachim 17b"
+        ]
+      },
       "description": "That the priests were commanded to wear special clothes for aggrandizement and glory — and then they may serve in the Temple — as it is stated (Exodus 28:4), “and they shall make priestly clothes for Aharon your brother and his sons.”",
       "type": "Positive",
       "parasha": "Tetzaveh",
@@ -2280,6 +3153,19 @@
     {
       "id": 100,
       "title": "That the breastplate not move from on top of the apron:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Garments",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 28:28",
+          "Yoma 72a"
+        ]
+      },
       "description": "That we not move the breastplate from on top of the apron. And above we have already mentioned the matter of the breastplate and the apron, which are two of the eight clothes of the high priest. And the breastplate was set in line [and] in front of the heart of the priest. And the apron is behind him across from the breastplate that is in front of him. And there was within the apron, from the cloth of the apron itself, like a type of two handles that come out from it, that the priest girds himself with; and it is called the band (<i>cheshev</i>) of the apron. And after he girds himself with the band of the apron, and placed the breastplate on his heart, it would sit under the breastplate. And Scripture commanded to tie rings that were fixed onto the breastplate and rings that were fixed onto the apron with a string of blue (<i>tekhelet</i>), so that the breastplate would be set upon the band in a fixed and dignified way. As if he did not tie them with those rings, the breastplate would wander and be separated from the band of the apron and bang upon the chamber of the priest’s heart. And about this is it stated (Exodus 28:28), “and the breastplate shall not budge from the apron” — meaning to say from upon the band of the apron. And its [official Aramaic] translation (Onkelos) is to break apart (<i>yitparak</i>). And one who severs its connection at the time of the service is lashed for this negative commandment.",
       "type": "Positive",
       "parasha": "Tetzaveh",
@@ -2298,6 +3184,19 @@
     {
       "id": 101,
       "title": "To not tear the coat of the priests:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Garments",
+        "applies_to": [
+          "All Jews"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 28:32",
+          "Yoma 72b"
+        ]
+      },
       "description": "To not tear the opening of the coat of the high priest, as it is stated (Exodus 28:32), “it shall not be torn.”",
       "type": "Negative",
       "parasha": "Tetzaveh",
@@ -2315,6 +3214,19 @@
     {
       "id": 102,
       "title": "The commandment of eating the meat of sin-offerings and guilt-offerings:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Consumption",
+        "applies_to": [
+          "Male priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "When Temple exists",
+        "source_refs": [
+          "Exodus 29:33",
+          "Pesachim 59b"
+        ]
+      },
       "description": "That the priests were commanded to eat the meat of some of the sacrifices — such as the guilt-offering and the sin-offering, as it is stated about them (Exodus 29:33), “They shall eat that with which atonement was done.” And they, may their memory be blessed, said (Pesachim 59b), “The priests eat, and the owners are atoned.” And with God’s help, we will write about the matter of the procedure of the sin-offering and the guilt-offering, how they would do it, and the time of its eating in their Order (Sefer HaChinukh 138, 140). And the principle of the matter is that all the meat of the sacrifices of the sin-offering and the guilt-offering was eaten by the males of the priesthood in the [Temple] yard, except for their entrails; and the owners do not have any [part] in it. And there it will also be explained what are the parts that are to be burned. And also included in this positive commandment is that they eat the portion that is coming to them from the group of sacrifices called lightly consecrated. And the eating of the priestly tithe is also included in the commandment. However, the eating of the lightly consecrated, and so [too,] the priestly tithe, is not like the eating of the meat of a sin-offering and a guilt-offering. As with the eating of a sin-offering and a guilt-offering, the atonement of the penitent is accomplished — as they, may their memory be blessed, said, “The priests eat, and the owners are atoned.” But the eating of the lightly consecrated and the priestly tithe does not add or subtract from the commandment of the one who brings [the sacrifice] or gives the [tithe].",
       "type": "Positive",
       "parasha": "Tetzaveh",
@@ -2333,6 +3245,19 @@
     {
       "id": 103,
       "title": "The commandment of burning the incense:",
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Service",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Daily",
+        "source_refs": [
+          "Exodus 30:7",
+          "Keritot 6a"
+        ]
+      },
       "description": "That the priests were commanded to burn the incense of spices twice every day upon the golden altar, as it is stated (Exodus 30:7), “And Aharon will burn incense of spices each morning in his arranging, etc.” And in each and every year, it is a commandment upon them to make some of it so as to burn it, as we have said. And its making and the commandment [of burning] that is done with it every day is considered one commandment, since the end of the commandment of making it is only to burn it. And even though we find two passages of commandment between the making and the burning — as it is stated about its making in <i>Parashat Ki Tissa</i> (Exodus 30:34), “Take for yourself spices, etc.” and here it is written, “And Aharon will burn incense, etc.” — nonetheless, I have seen that the enumerators of the commandments count it all as one commandment, and there is no disagreement about this among them at all. But they do disagree about another matter in it — as Rambam, may his memory be blessed, counts the burning in the morning and in the evening as one commandment, but Ramban (at the end of <i>Sefer HaMitzvot</i>), may his memory be blessed, counts them as two. And his proofs are in his book.",
       "type": "Positive",
       "parasha": "Tetzaveh",
@@ -2363,7 +3288,19 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 20
+      "global_parasha_order": 20,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Service",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Exodus 30:9"
+        ]
+      }
     },
     {
       "id": 105,
@@ -2381,7 +3318,20 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Temple Maintenance",
+        "applies_to": [
+          "All Jewish males 20 years and older"
+        ],
+        "location": "Anywhere (paid to Temple)",
+        "time_scope": "Annual during Temple times",
+        "source_refs": [
+          "Exodus 30:13",
+          "Mishnah Shekalim 4"
+        ]
+      }
     },
     {
       "id": 106,
@@ -2400,7 +3350,20 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Purity",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Before each service during Temple times",
+        "source_refs": [
+          "Exodus 30:19-20",
+          "Zevachim 19b"
+        ]
+      }
     },
     {
       "id": 107,
@@ -2418,7 +3381,23 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Anointing Oil",
+        "applies_to": [
+          "Kohanim",
+          "High Priests",
+          "Kings of House of David"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Exodus 30:25",
+          "Leviticus 21:10",
+          "Sifrei Bamidbar 44"
+        ]
+      }
     },
     {
       "id": 108,
@@ -2436,7 +3415,20 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Anointing Oil",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere the oil is found",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 30:32-33",
+          "Keritot 5b-6b"
+        ]
+      }
     },
     {
       "id": 109,
@@ -2453,7 +3445,20 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Anointing Oil",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 30:32",
+          "Keritot 5b"
+        ]
+      }
     },
     {
       "id": 110,
@@ -2471,7 +3476,20 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Incense",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 30:37-38",
+          "Keritot 5a-6a"
+        ]
+      }
     },
     {
       "id": 111,
@@ -2495,7 +3513,21 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Idolatry and Forbidden Practices",
+        "sub_category": "Idolatry",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 34:12-15",
+          "Deuteronomy 13:18",
+          "Avodah Zarah 51b-74a"
+        ]
+      }
     },
     {
       "id": 112,
@@ -2509,7 +3541,21 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Agricultural Laws and Gifts",
+        "sub_category": "Sabbatical Year",
+        "applies_to": [
+          "All landowners in Israel"
+        ],
+        "location": "Land of Israel",
+        "time_scope": "Seventh year",
+        "source_refs": [
+          "Exodus 34:21",
+          "Leviticus 25:2-5",
+          "Exodus 23:11"
+        ]
+      }
     },
     {
       "id": 113,
@@ -2531,7 +3577,21 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 21
+      "global_parasha_order": 21,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Meat and Milk",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Exodus 34:26",
+          "Chullin 108a-115b",
+          "Pesachim 25a"
+        ]
+      }
     },
     {
       "id": 114,
@@ -2549,7 +3609,21 @@
       "book_he": "שמות",
       "book_order": 2,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 22
+      "global_parasha_order": 22,
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Courts and Judicial Procedure",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Shabbat",
+        "source_refs": [
+          "Exodus 35:3",
+          "Yevamot 6b",
+          "Talmud Yerushalmi Sanhedrin 4:6"
+        ]
+      }
     },
     {
       "id": 115,
@@ -2568,7 +3642,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Burnt Offerings",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 1:3-9",
+          "Mishnah Tamid 4",
+          "Yoma 26b"
+        ]
+      }
     },
     {
       "id": 116,
@@ -2587,7 +3675,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Meal Offerings",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 2:1-11",
+          "Menachot 68b",
+          "Sotah 14b"
+        ]
+      }
     },
     {
       "id": 117,
@@ -2609,7 +3711,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Peace Offerings",
+        "applies_to": [
+          "Priests",
+          "Offerers"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 3:1"
+        ]
+      }
     },
     {
       "id": 118,
@@ -2627,7 +3742,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sin Offerings",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 4:1"
+        ]
+      }
     },
     {
       "id": 119,
@@ -2645,7 +3772,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Guilt Offerings",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:15"
+        ]
+      }
     },
     {
       "id": 120,
@@ -2666,7 +3805,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sacrificial Procedures",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:2"
+        ]
+      }
     },
     {
       "id": 121,
@@ -2684,7 +3835,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sin Offerings (Fixed)",
+        "applies_to": [
+          "Individuals who sinned inadvertently"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 4:27-31",
+          "Horayot 9a",
+          "Makkot 13b"
+        ]
+      }
     },
     {
       "id": 122,
@@ -2706,7 +3871,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Judicial Law",
+        "sub_category": "Witness Testimony",
+        "applies_to": [
+          "Adult Jewish men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 5:1",
+          "Mishneh Torah: Edut 1:1",
+          "Bava Kamma 55b"
+        ]
+      }
     },
     {
       "id": 123,
@@ -2731,7 +3910,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Variable Offering (Oleh VeYored)",
+        "applies_to": [
+          "Individuals (Temple impurity, consecrated foods, oaths)"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:1-13",
+          "Shevuot 6b"
+        ]
+      }
     },
     {
       "id": 124,
@@ -2750,7 +3942,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Bird Sin-Offering Procedure",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:8",
+          "Zevachim 65a"
+        ]
+      }
     },
     {
       "id": 125,
@@ -2768,7 +3973,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sinner's Meal-Offering",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:11",
+          "Menachot 59b",
+          "Menachot 76b"
+        ]
+      }
     },
     {
       "id": 126,
@@ -2782,7 +4001,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sinner's Meal-Offering",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:11",
+          "Menachot 59b"
+        ]
+      }
     },
     {
       "id": 127,
@@ -2801,7 +4033,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Me'ilah (Trespass) and Restitution",
+        "applies_to": [
+          "Anyone who misused consecrated property"
+        ],
+        "location": "Payment anywhere; offering in Temple",
+        "time_scope": "During Temple times (for offering)",
+        "source_refs": [
+          "Leviticus 5:15-16",
+          "Kiddushin 54b",
+          "Meilah 19b"
+        ]
+      }
     },
     {
       "id": 128,
@@ -2819,7 +4065,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Guilt Offerings (Asham Talui)",
+        "applies_to": [
+          "Individuals in doubt of excision-level sin"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:17-18",
+          "Keritot 25a"
+        ]
+      }
     },
     {
       "id": 129,
@@ -2843,7 +4102,27 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Guilt Offerings (Asham Vadai)",
+        "applies_to": [
+          "Thief/denier",
+          "Me'ilah offender",
+          "Designated maidservant case",
+          "Nazir",
+          "Metzora"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 5:20-26",
+          "Leviticus 19:20-21",
+          "Keritot 9a",
+          "Keritot 22b",
+          "Mishnah Zevachim 5:5"
+        ]
+      }
     },
     {
       "id": 130,
@@ -2865,7 +4144,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 24
+      "global_parasha_order": 24,
+      "classification": {
+        "category": "Civil and Tort Law",
+        "sub_category": "Theft Restitution",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 5:23",
+          "Bava Kamma 66a",
+          "Bava Kamma 66b",
+          "Bava Kamma 102a"
+        ]
+      }
     },
     {
       "id": 131,
@@ -2884,7 +4178,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Terumat HaDeshen (Lifting Ashes)",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Daily during Temple times",
+        "source_refs": [
+          "Leviticus 6:3-4",
+          "Yoma 23b"
+        ]
+      }
     },
     {
       "id": 132,
@@ -2905,7 +4212,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Altar Fire (Perpetual)",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Daily during Temple times",
+        "source_refs": [
+          "Leviticus 6:5-6",
+          "Yoma 21b",
+          "Yoma 43b-45b"
+        ]
+      }
     },
     {
       "id": 133,
@@ -2923,7 +4244,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Altar Fire (Do Not Extinguish)",
+        "applies_to": [
+          "Priests",
+          "Israelites"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:6",
+          "Yoma 46b"
+        ]
+      }
     },
     {
       "id": 134,
@@ -2941,7 +4276,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Consumption - Mincha",
+        "applies_to": [
+          "Male priests"
+        ],
+        "location": "Temple precincts",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:9-11",
+          "Menachot 72b"
+        ]
+      }
     },
     {
       "id": 135,
@@ -2958,7 +4306,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Meal Offerings - Chametz Prohibition",
+        "applies_to": [
+          "Priests",
+          "Israelites"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:10",
+          "Menachot 55a",
+          "Menachot 56a"
+        ]
+      }
     },
     {
       "id": 136,
@@ -2976,7 +4339,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "High Priest Daily Mincha (Chavitin)",
+        "applies_to": [
+          "High Priest"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "Daily during Temple times",
+        "source_refs": [
+          "Leviticus 6:13",
+          "Menachot 50b"
+        ]
+      }
     },
     {
       "id": 137,
@@ -2994,7 +4370,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Meal-Offering (Not Eaten)",
+        "applies_to": [
+          "Priests",
+          "Israelites"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:16",
+          "Menachot 72b"
+        ]
+      }
     },
     {
       "id": 138,
@@ -3014,7 +4404,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Sin-Offering Procedures",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:18",
+          "Zevachim"
+        ]
+      }
     },
     {
       "id": 139,
@@ -3031,7 +4434,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Inner Sin-Offerings (Not Eaten)",
+        "applies_to": [
+          "Priests",
+          "Israelites"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 6:23",
+          "Zevachim 81b"
+        ]
+      }
     },
     {
       "id": 140,
@@ -3048,7 +4465,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Guilt-Offering Procedures",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 7:1"
+        ]
+      }
     },
     {
       "id": 141,
@@ -3068,7 +4497,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Peace-Offering Procedures",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 3:1",
+          "Leviticus 7:11-12",
+          "Menachot 107b"
+        ]
+      }
     },
     {
       "id": 142,
@@ -3082,7 +4525,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Notar (No Leftovers)",
+        "applies_to": [
+          "Offerers",
+          "Priests"
+        ],
+        "location": "Jerusalem/Temple",
+        "time_scope": "Day of offering until night",
+        "source_refs": [
+          "Leviticus 7:15"
+        ]
+      }
     },
     {
       "id": 143,
@@ -3100,7 +4556,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Burning Notar",
+        "applies_to": [
+          "Priests",
+          "Owners"
+        ],
+        "location": "Temple or city (as applicable)",
+        "time_scope": "When leftover occurs (Temple times)",
+        "source_refs": [
+          "Leviticus 7:17",
+          "Exodus 12:10",
+          "Pesachim 82b"
+        ]
+      }
     },
     {
       "id": 144,
@@ -3121,7 +4592,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Piggul (Prohibited Eating)",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 7:18",
+          "Zevachim 28b-29a",
+          "Exodus 29:34",
+          "Deuteronomy 14:3"
+        ]
+      }
     },
     {
       "id": 145,
@@ -3139,7 +4625,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Impure Sacrificial Meat (Prohibition)",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 7:19",
+          "Makkot 14b"
+        ]
+      }
     },
     {
       "id": 146,
@@ -3157,7 +4656,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Burning Impure Sacrificial Meat",
+        "applies_to": [
+          "Priests",
+          "Owners"
+        ],
+        "location": "Temple or city (as applicable)",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 7:19",
+          "Mishnah Shekalim 8:6"
+        ]
+      }
     },
     {
       "id": 147,
@@ -3177,7 +4690,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Forbidden Fats (Chelev)",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 7:23",
+          "Keritot 4b",
+          "Chullin 93a"
+        ]
+      }
     },
     {
       "id": 148,
@@ -3203,7 +4730,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 25
+      "global_parasha_order": 25,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Blood Prohibition",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 7:26",
+          "Leviticus 17:11",
+          "Keritot 21a-22a",
+          "Chullin 112b"
+        ]
+      }
     },
     {
       "id": 149,
@@ -3222,7 +4764,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Conduct - Grooming",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 10:6",
+          "Ezekiel 44:20",
+          "Sanhedrin 22b"
+        ]
+      }
     },
     {
       "id": 150,
@@ -3240,7 +4796,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priestly Conduct - Garments",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple in Jerusalem",
+        "time_scope": "During Temple times",
+        "source_refs": [
+          "Leviticus 10:6",
+          "Leviticus 21:10"
+        ]
+      }
     },
     {
       "id": 151,
@@ -3260,7 +4829,18 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Priesthood conduct and service protocol",
+        "applies_to": "Priests (Kohanim); High Priest (extension)",
+        "location": "Temple",
+        "time_scope": "When the Temple stands; during service",
+        "source_refs": [
+          "Leviticus 10:7",
+          "Leviticus 21:12"
+        ]
+      }
     },
     {
       "id": 152,
@@ -3282,7 +4862,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Entry/service restrictions; rulings while intoxicated",
+        "applies_to": "Priests (service); all judges/deciders (rulings)",
+        "location": "Temple (service); Anywhere (rulings)",
+        "time_scope": "When the Temple stands (service); Always (rulings)",
+        "source_refs": [
+          "Leviticus 10:9-11"
+        ]
+      }
     },
     {
       "id": 153,
@@ -3300,7 +4890,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Kashrut signs — land animals",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:2-3",
+          "Leviticus 11:47",
+          "Leviticus 20:25"
+        ]
+      }
     },
     {
       "id": 154,
@@ -3319,7 +4921,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited species — land animals",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:4-7"
+        ]
+      }
     },
     {
       "id": 155,
@@ -3337,7 +4949,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Kashrut signs — fish",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:9"
+        ]
+      }
     },
     {
       "id": 156,
@@ -3355,7 +4977,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited species — fish without fins and scales",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:11"
+        ]
+      }
     },
     {
       "id": 157,
@@ -3377,7 +5009,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited species — impure birds",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:13"
+        ]
+      }
     },
     {
       "id": 158,
@@ -3394,7 +5036,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Kashrut signs — locusts/grasshoppers",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:21-22"
+        ]
+      }
     },
     {
       "id": 159,
@@ -3417,7 +5069,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — eight swarming creatures (sheratzim)",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "When the Temple stands (practical implications)",
+        "source_refs": [
+          "Leviticus 11:29-31"
+        ]
+      }
     },
     {
       "id": 160,
@@ -3438,7 +5100,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — foods and drinks",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "When the Temple stands (practical implications)",
+        "source_refs": [
+          "Leviticus 11:34"
+        ]
+      }
     },
     {
       "id": 161,
@@ -3455,7 +5127,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — carcass (nevelah)",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "When the Temple stands (practical implications)",
+        "source_refs": [
+          "Leviticus 11:39-40"
+        ]
+      }
     },
     {
       "id": 162,
@@ -3473,7 +5155,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited species — swarming things of the ground",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:41-42"
+        ]
+      }
     },
     {
       "id": 163,
@@ -3500,7 +5192,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited — insects from produce (when considered ‘of the ground’)",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:42"
+        ]
+      }
     },
     {
       "id": 164,
@@ -3521,7 +5223,18 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited species — swarming creatures of the waters",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:10",
+          "Leviticus 11:43"
+        ]
+      }
     },
     {
       "id": 165,
@@ -3539,7 +5252,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 26
+      "global_parasha_order": 26,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Prohibited species — creatures from decay",
+        "applies_to": "All Israelites",
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 11:44-45"
+        ]
+      }
     },
     {
       "id": 166,
@@ -3563,7 +5286,18 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — woman after childbirth (yoledet)",
+        "applies_to": "Women postpartum",
+        "location": "Anywhere",
+        "time_scope": "When the Temple stands (practical implications)",
+        "source_refs": [
+          "Leviticus 12:2",
+          "Leviticus 12:5"
+        ]
+      }
     },
     {
       "id": 167,
@@ -3581,7 +5315,18 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Consumption of consecrated foods — purity required",
+        "applies_to": "All who eat consecrated foods (priests and Israelites)",
+        "location": "Sancta consumption",
+        "time_scope": "When the Temple stands",
+        "source_refs": [
+          "Leviticus 12:4",
+          "Leviticus 7:20"
+        ]
+      }
     },
     {
       "id": 168,
@@ -3599,7 +5344,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Offerings — woman after childbirth",
+        "applies_to": "Women postpartum",
+        "location": "Temple",
+        "time_scope": "When the Temple stands",
+        "source_refs": [
+          "Leviticus 12:6-8"
+        ]
+      }
     },
     {
       "id": 169,
@@ -3622,7 +5377,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — tzaraat of a person (metsora)",
+        "applies_to": "Anyone with suspected tzaraat; priests for determination",
+        "location": "Anywhere (requires priestly determination)",
+        "time_scope": "When priests qualified to inspect are available",
+        "source_refs": [
+          "Leviticus 13:2"
+        ]
+      }
     },
     {
       "id": 170,
@@ -3640,7 +5405,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tzaraat — prohibition to shave netek lesion",
+        "applies_to": "Anyone with a netek (scalp/beard scab)",
+        "location": "Anywhere",
+        "time_scope": "When priests adjudicate tzaraat",
+        "source_refs": [
+          "Leviticus 13:33"
+        ]
+      }
     },
     {
       "id": 171,
@@ -3660,7 +5435,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tzaraat — conduct and public declaration",
+        "applies_to": "Metzora (confirmed)",
+        "location": "Outside the camp/city; public spaces",
+        "time_scope": "When applicable (during affliction)",
+        "source_refs": [
+          "Leviticus 13:45-46"
+        ]
+      }
     },
     {
       "id": 172,
@@ -3678,7 +5463,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 27
+      "global_parasha_order": 27,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tzaraat — garments",
+        "applies_to": "Owners of affected garments; priests (inspection)",
+        "location": "Anywhere",
+        "time_scope": "When priests adjudicate tzaraat",
+        "source_refs": [
+          "Leviticus 13:47-59"
+        ]
+      }
     },
     {
       "id": 173,
@@ -3697,7 +5492,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tzaraat — purification procedure (cedar, hyssop, birds)",
+        "applies_to": "Metzora (person/garment/house) in purification",
+        "location": "Outside/near Temple as prescribed",
+        "time_scope": "When the Temple stands / priests officiate",
+        "source_refs": [
+          "Leviticus 14:2-9"
+        ]
+      }
     },
     {
       "id": 174,
@@ -3718,7 +5523,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tzaraat — second shaving on seventh day",
+        "applies_to": "Metzora in purification",
+        "location": "Anywhere",
+        "time_scope": "When priests adjudicate tzaraat",
+        "source_refs": [
+          "Leviticus 14:9"
+        ]
+      }
     },
     {
       "id": 175,
@@ -3742,7 +5557,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "General — immersion (mikveh)",
+        "applies_to": "All Israelites",
+        "location": "Mikveh or flowing spring",
+        "time_scope": "Always (for purification)",
+        "source_refs": [
+          "Leviticus 14:9"
+        ]
+      }
     },
     {
       "id": 176,
@@ -3760,7 +5585,18 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Offerings — metzora on the eighth day",
+        "applies_to": "Metzora (lacking atonement)",
+        "location": "Temple",
+        "time_scope": "When the Temple stands",
+        "source_refs": [
+          "Leviticus 14:10-20",
+          "Leviticus 14:21-32"
+        ]
+      }
     },
     {
       "id": 177,
@@ -3778,7 +5614,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tzaraat — houses",
+        "applies_to": "Homeowners in Eretz Israel; priests (inspection)",
+        "location": "Eretz Israel",
+        "time_scope": "When priests adjudicate tzaraat",
+        "source_refs": [
+          "Leviticus 14:35-53"
+        ]
+      }
     },
     {
       "id": 178,
@@ -3798,7 +5644,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — zav (male discharge)",
+        "applies_to": "Men experiencing zav discharge",
+        "location": "Anywhere",
+        "time_scope": "When the Temple stands (practical implications)",
+        "source_refs": [
+          "Leviticus 15:2-15"
+        ]
+      }
     },
     {
       "id": 179,
@@ -3816,7 +5672,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Temple and Sacrifices",
+        "sub_category": "Offerings — zav on the eighth day",
+        "applies_to": "Men who were zav and recovered (lacking atonement)",
+        "location": "Temple",
+        "time_scope": "When the Temple stands",
+        "source_refs": [
+          "Leviticus 15:13-15"
+        ]
+      }
     },
     {
       "id": 180,
@@ -3834,7 +5700,17 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Tumah — semen emission",
+        "applies_to": "Men (and those who come in contact)",
+        "location": "Anywhere",
+        "time_scope": "When the Temple stands (practical implications)",
+        "source_refs": [
+          "Leviticus 15:16-18"
+        ]
+      }
     },
     {
       "id": 181,
@@ -4501,7 +6377,9 @@
       "type": "Negative",
       "parasha": "Kedoshim",
       "full_text": "<b>To not finish the corner in the field:</b> Not to harvest all of what is planted, but rather to leave a remnant from it in the edge of the field for the poor, as it is stated (Leviticus 23:22), “you shall not finish the corner of your field in your harvesting.” And this negative commandment is rectified by a positive commandment, as it is stated (Leviticus 19:10), “to the poor and to the stranger shall you leave them, etc.” — meaning to say, that if he transgressed and harvested all of the field, that he give the measure of the corner to the poor from that which is harvested. And that is rabbinically one in sixty parts, as they obligated us so; but from the Torah, it has no measure, as we learned in Mishnah Peah 1:1, “These are the things that do not have a measure: the corner, etc.”",
-      "details": ["I have written above what I have known about the roots of the commandment, its laws and all of its content on the positive commandment in this Order (Sefer HaChinukh 216)."],
+      "details": [
+        "I have written above what I have known about the roots of the commandment, its laws and all of its content on the positive commandment in this Order (Sefer HaChinukh 216)."
+      ],
       "book_en": "Vayikra",
       "book_he": "ויקרא",
       "book_order": 3,
@@ -4577,7 +6455,9 @@
       "type": "Positive",
       "parasha": "Kedoshim",
       "full_text": "<b>The commandment of leaving the <i>peret</i> of the vineyard:</b> To leave the <i>peret</i> of the vineyard to the poor. And that is that which separates and falls from the grapes at the time of the grape harvest, as it is stated (Leviticus 19:10), “to the poor and to the stranger shall you leave them,” after it mentioned, “and the fallen grapes of your vineyard, you shall not gather.”",
-      "details": ["And I will write all of the matters of the commandment in the negative commandment after this of “do not gather” (Sefer HaChinukh 223), with God’s help."],
+      "details": [
+        "And I will write all of the matters of the commandment in the negative commandment after this of “do not gather” (Sefer HaChinukh 223), with God’s help."
+      ],
       "book_en": "Vayikra",
       "book_he": "ויקרא",
       "book_order": 3,
@@ -4939,7 +6819,9 @@
       "type": "Negative",
       "parasha": "Kedoshim",
       "full_text": "<b>To not begrudge:</b> To not begrudge, meaning to say that we have been prevented from bearing a grudge in our hearts [about] an Israelite having done evil to us. And even though we have consented in our souls not to pay him back for his deeds, we have even been prevented from just remembering his sin in the heart. And about this is it stated, (Leviticus 19:18), “you shall not begrudge.” And the language of Sifra, Kedoshim, Chapter 4:11 is “How far is the power of begrudging? If [one] said to [another], ‘Lend me your sickle,’ and he did not lend him. The next day, the [other] said to him, ‘Lend me your spade.’ [So] he said [back] to him, ‘Here it is; I am not like you, who did not lend me your sickle.’ Hence, it is written, ‘you shall not begrudge.’”",
-      "details": ["All of the content of this commandment is like the commandment of vengeance that preceded [it]."],
+      "details": [
+        "All of the content of this commandment is like the commandment of vengeance that preceded [it]."
+      ],
       "book_en": "Vayikra",
       "book_he": "ויקרא",
       "book_order": 3,
@@ -6350,7 +8232,9 @@
       "type": "Positive",
       "parasha": "Emor",
       "full_text": "<b>The commandment of the additional sacrifice on the eighth day of Sukkot, which is called Shemini Atseret:</b> To sacrifice the additional sacrifice on the eighth day of the holiday of Sukkot — and that is the additional [sacrifice] of Shemini Atseret — as it is stated (Leviticus 23:27), “and you shall sacrifice a fire-offering to the Lord; it is an <i>atseret</i> (convocation), etc.” And in the Order of <i>Pinchas</i> (Numbers 29:36-38), it is explained at length. And in the explanation, they, may their memory be blessed, said (Yoma 2b) that it is a festival on its own. And therefore, we should count this additional sacrifice as a commandment on its own.",
-      "details": ["I have already written what my hand has reached from the roots of this commandment and its content many times above."],
+      "details": [
+        "I have already written what my hand has reached from the roots of this commandment and its content many times above."
+      ],
       "book_en": "Vayikra",
       "book_he": "ויקרא",
       "book_order": 3,
@@ -7221,7 +9105,9 @@
       "type": "Positive",
       "parasha": "Nasso",
       "full_text": "<b>That the nazirite not eat damp grapes:</b> That the nazirite not eat damp (fresh) grapes, as it is stated (Numbers 6:3), “and damp, etc. grapes shall he not eat.” And they, may their memory be blessed, said in Tractate Nazir 35b, “‘And damp [etc.] grapes, shall he not eat’ [is to include] unripe fruit (<i>boser</i>).” The entire content of this commandment is [found] in the commandment before it (Sefer HaChinukh 368).",
-      "details": ["I will write from the roots of the matter of naziriteness below in the commandment of growing the hair of the nazirite (Sefer HaChinukh 374)."],
+      "details": [
+        "I will write from the roots of the matter of naziriteness below in the commandment of growing the hair of the nazirite (Sefer HaChinukh 374)."
+      ],
       "book_en": "Bamidbar",
       "book_he": "במדבר",
       "book_order": 4,
@@ -7618,7 +9504,9 @@
       "type": "Negative",
       "parasha": "Korach",
       "full_text": "<b>To not nullify the guarding of the Temple:</b> To not nullify the guarding of the Temple, [but rather] to always walk around it every night, as it is stated (Numbers 18:5), “And you shall guard the guarding of the Holy.” And it is well-known that the expression of guarding takes the place of a negative commandment. And [it is] as they, may their memory be blessed, said (Eruvin 96a), “Every place in which it is stated, ‘guard yourself,’ ‘lest,’ and ‘not,’ is nothing but a negative commandment.” And they said in <i>Mekhilta</i>, “‘And they shall guard the guarding of the Tent of Meeting’ (Numbers 18:4), — I only [know of] a positive commandment. From where [do I know] a negative commandment? [Hence], we learn to say, ‘And you shall guard the guarding of the Holy.’” To here [are the words of <i>Mekhilta</i>]. And maybe they expounded a positive commandment and a negative commandment when they found two verses teaching one thing. And from the one that comes by way of a command in second person, they learned a negative commandment; and they expounded the command in third person — which is lighter than it — about a positive commandment. And anyone who weighs the things in just scales will concede about this — that the third person is lighter than a command in second person.",
-      "details": ["From the roots of the commandment — with some of its laws — are written, according to the rule of the book, in the first commandment [on this topic] (Sefer HaChinukh 388)."],
+      "details": [
+        "From the roots of the commandment — with some of its laws — are written, according to the rule of the book, in the first commandment [on this topic] (Sefer HaChinukh 388)."
+      ],
       "book_en": "Bamidbar",
       "book_he": "במדבר",
       "book_order": 4,
@@ -8593,7 +10481,9 @@
       "type": "Negative",
       "parasha": "Re'eh",
       "full_text": "<b>To not eat the second tithe of wine outside of Jerusalem:</b> To not eat the second tithe of wine outside of Jerusalem, as it is stated (Deuteronomy 12:17), “You may not eat in your gates, etc. your wine.”",
-      "details": ["The entire content of the commandment of the prohibition of the wine is like the content of the commandment of the grain. There is no need to be long of speech about it."],
+      "details": [
+        "The entire content of the commandment of the prohibition of the wine is like the content of the commandment of the grain. There is no need to be long of speech about it."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
@@ -8810,7 +10700,9 @@
       "type": "Negative",
       "parasha": "Re'eh",
       "full_text": "<b>To not subtract from the commandments of the Torah:</b> That we were prevented from subtracting a thing from that which the perfect Torah commanded us. And about this is it stated (Deuteronomy 13:1), “do not subtract from it.” And how is this prohibition? For example, that which they, may their memory be blessed, said in the third chapter of Rosh Hashanah 28b that if blood that requires one sprinkling is mixed up with blood that requires four sprinklings, “Rabbi Eliezer says, ‘It is to be sprinkled four times.’ And Rabbi Yehoshua says, ‘It is to be sprinkled once — since when you sprinkle four times, you transgress, “do not add,” and you perform an act; whereas when you sprinkle once, even if you transgress “do not subtract,” you do not perform an act.’” To here [is the excerpt from the Talmud]. We know from this that the negative commandment of “do not subtract” is in this way and all that is similar to it.",
-      "details": ["From the roots of the commandment is like the matter that we said in the commandment of “do not add,” that preceded it. And the rest of all of its matters are like it [as well]."],
+      "details": [
+        "From the roots of the commandment is like the matter that we said in the commandment of “do not add,” that preceded it. And the rest of all of its matters are like it [as well]."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
@@ -8842,7 +10734,9 @@
       "type": "Negative",
       "parasha": "Re'eh",
       "full_text": "<b>To not love the seducer:</b> That we have likewise been prevented from bending our ear to the words of a seducer and that we not endear him in any manner. And the content of a seducer is one who seduces one Israelite to worship idolatry, such as one who praises the actions of idolatry to him; and he praises it in order that he will follow it and serve it and leave from under the wings of the Divine Providence. And about this is it stated (Deuteronomy 13:9), “You shall not long for him.”",
-      "details": ["From the roots of the commandment is like the matter that is written in the commandment that precedes it. And its colleague shall speak about all of its laws and practice."],
+      "details": [
+        "From the roots of the commandment is like the matter that is written in the commandment that precedes it. And its colleague shall speak about all of its laws and practice."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
@@ -8873,7 +10767,9 @@
       "type": "Negative",
       "parasha": "Re'eh",
       "full_text": "<b>To not save the seducer:</b> That the seduced is prevented from saving the seducer when he sees him in danger of death and perdition. And about this is it stated (Deuteronomy 13:9), “and your eye shall not be concerned for him.” And so did they, may their memory be blessed, say (Sifrei Devarim 89:3), “Since it is stated (Leviticus 19:16), ‘and you shall not stand over the blood of your neighbor,’ it is possible that you do not stand over [the] blood of this one [too]; [hence] we learn to say, ‘and your eye shall not be concerned for him.’”",
-      "details": ["The root of this commandment is written in the previous [commandments] that come about the seducer. And all of its content is like them."],
+      "details": [
+        "The root of this commandment is written in the previous [commandments] that come about the seducer. And all of its content is like them."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
@@ -9201,7 +11097,9 @@
       "type": "Negative",
       "parasha": "Re'eh",
       "full_text": "<b>To not steel his heart against the poor:</b> Not to withhold kindness and charity from our brother Israelites — and all the more so, from our relatives — in our knowing the weakness of their situation and that we have the ability to assist them. And about this is it stated (Deuteronomy 15:7), “you shall not steel your heart, and you shall not close your hand from your brother, the destitute one” — meaning to say, do not have the traits of stinginess and villainy rule over you, but rather prepare your heart in every way towards the trait of generosity and pity. And do not think that there will be a lack in your money because of the thing; “as because of [this] thing, God will bless you” (Deuteronomy 15:10). And His blessing for one small instant is better for you than several storehouses of gold and silver.",
-      "details": ["I have written in <i>Parashat Mishpatim</i> from its roots and some of its laws and content, as per my custom."],
+      "details": [
+        "I have written in <i>Parashat Mishpatim</i> from its roots and some of its laws and content, as per my custom."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
@@ -10294,7 +12192,9 @@
       "type": "Negative",
       "parasha": "Ki Teitzei",
       "full_text": "<b>To not avoid his eyes from it:</b> That we should not avoid our eye from the lost item of our brother (Bava Metzia 26b), but we [rather] take it and return it to him. And about this is it stated (Deuteronomy 22:3), “you may not ignore [it].”",
-      "details": ["The whole matter of this commandment is written in its [corresponding] positive commandment (Sefer HaChinukh 538) in this Order."],
+      "details": [
+        "The whole matter of this commandment is written in its [corresponding] positive commandment (Sefer HaChinukh 538) in this Order."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
@@ -11436,7 +13336,9 @@
       "type": "Negative",
       "parasha": "Ki Teitzei",
       "full_text": "<b>To not have concern about the pursuer:</b> That we have been prevented from having compassion for the life of the pursuer. And the elucidation of this commandment is like I have written in its positive commandment in this Order (Sefer HaChinukh 600): That the tradition came to us about two sins — which are murder and sexual prohibitions — that if we see him pursuing to do one of them, we must always prevent him with all of our strength. And if he does not want to desist with words from doing the sin, and we are able to save from his hand the man or woman pursued, with one of his limbs, we must chop it off. And if it is impossible for us to save the pursued if we do not kill the pursuer, we must kill him. And about this comes the prevention to us, that we should not have compassion upon him; but rather we should kill him nonetheless — if it is impossible for us to save the pursued in any other way than by [taking] his life. And about this is it stated (Deuteronomy 25:12), “You shall cut off her hand; show no pity.” And the language of Sifrei is “‘You shall cut off her hand’ teaches that you are obligated to save him with her hand. And from where [do I know even] with his life? [Hence,] it teaches us to say, ‘show no pity.’”",
-      "details": ["And the roots of the commandment and its content is elucidated — as is the custom of the book — in its positive commandment (Sefer HaChinukh 600) in this Order."],
+      "details": [
+        "And the roots of the commandment and its content is elucidated — as is the custom of the book — in its positive commandment (Sefer HaChinukh 600) in this Order."
+      ],
       "book_en": "Devarim",
       "book_he": "דברים",
       "book_order": 5,
