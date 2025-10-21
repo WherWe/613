@@ -79,6 +79,13 @@
 
       <div class="error" id="error" style="display: none">Error loading mitzvot data. Please check that mitzvot_data.json is available.</div>
 
+      <div class="table-language-toggle" id="tableLanguageToggle" style="display: none">
+        <label>Description Language:</label>
+        <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">English</button>
+        <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עברית</button>
+        <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
+      </div>
+
       <div class="table-container" id="tableContainer" style="display: none">
         <table id="mitzvotTable">
           <thead>
@@ -204,6 +211,7 @@
           this.sortField = "id";
           this.sortDirection = "asc";
           this.currentLanguage = "en";
+          this.tableLanguage = "en"; // Language for table descriptions
           this.currentMitzvahId = null;
 
           // Track which mitzvot have images available
@@ -660,9 +668,9 @@
                         </div>
                     </div>
                 `;
-          
+
           // Initialize Lucide icons
-          if (typeof lucide !== 'undefined') {
+          if (typeof lucide !== "undefined") {
             lucide.createIcons();
           }
         }
@@ -800,8 +808,24 @@
           const pageData = this.filteredData.slice(startIndex, endIndex);
 
           tableBody.innerHTML = pageData
-            .map(
-              (mitzvah) => `
+            .map((mitzvah) => {
+              // Find corresponding Hebrew data
+              const mitzvahHe = this.heData ? this.heData.mitzvot.find((m) => m.id === mitzvah.id) : null;
+
+              // Build description based on selected language
+              let descriptionHtml = "";
+              if (this.tableLanguage === "en") {
+                descriptionHtml = this.truncateText(mitzvah.description, 150);
+              } else if (this.tableLanguage === "he" && mitzvahHe && mitzvahHe.description) {
+                descriptionHtml = `<span class="text-he" lang="he" dir="rtl">${this.truncateText(mitzvahHe.description, 150)}</span>`;
+              } else if (this.tableLanguage === "both") {
+                descriptionHtml = `<div>${this.truncateText(mitzvah.description, 150)}</div>`;
+                if (mitzvahHe && mitzvahHe.description) {
+                  descriptionHtml += `<div class="text-he" lang="he" dir="rtl" style="margin-top: 8px; font-size: 0.95em;">${this.truncateText(mitzvahHe.description, 150)}</div>`;
+                }
+              }
+
+              return `
           <tr>
             <td class="mitzvah-number">${mitzvah.id}</td>
             <td><span class="mitzvah-type ${mitzvah.type.toLowerCase()}">${mitzvah.type}</span></td>
@@ -810,7 +834,7 @@
               ${mitzvah.title_he ? `<div class="title-he" lang="he" dir="rtl">${mitzvah.title_he}</div>` : ""}
             </td>
             <td class="classification-icons">${this.getClassificationIcons(mitzvah)}</td>
-            <td class="description">${this.truncateText(mitzvah.description, 150)}</td>
+            <td class="description">${descriptionHtml}</td>
             <td class="parasha">${mitzvah.parasha}</td>
             <td>
               <div class="details-actions">
@@ -827,12 +851,13 @@
               </div>
             </td>
           </tr>
-        `
-            )
+        `;
+            })
             .join("");
 
-          // Show table container
+          // Show table container and language toggle
           document.getElementById("tableContainer").style.display = "block";
+          document.getElementById("tableLanguageToggle").style.display = "block";
           document.getElementById("loading").style.display = "none";
         }
 
@@ -914,6 +939,21 @@
           if (this.currentMitzvahId) {
             this.renderSidebarContent();
           }
+        }
+
+        setTableLanguage(lang) {
+          this.tableLanguage = lang;
+
+          // Update active button
+          document.querySelectorAll(".table-lang-btn").forEach((btn) => {
+            btn.classList.remove("active");
+            if (btn.dataset.lang === lang) {
+              btn.classList.add("active");
+            }
+          });
+
+          // Re-render table with new language
+          this.renderTable();
         }
 
         renderSidebarContent() {
