@@ -39,6 +39,7 @@ try {
 
   // Fontsource families (copy entire dirs so CSS relative font URLs keep working)
   copyDir(path.join(ROOT, "node_modules", "@fontsource", "cardo"), path.join(vendor, "@fontsource", "cardo"));
+  copyDir(path.join(ROOT, "node_modules", "@fontsource", "roboto"), path.join(vendor, "@fontsource", "roboto"));
   copyDir(path.join(ROOT, "node_modules", "@fontsource", "noto-serif-hebrew"), path.join(vendor, "@fontsource", "noto-serif-hebrew"));
 
   // Lucide icons

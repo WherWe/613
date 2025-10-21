@@ -1,4 +1,7 @@
 /* Local self-hosted fonts via Fontsource */
+@import url("../vendor/@fontsource/roboto/400.css");
+@import url("../vendor/@fontsource/roboto/500.css");
+@import url("../vendor/@fontsource/roboto/700.css");
 @import url("../vendor/@fontsource/cardo/400.css");
 @import url("../vendor/@fontsource/cardo/700.css");
 @import url("../vendor/@fontsource/noto-serif-hebrew/400.css");
@@ -6,6 +9,18 @@
 
 /* Base font stacks */
 body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/* Use Cardo for table and for writings content areas */
+table,
+#mitzvotTable,
+#mitzvotTable th,
+#mitzvotTable td,
+.sidebar-section h3,
+.sidebar-section p,
+.interlinear-en,
+.mtg-card, .mtg-card * {
   font-family: "Cardo", Georgia, "Times New Roman", serif;
 }
 
