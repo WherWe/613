@@ -126,6 +126,24 @@ body {
   padding: 15px 25px;
   border-radius: 10px;
   backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.stat-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.stat-positive .stat-icon {
+  color: #2ecc71;
+}
+
+.stat-negative .stat-icon {
+  color: #e74c3c;
 }
 
 .stat-number {

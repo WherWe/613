@@ -41,6 +41,9 @@ try {
   copyDir(path.join(ROOT, "node_modules", "@fontsource", "cardo"), path.join(vendor, "@fontsource", "cardo"));
   copyDir(path.join(ROOT, "node_modules", "@fontsource", "noto-serif-hebrew"), path.join(vendor, "@fontsource", "noto-serif-hebrew"));
 
+  // Lucide icons
+  copyFile(path.join(ROOT, "node_modules", "lucide", "dist", "umd", "lucide.min.js"), path.join(vendor, "lucide", "lucide.min.js"));
+
   console.log("Vendor build complete.");
 } catch (err) {
   console.error("Vendor build failed:", err);
