@@ -54,6 +54,12 @@
                   <span id="moreFiltersText">More Filters</span>
                   <span id="moreFiltersIcon">▼</span>
                 </button>
+                <div class="language-controls" id="tableLanguageToggle" style="display: none">
+                  <label>Description:</label>
+                  <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
+                  <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
+                  <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
+                </div>
               </div>
               <div class="secondary-filters" id="secondaryFilters" style="display: none;">
                 <select id="categoryFilter" class="filter-select">
@@ -68,12 +74,6 @@
                 <select id="timeScopeFilter" class="filter-select">
                   <option value="">All Time Scopes</option>
                 </select>
-              </div>
-              <div class="language-controls" id="tableLanguageToggle" style="display: none">
-                <label>Description:</label>
-                <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
-                <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
-                <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
               </div>
           </div>
         </div>

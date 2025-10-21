@@ -188,7 +188,7 @@ body {
 .primary-filters {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
 }
 
@@ -236,6 +236,19 @@ body {
   gap: 8px;
   margin-left: auto;
   padding: 4px 0;
+}
+
+/* On small screens, allow wrapping so controls don't overflow */
+@media (max-width: 768px) {
+  .primary-filters {
+    flex-wrap: wrap;
+  }
+  .language-controls {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 0;
+    padding-top: 6px;
+  }
 }
 
 .language-controls label {
