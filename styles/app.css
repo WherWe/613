@@ -152,8 +152,9 @@ body {
 
 .stat-content {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .stat-number {
