@@ -127,15 +127,15 @@ body {
   border-radius: 10px;
   backdrop-filter: blur(10px);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 3px;
+  gap: 10px;
 }
 
 .stat-icon {
   width: 20px;
   height: 20px;
-  margin-bottom: 2px;
+  flex-shrink: 0;
 }
 
 .stat-total .stat-icon {
@@ -150,10 +150,16 @@ body {
   color: #e74c3c;
 }
 
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .stat-number {
   font-size: 1.5em;
   font-weight: bold;
-  display: block;
+  line-height: 1;
 }
 
 .stat-label {

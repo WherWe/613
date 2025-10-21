@@ -640,18 +640,24 @@
           statsContainer.innerHTML = `
                     <div class="stat-card stat-total">
                         <i data-lucide="hash" class="stat-icon"></i>
-                        <span class="stat-number">${totalCount}</span>
-                        <span class="stat-label">Total</span>
+                        <div class="stat-content">
+                            <span class="stat-number">${totalCount}</span>
+                            <span class="stat-label">Total</span>
+                        </div>
                     </div>
                     <div class="stat-card stat-positive">
                         <i data-lucide="circle-plus" class="stat-icon"></i>
-                        <span class="stat-number">${positiveCount}</span>
-                        <span class="stat-label">Positive</span>
+                        <div class="stat-content">
+                            <span class="stat-number">${positiveCount}</span>
+                            <span class="stat-label">Positive</span>
+                        </div>
                     </div>
                     <div class="stat-card stat-negative">
                         <i data-lucide="circle-minus" class="stat-icon"></i>
-                        <span class="stat-number">${negativeCount}</span>
-                        <span class="stat-label">Negative</span>
+                        <div class="stat-content">
+                            <span class="stat-number">${negativeCount}</span>
+                            <span class="stat-label">Negative</span>
+                        </div>
                     </div>
                 `;
           
