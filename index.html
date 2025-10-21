@@ -78,14 +78,6 @@
       <div class="controls">
         <div class="filter-controls">
           <div class="primary-filters">
-            <select id="typeFilter" class="filter-select">
-              <option value="">All Types</option>
-              <option value="Positive">Positive</option>
-              <option value="Negative">Negative</option>
-            </select>
-            <select id="bookFilter" class="filter-select">
-              <option value="">All Books</option>
-            </select>
             <select id="parashaFilter" class="filter-select">
               <option value="">All Parashot</option>
             </select>
@@ -100,6 +92,14 @@
             </div>
           </div>
           <div class="secondary-filters" id="secondaryFilters" style="display: none">
+            <select id="typeFilter" class="filter-select">
+              <option value="">All Types</option>
+              <option value="Positive">Positive</option>
+              <option value="Negative">Negative</option>
+            </select>
+            <select id="bookFilter" class="filter-select">
+              <option value="">All Books</option>
+            </select>
             <select id="categoryFilter" class="filter-select">
               <option value="">All Categories</option>
             </select>
@@ -149,6 +149,11 @@
             <!-- Table rows will be loaded dynamically -->
           </tbody>
         </table>
+
+        <!-- Mobile cards container -->
+        <div class="mobile-cards" id="mobileCards">
+          <!-- Cards will be loaded dynamically -->
+        </div>
       </div>
 
       <div class="pagination" id="pagination" style="display: none">
@@ -874,6 +879,71 @@
         `;
             })
             .join("");
+
+          // Render mobile cards
+          const mobileCardsHTML = pageData
+            .map((mitzvah) => {
+              const mitzvahHe = this.heData?.mitzvot?.find((m) => m.id === mitzvah.id);
+              const heTitle = mitzvah.title_he || (mitzvahHe ? mitzvahHe.title : null);
+
+              let titleHtml = "";
+              if (this.tableLanguage === "en") {
+                titleHtml = mitzvah.title;
+              } else if (this.tableLanguage === "he" && heTitle) {
+                titleHtml = `<span lang="he" dir="rtl">${heTitle}</span>`;
+              } else if (this.tableLanguage === "both") {
+                titleHtml = mitzvah.title;
+                if (heTitle) {
+                  titleHtml += `<br><span class="text-he" lang="he" dir="rtl">${heTitle}</span>`;
+                }
+              }
+
+              const heParasha = mitzvahHe && (mitzvahHe.parasha_he || mitzvahHe.parasha) ? mitzvahHe.parasha_he || mitzvahHe.parasha : null;
+              let parashaHtml = "";
+              if (this.tableLanguage === "he" && heParasha) {
+                parashaHtml = `<span lang="he" dir="rtl">${heParasha}</span>`;
+              } else {
+                parashaHtml = mitzvah.parasha || "";
+              }
+
+              // Build description based on selected language
+              let descriptionHtml = "";
+              if (this.tableLanguage === "en") {
+                descriptionHtml = this.truncateText(mitzvah.description, 120);
+              } else if (this.tableLanguage === "he" && mitzvahHe && mitzvahHe.description) {
+                descriptionHtml = `<span class="text-he" lang="he" dir="rtl">${this.truncateText(mitzvahHe.description, 120)}</span>`;
+              } else if (this.tableLanguage === "both") {
+                descriptionHtml = this.truncateText(mitzvah.description, 120);
+                if (mitzvahHe && mitzvahHe.description) {
+                  descriptionHtml += `<br><span class="text-he" lang="he" dir="rtl" style="display: block; margin-top: 8px;">${this.truncateText(mitzvahHe.description, 120)}</span>`;
+                }
+              }
+
+              return `
+                <div class="mitzvah-card">
+                  <div class="card-header">
+                    <div class="card-header-left">
+                      <span class="card-number">#${mitzvah.id}</span>
+                      <span class="mitzvah-type ${mitzvah.type.toLowerCase()}">${mitzvah.type}</span>
+                    </div>
+                    <button class="details-toggle" onclick="app.openSidebar(${mitzvah.id})" title="Show full details">
+                      📋
+                    </button>
+                  </div>
+                  <div class="card-title">${titleHtml}</div>
+                  <div class="card-description">${descriptionHtml}</div>
+                  <div class="card-meta">
+                    <div class="card-parasha">
+                      <span class="parasha-label">Parasha:</span> ${parashaHtml}
+                    </div>
+                    <div class="card-scope">${this.getClassificationIcons(mitzvah)}</div>
+                  </div>
+                </div>
+              `;
+            })
+            .join("");
+
+          document.getElementById("mobileCards").innerHTML = mobileCardsHTML;
 
           // Show table container and language toggle
           document.getElementById("tableContainer").style.display = "block";

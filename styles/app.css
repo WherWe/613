@@ -163,6 +163,11 @@ body {
   flex-shrink: 0;
   display: none;
 }
+.stat-label {
+  font-size: 0.8em;
+  opacity: 0.9;
+  /* display: none; */
+}
 
 .stat-total .stat-icon {
   /* color: #f39c12; */
@@ -187,12 +192,6 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   line-height: 1;
-}
-
-.stat-label {
-  font-size: 0.8em;
-  opacity: 0.9;
-  /* display: none; */
 }
 
 .controls {
@@ -878,13 +877,54 @@ tr:hover {
   }
 
   .header-title-wrapper {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    justify-content: space-around;
+    line-height: normal;
+    margin-bottom: 20px;
   }
 
   .header-hebrew-text {
     position: static;
     margin-top: 10px;
+  }
+  .header-top {
+    margin-bottom: 10px;
+  }
+  .header .subtitle {
+    font-size: 1em;
+    /* opacity: 0.9; */
+  }
+  .stat-icon {
+    /* width: 20px;
+  height: 20px;
+  flex-shrink: 0; */
+    display: initial;
+    height: 15px;
+  }
+  .stat-card {
+    gap: 3px;
+  }
+  .stat-total .stat-icon {
+    color: #f39c12;
+  }
+
+  .stat-positive .stat-icon {
+    color: #2ecc71;
+  }
+
+  .stat-negative .stat-icon {
+    color: #e74c3c;
+  }
+  .stat-number {
+    font-size: 0.8em;
+    /* font-weight: bold; */
+    line-height: normal;
+  }
+  .stat-label {
+    /* font-size: 0.8em;
+  opacity: 0.9; */
+    display: none;
   }
 
   .header-bottom {
@@ -1271,7 +1311,118 @@ tr:hover {
   background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
 }
 
-@media (max-width: 768px) {
+/* Mobile Cards */
+.mobile-cards {
+  display: none;
+  padding: 15px;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.mitzvah-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.mitzvah-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-header .details-toggle {
+  font-size: 1.2em;
+  padding: 6px 10px;
+  min-width: auto;
+  height: auto;
+}
+
+.card-number {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 1.1em;
+}
+
+.card-title {
+  font-size: 1.05em;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.card-parasha {
+  font-size: 0.9em;
+  color: #666;
+  flex: 1;
+}
+
+.card-scope {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.parasha-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Desktop: Show table, hide mobile cards */
+@media (min-width: 768px) {
+  #mitzvotTable {
+    display: table;
+  }
+
+  .mobile-cards {
+    display: none !important;
+  }
+}
+
+/* Mobile: Hide table, show mobile cards */
+@media (max-width: 767px) {
+  #mitzvotTable {
+    display: none;
+  }
+
+  .mobile-cards {
+    display: flex !important;
+  }
+
   .mtg-card {
     width: 95vw;
     max-width: 400px;
@@ -1280,5 +1431,18 @@ tr:hover {
   .card-modal {
     width: 100%;
     padding: 10px;
+  }
+
+  .header {
+    padding: 20px 15px;
+  }
+
+  .filters-main {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-title-wrapper h1 {
+    font-size: 1.5em;
   }
 }
