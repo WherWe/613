@@ -38,66 +38,65 @@
 
       <div class="controls">
         <div class="filter-controls">
-          <select id="typeFilter" class="filter-select">
-            <option value="">All Types</option>
-            <option value="Positive">Positive</option>
-            <option value="Negative">Negative</option>
-          </select>
-          <select id="bookFilter" class="filter-select">
-            <option value="">All Books</option>
-          </select>
-          <select id="parashaFilter" class="filter-select">
-            <option value="">All Parashot</option>
-          </select>
-          <select id="categoryFilter" class="filter-select">
-            <option value="">All Categories</option>
-          </select>
-          <select id="appliesToFilter" class="filter-select">
-            <option value="">Applies To: All</option>
-          </select>
-          <select id="locationFilter" class="filter-select">
-            <option value="">All Locations</option>
-          </select>
-          <select id="timeScopeFilter" class="filter-select">
-            <option value="">All Time Scopes</option>
-          </select>
+              <div class="primary-filters">
+                <select id="typeFilter" class="filter-select">
+                  <option value="">All Types</option>
+                  <option value="Positive">Positive</option>
+                  <option value="Negative">Negative</option>
+                </select>
+                <select id="bookFilter" class="filter-select">
+                  <option value="">All Books</option>
+                </select>
+                <select id="parashaFilter" class="filter-select">
+                  <option value="">All Parashot</option>
+                </select>
+                <button id="moreFiltersBtn" class="more-filters-btn" onclick="app.toggleMoreFilters()">
+                  <span id="moreFiltersText">More Filters</span>
+                  <span id="moreFiltersIcon">▼</span>
+                </button>
+              </div>
+              <div class="secondary-filters" id="secondaryFilters" style="display: none;">
+                <select id="categoryFilter" class="filter-select">
+                  <option value="">All Categories</option>
+                </select>
+                <select id="appliesToFilter" class="filter-select">
+                  <option value="">Applies To: All</option>
+                </select>
+                <select id="locationFilter" class="filter-select">
+                  <option value="">All Locations</option>
+                </select>
+                <select id="timeScopeFilter" class="filter-select">
+                  <option value="">All Time Scopes</option>
+                </select>
+              </div>
+              <div class="language-controls" id="tableLanguageToggle" style="display: none">
+                <label>Description:</label>
+                <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
+                <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
+                <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
+              </div>
+          </div>
         </div>
-        <div class="sort-controls d-none">
-          <span>Sort by:</span>
-          <button class="sort-btn" data-sort="id">Number</button>
-          <button class="sort-btn" data-sort="title">Title</button>
-          <button class="sort-btn" data-sort="type">Type</button>
-          <button class="sort-btn" data-sort="book">Book</button>
-          <button class="sort-btn" data-sort="parasha">Parasha</button>
+
+        <div class="loading" id="loading">
+          <div class="spinner"></div>
+          Loading mitzvot data...
         </div>
-      </div>
 
-      <div class="loading" id="loading">
-        <div class="spinner"></div>
-        Loading mitzvot data...
-      </div>
+        <div class="error" id="error" style="display: none">Error loading mitzvot data. Please check that mitzvot_data.json is available.</div>
 
-      <div class="error" id="error" style="display: none">Error loading mitzvot data. Please check that mitzvot_data.json is available.</div>
-
-      <div class="table-language-toggle" id="tableLanguageToggle" style="display: none">
-        <label>Description Language:</label>
-        <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">English</button>
-        <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עברית</button>
-        <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
-      </div>
-
-      <div class="table-container" id="tableContainer" style="display: none">
+        <div class="table-container" id="tableContainer" style="display: none">
         <table id="mitzvotTable">
           <thead>
             <tr>
               <th class="sortable" data-sort="id">
-                <span class="sort-label">#</span>
-                <span class="sort-indicator"></span>
-              </th>
-              <th class="sortable" data-sort="type">
-                <span class="sort-label">Type</span>
-                <span class="sort-indicator"></span>
-              </th>
+                  <span class="sort-label">#</span>
+                  <span class="sort-indicator"></span>
+                </th>
+                <th class="sortable" data-sort="type">
+                  <span class="sort-label">Type</span>
+                  <span class="sort-indicator"></span>
+                </th>
               <th>Mitzvah</th>
               <th>Icons</th>
               <th>Description</th>
@@ -213,6 +212,7 @@
           this.currentLanguage = "en";
           this.tableLanguage = "en"; // Language for table descriptions
           this.currentMitzvahId = null;
+            this.moreFiltersVisible = false;
 
           // Track which mitzvot have images available
           this.mitzvotWithImages = new Set();
@@ -955,6 +955,23 @@
           // Re-render table with new language
           this.renderTable();
         }
+
+          toggleMoreFilters() {
+            this.moreFiltersVisible = !this.moreFiltersVisible;
+            const secondaryFilters = document.getElementById("secondaryFilters");
+            const moreFiltersText = document.getElementById("moreFiltersText");
+            const moreFiltersIcon = document.getElementById("moreFiltersIcon");
+
+            if (this.moreFiltersVisible) {
+              secondaryFilters.style.display = "flex";
+              moreFiltersText.textContent = "Less Filters";
+              moreFiltersIcon.textContent = "▲";
+            } else {
+              secondaryFilters.style.display = "none";
+              moreFiltersText.textContent = "More Filters";
+              moreFiltersIcon.textContent = "▼";
+            }
+          }
 
         renderSidebarContent() {
           const mitzvah = this.data.mitzvot.find((m) => m.id === this.currentMitzvahId);
