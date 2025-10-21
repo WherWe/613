@@ -20,7 +20,8 @@ table,
 .sidebar-section h3,
 .sidebar-section p,
 .interlinear-en,
-.mtg-card, .mtg-card * {
+.mtg-card,
+.mtg-card * {
   font-family: "Cardo", Georgia, "Times New Roman", serif;
 }
 

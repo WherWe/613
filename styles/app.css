@@ -7,7 +7,6 @@
 }
 
 body {
-  font-family: "Cardo", Georgia, "Times New Roman", serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 20px;
@@ -39,7 +38,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   position: relative;
 }
 
@@ -109,6 +108,29 @@ body {
   font-weight: 700;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Title: Hebrew and English side-by-side */
+.app-title {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.app-title .title-he {
+  font-family: "Noto Serif Hebrew", "Times New Roman", serif;
+}
+.app-title .title-en {
+  font-weight: 700;
+  font-family: "Cardo", Georgia, "Times New Roman", serif;
+}
+
+/* Subtle separator between EN and HE in title */
+.app-title .title-sep {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
+  opacity: 0.85;
+  /* slightly smaller to reduce visual weight */
+  font-size: 0.9em;
 }
 
 .header .subtitle {
@@ -313,7 +335,7 @@ body {
 }
 
 .table-lang-btn {
-    padding: 6px 12px;
+  padding: 6px 12px;
   border: 2px solid #3498db;
   background: white;
   color: #3498db;
@@ -321,6 +343,7 @@ body {
   cursor: pointer;
   font-size: 0.9em;
   transition: all 0.2s ease;
+  font-family: "Cardo", Georgia, "Times New Roman", serif;
 }
 
 .table-lang-btn:hover {
@@ -330,6 +353,18 @@ body {
 .table-lang-btn.active {
   background: #3498db;
   color: white;
+}
+
+/* Ensure Hebrew variant in toggle uses Hebrew font */
+.table-lang-btn[data-lang="he"],
+.language-btn[data-lang="he"] {
+  font-family: "Noto Serif Hebrew", "Times New Roman", serif;
+}
+
+/* Default other language buttons to Cardo to match writings/table aesthetic */
+.language-btn,
+.table-lang-btn:not([data-lang="he"]) {
+  font-family: "Cardo", Georgia, "Times New Roman", serif;
 }
 
 .table-container {
@@ -432,7 +467,7 @@ tr:hover {
   direction: rtl;
   text-align: right;
   font-weight: 600;
-  color: #2c3e50;
+  /* color: #2c3e50; */
   margin-top: 4px;
   font-family: "Noto Serif Hebrew", "Times New Roman", serif;
 }
