@@ -1424,3 +1424,51 @@ tr:hover {
     font-size: 1.5em;
   }
 }
+
+/* Custom SweetAlert Styles for Subtle Popup */
+.subtle-popup {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.subtle-title {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  color: #495057 !important;
+  margin-bottom: 8px !important;
+}
+
+.subtle-button {
+  font-size: 13px !important;
+  padding: 8px 20px !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.subtle-button:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3) !important;
+}
+
+/* Make SweetAlert icon much smaller and subtle */
+.subtle-icon {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 10px auto 15px !important;
+}
+
+.subtle-icon.swal2-icon {
+  font-size: 1.5em !important;
+  border-width: 3px !important;
+}
+
+.subtle-icon.swal2-icon.swal2-info {
+  color: #6c757d !important;
+  border-color: #dee2e6 !important;
+}
+
+.subtle-icon .swal2-icon-content {
+  font-size: 2em !important;
+}

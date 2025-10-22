@@ -9445,7 +9445,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Pesach - Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:8"
+        ]
+      }
     },
     {
       "id": 302,
@@ -9464,7 +9477,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Omer Offering",
+        "applies_to": [
+          "Kohanim",
+          "All Israel"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:10-11"
+        ]
+      }
     },
     {
       "id": 303,
@@ -9482,7 +9508,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "New Grain Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:14"
+        ]
+      }
     },
     {
       "id": 304,
@@ -9496,7 +9535,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "New Grain Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:14"
+        ]
+      }
     },
     {
       "id": 305,
@@ -9510,7 +9562,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "New Grain Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:14"
+        ]
+      }
     },
     {
       "id": 306,
@@ -9530,7 +9595,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Time and Calendar",
+        "sub_category": "Omer Counting",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:15",
+          "Deuteronomy 16:9"
+        ]
+      }
     },
     {
       "id": 307,
@@ -9548,7 +9626,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Shavuot Offering",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:16"
+        ]
+      }
     },
     {
       "id": 308,
@@ -9564,7 +9654,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Shavuot Observance",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:21"
+        ]
+      }
     },
     {
       "id": 309,
@@ -9581,7 +9684,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Shavuot - Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:21"
+        ]
+      }
     },
     {
       "id": 310,
@@ -9595,7 +9711,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Rosh Hashanah Observance",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:24"
+        ]
+      }
     },
     {
       "id": 311,
@@ -9616,7 +9745,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Rosh Hashanah - Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:24-25"
+        ]
+      }
     },
     {
       "id": 312,
@@ -9630,7 +9772,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Rosh Hashanah Additional Offering",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:24-25",
+          "Numbers 29:2-5"
+        ]
+      }
     },
     {
       "id": 313,
@@ -9652,7 +9807,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Yom Kippur Fasting",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:27"
+        ]
+      }
     },
     {
       "id": 314,
@@ -9668,7 +9836,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Yom Kippur Additional Offering",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:27",
+          "Numbers 29:8"
+        ]
+      }
     },
     {
       "id": 315,
@@ -9682,7 +9863,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Yom Kippur - Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:28"
+        ]
+      }
     },
     {
       "id": 316,
@@ -9696,7 +9890,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Yom Kippur - Eating and Drinking Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:29"
+        ]
+      }
     },
     {
       "id": 317,
@@ -9714,7 +9921,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Yom Kippur Rest",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 23:32"
+        ]
+      }
     },
     {
       "id": 318,
@@ -9731,7 +9951,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Sukkot Observance",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:35"
+        ]
+      }
     },
     {
       "id": 319,
@@ -9745,7 +9978,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Sukkot - Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:35"
+        ]
+      }
     },
     {
       "id": 320,
@@ -9759,7 +10005,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Sukkot Additional Offerings",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:36",
+          "Numbers 29:13-35"
+        ]
+      }
     },
     {
       "id": 321,
@@ -9776,7 +10035,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Shemini Atzeret Observance",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:36"
+        ]
+      }
     },
     {
       "id": 322,
@@ -9792,7 +10064,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Shemini Atzeret Additional Offering",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:36",
+          "Numbers 29:36-38"
+        ]
+      }
     },
     {
       "id": 323,
@@ -9813,7 +10098,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Shemini Atzeret - Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:36"
+        ]
+      }
     },
     {
       "id": 324,
@@ -9833,7 +10131,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Lulav and Four Species",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:40"
+        ]
+      }
     },
     {
       "id": 325,
@@ -9852,7 +10162,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Sukkah Dwelling",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:42"
+        ]
+      }
     },
     {
       "id": 326,
@@ -9868,7 +10190,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Sabbatical Year - Land Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:4"
+        ]
+      }
     },
     {
       "id": 327,
@@ -9882,7 +10217,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Sabbatical Year - Tree Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:4"
+        ]
+      }
     },
     {
       "id": 328,
@@ -9900,7 +10248,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Sabbatical Year - Aftergrowth Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:5"
+        ]
+      }
     },
     {
       "id": 329,
@@ -9918,7 +10279,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Sabbatical Year - Fruit Gathering Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:5"
+        ]
+      }
     },
     {
       "id": 330,
@@ -9939,7 +10313,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Time and Calendar",
+        "sub_category": "Jubilee Counting",
+        "applies_to": [
+          "Beit Din"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:8"
+        ]
+      }
     },
     {
       "id": 331,
@@ -9958,7 +10344,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Time and Calendar",
+        "sub_category": "Jubilee Shofar",
+        "applies_to": [
+          "Beit Din"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:9-10"
+        ]
+      }
     },
     {
       "id": 332,
@@ -9976,7 +10374,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Jubilee Year Sanctification",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:10"
+        ]
+      }
     },
     {
       "id": 333,
@@ -9993,7 +10403,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Jubilee Year - Land Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:11"
+        ]
+      }
     },
     {
       "id": 334,
@@ -10007,7 +10430,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Jubilee Year - Aftergrowth Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:11"
+        ]
+      }
     },
     {
       "id": 335,
@@ -10021,7 +10457,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Jubilee Year - Fruit Gathering Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:11"
+        ]
+      }
     },
     {
       "id": 336,
@@ -10046,7 +10495,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "Commercial Adjudication",
+        "applies_to": [
+          "Beit Din"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:14"
+        ]
+      }
     },
     {
       "id": 337,
@@ -10069,7 +10530,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Commercial Fraud Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:14"
+        ]
+      }
     },
     {
       "id": 338,
@@ -10088,7 +10562,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Verbal Mistreatment Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:17"
+        ]
+      }
     },
     {
       "id": 339,
@@ -10111,7 +10598,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Land Sale Limitation",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:23"
+        ]
+      }
     },
     {
       "id": 340,
@@ -10130,7 +10630,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Jubilee Land Return",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:24",
+          "Leviticus 25:13"
+        ]
+      }
     },
     {
       "id": 341,
@@ -10147,7 +10661,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "Property Redemption",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:29"
+        ]
+      }
     },
     {
       "id": 342,
@@ -10165,7 +10692,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "Levite City Preservation",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:34",
+          "Numbers 35:2-7"
+        ]
+      }
     },
     {
       "id": 343,
@@ -10187,7 +10728,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Interest Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:37"
+        ]
+      }
     },
     {
       "id": 344,
@@ -10205,7 +10759,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Hebrew Slave - Dignified Work",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:39"
+        ]
+      }
     },
     {
       "id": 345,
@@ -10222,7 +10789,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Hebrew Slave - Sale Dignity",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:42"
+        ]
+      }
     },
     {
       "id": 346,
@@ -10238,7 +10818,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Hebrew Slave - Oppressive Work Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:43"
+        ]
+      }
     },
     {
       "id": 347,
@@ -10258,7 +10851,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Canaanite Slave - Perpetual Service",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 25:46"
+        ]
+      }
     },
     {
       "id": 348,
@@ -10275,7 +10881,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Hebrew Slave - Protection from Gentiles",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 25:53"
+        ]
+      }
     },
     {
       "id": 349,
@@ -10293,7 +10911,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 32
+      "global_parasha_order": 32,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Figured Stone Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 26:1"
+        ]
+      }
     },
     {
       "id": 350,
@@ -10318,7 +10949,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Personal Valuations",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 27:2"
+        ]
+      }
     },
     {
       "id": 351,

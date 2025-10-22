@@ -1409,16 +1409,26 @@
         // Show beta notice on first visit
         if (!localStorage.getItem("betaNoticeSeen")) {
           Swal.fire({
-            icon: "warning",
-            title: "⚠️ Beta Notice",
+            icon: "info",
+            title: "Welcome to 613 Mitzvot",
             html: `
-              <p>This project is still new and evolving, so there may be some errors or inaccuracies.</p>
-              <p>If you're citing information, please double-check it with your own or official sources.</p>
-              <p>Feedback and corrections are always welcome at <a href="mailto:moxaku@gmail.com">moxaku@gmail.com</a>.</p>
+              <div style="font-size: 13px; color: #6c757d; line-height: 1.5;">
+                <p style="margin-bottom: 10px;">This project is a work in progress and may contain errors or inaccuracies. If you're citing information, please verify with official sources.</p>
+                <p style="margin-bottom: 0;">Your feedback and corrections are warmly welcomed! Feel free to reach out at <a href="mailto:moxaku@gmail.com" style="color: #0d6efd; text-decoration: none;">moxaku@gmail.com</a></p>
+              </div>
             `,
-            confirmButtonText: "Got it!",
-            confirmButtonColor: "#0d6efd",
-            allowOutsideClick: false,
+            confirmButtonText: "Get Started",
+            confirmButtonColor: "#6c757d",
+            allowOutsideClick: true,
+            width: "420px",
+            padding: "1.25rem",
+            backdrop: "rgba(0,0,0,0.3)",
+            customClass: {
+              popup: "subtle-popup",
+              title: "subtle-title",
+              confirmButton: "subtle-button",
+              icon: "subtle-icon",
+            },
           }).then(() => {
             localStorage.setItem("betaNoticeSeen", "true");
           });
