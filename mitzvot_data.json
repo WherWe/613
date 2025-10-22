@@ -5727,7 +5727,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Menstrual Impurity",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 15:19"
+        ]
+      }
     },
     {
       "id": 182,
@@ -5745,7 +5758,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Ritual Purity",
+        "sub_category": "Zavah (Irregular Discharge)",
+        "applies_to": [
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 15:25",
+          "Niddah 72b"
+        ]
+      }
     },
     {
       "id": 183,
@@ -5762,7 +5788,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 28
+      "global_parasha_order": 28,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Purification Offering",
+        "applies_to": [
+          "Women"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 16:28-29"
+        ]
+      }
     },
     {
       "id": 184,
@@ -5780,7 +5818,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Priestly Restrictions",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 16:2",
+          "Mishnah Kelim 1:9",
+          "Megillah 28a"
+        ]
+      }
     },
     {
       "id": 185,
@@ -5799,7 +5851,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Yom Kippur Service",
+        "applies_to": [
+          "Kohen Gadol"
+        ],
+        "location": "Temple",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 16:3",
+          "Tractate Yoma"
+        ]
+      }
     },
     {
       "id": 186,
@@ -5817,7 +5882,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Prohibition",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 17:3-4",
+          "Zevachim 106a"
+        ]
+      }
     },
     {
       "id": 187,
@@ -5835,7 +5913,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Kashrut",
+        "sub_category": "Ritual Slaughter",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 17:13",
+          "Chullin 83b"
+        ]
+      }
     },
     {
       "id": 188,
@@ -5860,7 +5952,23 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "General Prohibition of Intimacy",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:6",
+          "Leviticus 18:26",
+          "Avot 3:13",
+          "Kiddushin 80b"
+        ]
+      }
     },
     {
       "id": 189,
@@ -5877,7 +5985,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Homosexual Relations",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:7",
+          "Leviticus 18:22",
+          "Sanhedrin 54a"
+        ]
+      }
     },
     {
       "id": 190,
@@ -5894,7 +6016,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:7",
+          "Sanhedrin 54a",
+          "Yevamot 21a"
+        ]
+      }
     },
     {
       "id": 191,
@@ -5912,7 +6048,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Stepmother",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:8"
+        ]
+      }
     },
     {
       "id": 192,
@@ -5931,7 +6079,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Sister",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:9",
+          "Leviticus 18:11"
+        ]
+      }
     },
     {
       "id": 193,
@@ -5949,7 +6110,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Granddaughter (Son's Daughter)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:10",
+          "Sanhedrin 75a"
+        ]
+      }
     },
     {
       "id": 194,
@@ -5963,7 +6137,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Granddaughter (Daughter's Daughter)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:10"
+        ]
+      }
     },
     {
       "id": 195,
@@ -5982,7 +6168,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Daughter",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:10 (kal vachomer)",
+          "Sanhedrin 76a"
+        ]
+      }
     },
     {
       "id": 196,
@@ -5999,7 +6198,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Paternal Half-Sister",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:11"
+        ]
+      }
     },
     {
       "id": 197,
@@ -6018,7 +6229,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Father's Sister (Aunt)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:12"
+        ]
+      }
     },
     {
       "id": 198,
@@ -6032,7 +6255,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Mother's Sister (Aunt)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:13"
+        ]
+      }
     },
     {
       "id": 199,
@@ -6048,7 +6283,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Homosexual Relations - Uncle",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:14",
+          "Leviticus 18:22"
+        ]
+      }
     },
     {
       "id": 200,
@@ -6066,7 +6314,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Uncle's Wife (Aunt)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:14",
+          "Yevamot 97a"
+        ]
+      }
     },
     {
       "id": 201,
@@ -6084,7 +6345,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Daughter-in-Law",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:15"
+        ]
+      }
     },
     {
       "id": 202,
@@ -6100,7 +6373,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Sister-in-Law",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:16"
+        ]
+      }
     },
     {
       "id": 203,
@@ -6116,7 +6401,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Woman and Her Daughter",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:17",
+          "Leviticus 20:14"
+        ]
+      }
     },
     {
       "id": 204,
@@ -6133,7 +6431,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Woman and Her Granddaughter (Son's Daughter)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:17"
+        ]
+      }
     },
     {
       "id": 205,
@@ -6150,7 +6460,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Woman and Her Granddaughter (Daughter's Daughter)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:17"
+        ]
+      }
     },
     {
       "id": 206,
@@ -6170,7 +6492,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Incest - Two Sisters",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:18"
+        ]
+      }
     },
     {
       "id": 207,
@@ -6197,7 +6531,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Menstruant",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:19",
+          "Leviticus 15:19",
+          "Niddah 73a"
+        ]
+      }
     },
     {
       "id": 208,
@@ -6215,7 +6563,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Molekh Worship",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:21",
+          "Deuteronomy 18:10",
+          "Sifra, Kedoshim, Section 4:1"
+        ]
+      }
     },
     {
       "id": 209,
@@ -6235,7 +6598,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Homosexual Relations",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:22",
+          "Deuteronomy 23:18"
+        ]
+      }
     },
     {
       "id": 210,
@@ -6253,7 +6629,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Bestiality",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:23",
+          "Sanhedrin 54b"
+        ]
+      }
     },
     {
       "id": 211,
@@ -6275,7 +6664,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 29
+      "global_parasha_order": 29,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "Bestiality",
+        "applies_to": [
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 18:23"
+        ]
+      }
     },
     {
       "id": 212,
@@ -6293,7 +6694,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Honoring Parents",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:3",
+          "Sifra, Kedoshim, Section 1:10",
+          "Kiddushin 31b"
+        ]
+      }
     },
     {
       "id": 213,
@@ -6313,7 +6729,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Following Idols",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:4",
+          "Sifra, Kedoshim, Section 1:11"
+        ]
+      }
     },
     {
       "id": 214,
@@ -6331,7 +6761,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Making Idols",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:4",
+          "Sifra, Kedoshim, Section 1:12"
+        ]
+      }
     },
     {
       "id": 215,
@@ -6349,7 +6793,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Prohibition of Notar",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Exodus 29:33",
+          "Meilah 17b"
+        ]
+      }
     },
     {
       "id": 216,
@@ -6368,7 +6826,24 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Pe'ah (Corner of Field)",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:10",
+          "Leviticus 19:9",
+          "Sifra Kedoshim 3:4"
+        ]
+      }
     },
     {
       "id": 217,
@@ -6384,7 +6859,23 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Prohibition Against Finishing Corner",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 23:22",
+          "Leviticus 19:10"
+        ]
+      }
     },
     {
       "id": 218,
@@ -6401,7 +6892,24 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Leket (Gleanings)",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:10",
+          "Mishnah Peah 6:5",
+          "Mishnah Peah 4:10"
+        ]
+      }
     },
     {
       "id": 219,
@@ -6415,7 +6923,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Prohibition Against Taking Gleanings",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:9"
+        ]
+      }
     },
     {
       "id": 220,
@@ -6429,7 +6952,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Ollalot (Defective Grape Clusters)",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:10"
+        ]
+      }
     },
     {
       "id": 221,
@@ -6446,7 +6984,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Prohibition Against Finishing Vineyard Corner",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:10"
+        ]
+      }
     },
     {
       "id": 222,
@@ -6462,7 +7015,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Peret (Fallen Grapes)",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:10"
+        ]
+      }
     },
     {
       "id": 223,
@@ -6480,7 +7048,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Prohibition Against Gathering Peret",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 19:10"
+        ]
+      }
     },
     {
       "id": 224,
@@ -6500,7 +7083,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Property Law",
+        "sub_category": "Prohibition of Theft",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:11"
+        ]
+      }
     },
     {
       "id": 225,
@@ -6517,7 +7113,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Property Law",
+        "sub_category": "Prohibition of Denial of Claims",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:11"
+        ]
+      }
     },
     {
       "id": 226,
@@ -6535,7 +7144,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Oaths and Vows",
+        "sub_category": "Prohibition of False Oath Regarding Denial",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:11"
+        ]
+      }
     },
     {
       "id": 227,
@@ -6552,7 +7174,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Oaths and Vows",
+        "sub_category": "Prohibition of False Oaths",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:12"
+        ]
+      }
     },
     {
       "id": 228,
@@ -6571,7 +7206,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Property Law",
+        "sub_category": "Prohibition of Oppression/Withholding",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:13"
+        ]
+      }
     },
     {
       "id": 229,
@@ -6590,7 +7238,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Property Law",
+        "sub_category": "Prohibition of Robbery",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:13"
+        ]
+      }
     },
     {
       "id": 230,
@@ -6609,7 +7270,21 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Labor Law",
+        "sub_category": "Timely Payment of Wages",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:13",
+          "Deuteronomy 24:15"
+        ]
+      }
     },
     {
       "id": 231,
@@ -6627,7 +7302,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Cursing",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:14"
+        ]
+      }
     },
     {
       "id": 232,
@@ -6645,7 +7333,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Misleading",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:14"
+        ]
+      }
     },
     {
       "id": 233,
@@ -6664,7 +7365,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Judicial Law",
+        "sub_category": "Prohibition of Perverting Justice",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:15"
+        ]
+      }
     },
     {
       "id": 234,
@@ -6682,7 +7395,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Judicial Law",
+        "sub_category": "Prohibition of Favoring Great Person",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:15"
+        ]
+      }
     },
     {
       "id": 235,
@@ -6700,7 +7425,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Judicial Law",
+        "sub_category": "Command to Judge Righteously",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:15"
+        ]
+      }
     },
     {
       "id": 236,
@@ -6721,7 +7458,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Talebearing",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:16"
+        ]
+      }
     },
     {
       "id": 237,
@@ -6738,7 +7488,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Obligation to Save Life",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:16"
+        ]
+      }
     },
     {
       "id": 238,
@@ -6756,7 +7519,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Hatred",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:17"
+        ]
+      }
     },
     {
       "id": 239,
@@ -6774,7 +7550,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Command to Rebuke",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:17"
+        ]
+      }
     },
     {
       "id": 240,
@@ -6792,7 +7581,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Embarrassing",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:17"
+        ]
+      }
     },
     {
       "id": 241,
@@ -6810,7 +7612,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Revenge",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:18"
+        ]
+      }
     },
     {
       "id": 242,
@@ -6826,7 +7641,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Prohibition of Bearing Grudge",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:18"
+        ]
+      }
     },
     {
       "id": 243,
@@ -6844,7 +7672,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Interpersonal Ethics",
+        "sub_category": "Love of Fellow Jews",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:18"
+        ]
+      }
     },
     {
       "id": 244,
@@ -6863,7 +7704,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Prohibition of Mating Mixed Species",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:19"
+        ]
+      }
     },
     {
       "id": 245,
@@ -6884,7 +7738,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Prohibition of Kilayim (Mixed Seeds)",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:19"
+        ]
+      }
     },
     {
       "id": 246,
@@ -6902,7 +7769,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Prohibition of Orlah",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:23"
+        ]
+      }
     },
     {
       "id": 247,
@@ -6922,7 +7802,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Neta Revai (Fourth-Year Produce)",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:24"
+        ]
+      }
     },
     {
       "id": 248,
@@ -6942,7 +7835,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Ethics and Character",
+        "sub_category": "Prohibition of Gluttony",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:26"
+        ]
+      }
     },
     {
       "id": 249,
@@ -6959,7 +7865,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Divination",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:26"
+        ]
+      }
     },
     {
       "id": 250,
@@ -6976,7 +7895,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Soothsaying",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:26"
+        ]
+      }
     },
     {
       "id": 251,
@@ -6994,7 +7926,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Personal Conduct",
+        "sub_category": "Prohibition of Rounding Head Corners",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:27"
+        ]
+      }
     },
     {
       "id": 252,
@@ -7012,7 +7956,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Personal Conduct",
+        "sub_category": "Prohibition of Destroying Beard Corners",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:27"
+        ]
+      }
     },
     {
       "id": 253,
@@ -7030,7 +7986,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Personal Conduct",
+        "sub_category": "Prohibition of Tattoos",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:28"
+        ]
+      }
     },
     {
       "id": 254,
@@ -7048,7 +8017,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Awe of Temple",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Temple",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:30"
+        ]
+      }
     },
     {
       "id": 255,
@@ -7065,7 +8047,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Ov (Necromancy)",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:31"
+        ]
+      }
     },
     {
       "id": 256,
@@ -7079,7 +8074,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Yidoni (Fortune-telling)",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:31"
+        ]
+      }
     },
     {
       "id": 257,
@@ -7099,7 +8107,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Respect for Authority",
+        "sub_category": "Honoring Sages",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:32"
+        ]
+      }
     },
     {
       "id": 258,
@@ -7120,7 +8141,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Prohibition of False Measures",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:35"
+        ]
+      }
     },
     {
       "id": 259,
@@ -7138,7 +8172,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Command for Honest Measures",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 19:36"
+        ]
+      }
     },
     {
       "id": 260,
@@ -7156,7 +8203,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Prohibition of Cursing Parents",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 20:9"
+        ]
+      }
     },
     {
       "id": 261,
@@ -7174,7 +8234,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Criminal Law",
+        "sub_category": "Capital Punishment by Burning",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 20:14"
+        ]
+      }
     },
     {
       "id": 262,
@@ -7192,7 +8264,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 30
+      "global_parasha_order": 30,
+      "classification": {
+        "category": "Idolatry",
+        "sub_category": "Prohibition of Gentile Practices",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 20:23"
+        ]
+      }
     },
     {
       "id": 263,
@@ -7211,7 +8296,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Purity",
+        "sub_category": "Prohibition of Defilement to Dead",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:1"
+        ]
+      }
     },
     {
       "id": 264,
@@ -7231,7 +8328,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Purity",
+        "sub_category": "Defilement for Close Relatives",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:2-3"
+        ]
+      }
     },
     {
       "id": 265,
@@ -7249,7 +8358,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Tevul Yom Service Prohibition",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 21:6"
+        ]
+      }
     },
     {
       "id": 266,
@@ -7268,7 +8389,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Marriage",
+        "sub_category": "Prohibition of Marrying Zonah",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:7"
+        ]
+      }
     },
     {
       "id": 267,
@@ -7288,7 +8421,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Marriage",
+        "sub_category": "Prohibition of Marrying Challalah",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:7"
+        ]
+      }
     },
     {
       "id": 268,
@@ -7306,7 +8451,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Marriage",
+        "sub_category": "Prohibition of Marrying Divorcee",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:7"
+        ]
+      }
     },
     {
       "id": 269,
@@ -7324,7 +8481,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Sanctity",
+        "sub_category": "Sanctifying Priests",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:8"
+        ]
+      }
     },
     {
       "id": 270,
@@ -7341,7 +8510,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Purity",
+        "sub_category": "High Priest - No Defilement to Dead",
+        "applies_to": [
+          "Kohen Gadol"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:11"
+        ]
+      }
     },
     {
       "id": 271,
@@ -7359,7 +8540,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Purity",
+        "sub_category": "High Priest - Absolute Purity",
+        "applies_to": [
+          "Kohen Gadol"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:11"
+        ]
+      }
     },
     {
       "id": 272,
@@ -7377,7 +8570,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Marriage",
+        "sub_category": "High Priest - Marry Virgin",
+        "applies_to": [
+          "Kohen Gadol"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:13"
+        ]
+      }
     },
     {
       "id": 273,
@@ -7395,7 +8600,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Marriage",
+        "sub_category": "High Priest - Prohibition of Widow",
+        "applies_to": [
+          "Kohen Gadol"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:14"
+        ]
+      }
     },
     {
       "id": 274,
@@ -7413,7 +8630,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Marriage",
+        "sub_category": "High Priest - No Relations with Widow",
+        "applies_to": [
+          "Kohen Gadol"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 21:15"
+        ]
+      }
     },
     {
       "id": 275,
@@ -7432,7 +8661,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Blemished Priest - No Service",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 21:17"
+        ]
+      }
     },
     {
       "id": 276,
@@ -7450,7 +8691,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Temporary Blemish - No Service",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 21:18"
+        ]
+      }
     },
     {
       "id": 277,
@@ -7467,7 +8720,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Blemished - No Entry to Sanctuary",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 21:23"
+        ]
+      }
     },
     {
       "id": 278,
@@ -7485,7 +8750,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Impure Priest - No Service",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:2"
+        ]
+      }
     },
     {
       "id": 279,
@@ -7503,7 +8780,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Gifts",
+        "sub_category": "Impure Priest - No Terumah",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:4"
+        ]
+      }
     },
     {
       "id": 280,
@@ -7521,7 +8810,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Gifts",
+        "sub_category": "Non-Priest - No Terumah",
+        "applies_to": [
+          "Non-Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:10"
+        ]
+      }
     },
     {
       "id": 281,
@@ -7537,7 +8838,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Gifts",
+        "sub_category": "Boarder/Hired Worker - No Terumah",
+        "applies_to": [
+          "Non-Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:10"
+        ]
+      }
     },
     {
       "id": 282,
@@ -7555,7 +8868,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Gifts",
+        "sub_category": "Uncircumcised - No Terumah",
+        "applies_to": [
+          "Uncircumcised"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:10"
+        ]
+      }
     },
     {
       "id": 283,
@@ -7571,7 +8896,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Priestly Gifts",
+        "sub_category": "Challalah - No Holy Food",
+        "applies_to": [
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:12"
+        ]
+      }
     },
     {
       "id": 284,
@@ -7591,7 +8928,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Agricultural Gifts",
+        "sub_category": "Prohibition of Tevel",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:15"
+        ]
+      }
     },
     {
       "id": 285,
@@ -7609,7 +8959,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "No Consecrating Blemished Animals",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:20"
+        ]
+      }
     },
     {
       "id": 286,
@@ -7627,7 +8990,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Requirement of Unblemished Sacrifice",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:21"
+        ]
+      }
     },
     {
       "id": 287,
@@ -7645,7 +9021,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "No Blemishing Consecrated Animals",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:21"
+        ]
+      }
     },
     {
       "id": 288,
@@ -7659,7 +9048,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "No Sprinkling Blood of Blemished",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:24"
+        ]
+      }
     },
     {
       "id": 289,
@@ -7673,7 +9074,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "No Slaughtering Blemished for Sacrifice",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:22"
+        ]
+      }
     },
     {
       "id": 290,
@@ -7687,7 +9100,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "No Burning Entrails of Blemished",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:22"
+        ]
+      }
     },
     {
       "id": 291,
@@ -7706,7 +9131,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Animal Welfare",
+        "sub_category": "Prohibition of Castration",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:24"
+        ]
+      }
     },
     {
       "id": 292,
@@ -7724,7 +9162,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "No Blemished from Gentile",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:25"
+        ]
+      }
     },
     {
       "id": 293,
@@ -7742,7 +9192,19 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Minimum Age of Eight Days",
+        "applies_to": [
+          "All Israel"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 22:27"
+        ]
+      }
     },
     {
       "id": 294,
@@ -7762,7 +9224,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Animal Welfare",
+        "sub_category": "Prohibition of Slaughtering Parent and Child Same Day",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:28"
+        ]
+      }
     },
     {
       "id": 295,
@@ -7779,7 +9254,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Faith and Sanctity",
+        "sub_category": "Prohibition of Desecrating God's Name",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:32"
+        ]
+      }
     },
     {
       "id": 296,
@@ -7802,7 +9290,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Faith and Sanctity",
+        "sub_category": "Command to Sanctify God's Name",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 22:32"
+        ]
+      }
     },
     {
       "id": 297,
@@ -7820,7 +9321,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festival Laws",
+        "sub_category": "Rest on First Day of Pesach",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:7"
+        ]
+      }
     },
     {
       "id": 298,
@@ -7842,7 +9356,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festival Laws",
+        "sub_category": "No Work on First Day of Pesach",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:7"
+        ]
+      }
     },
     {
       "id": 299,
@@ -7860,7 +9387,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Pesach Musaf Offerings",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Leviticus 23:8",
+          "Numbers 28:19-24"
+        ]
+      }
     },
     {
       "id": 300,
@@ -7874,7 +9414,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 31
+      "global_parasha_order": 31,
+      "classification": {
+        "category": "Festival Laws",
+        "sub_category": "Rest on Seventh Day of Pesach",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Leviticus 23:8"
+        ]
+      }
     },
     {
       "id": 301,

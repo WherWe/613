@@ -51,19 +51,19 @@
     <div class="container">
       <div class="header">
         <div class="header-top">
-          <div class="header-title-wrapper">
-            <h1 class="app-title">
-              <span class="title-en">613</span>
-              <span class="title-sep" aria-hidden="true">–</span>
-              <span class="title-he" lang="he" dir="rtl">תרי״ג</span>
-              <!-- <span class="title-he" lang="he" dir="rtl">תרי״ג מצוות</span> -->
-            </h1>
-            <div class="header-hebrew-text">
-              <div class="bsd">בס״ד</div>
-              <div class="based-on">מבוסס על ספר החינוך</div>
-            </div>
+          <div class="header-date" id="hebrewDate">Loading...</div>
+          <div class="header-hebrew-text">
+            <div class="bsd">בס״ד</div>
+            <div class="based-on">מבוסס על ספר החינוך</div>
           </div>
-          <div class="subtitle">Sefer HaChinukh - Interactive Version</div>
+        </div>
+        <div class="header-title-wrapper">
+          <h1 class="app-title">
+            <!-- <span class="title-he" lang="he" dir="rtl">תרי״ג</span>
+            <span class="title-sep" aria-hidden="true">–</span> -->
+            <span class="title-en1">Taryag<i>.online</i></span>
+          </h1>
+          <h2 class="subtitle title-en"><span class="title-he" lang="he" dir="rtl">תרי״ג</span><span class="title-sep" aria-hidden="true">|</span>The 613 Mitzvot</h2>
         </div>
         <div class="header-bottom">
           <div class="search-box">
@@ -78,38 +78,38 @@
       <div class="controls">
         <div class="filter-controls">
           <div class="primary-filters">
-            <select id="parashaFilter" class="filter-select">
+            <select id="parashaFilter" class="form-select form-select-sm filter-select">
               <option value="">All Parashot</option>
             </select>
-            <button id="moreFiltersBtn" class="more-filters-btn" onclick="app.toggleMoreFilters()">
+            <button id="moreFiltersBtn" class="btn btn-sm btn-outline-secondary" onclick="app.toggleMoreFilters()">
               <span id="moreFiltersText">More Filters</span>
               <span id="moreFiltersIcon">▼</span>
             </button>
             <div class="language-controls" id="tableLanguageToggle" style="display: none">
-              <button class="table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
-              <button class="table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
-              <button class="table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
+              <button class="btn btn-sm btn-outline-primary table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
+              <button class="btn btn-sm btn-outline-primary table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
+              <button class="btn btn-sm btn-outline-primary table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
             </div>
           </div>
           <div class="secondary-filters" id="secondaryFilters" style="display: none">
-            <select id="typeFilter" class="filter-select">
+            <select id="typeFilter" class="form-select form-select-sm filter-select">
               <option value="">All Types</option>
               <option value="Positive">Positive</option>
               <option value="Negative">Negative</option>
             </select>
-            <select id="bookFilter" class="filter-select">
+            <select id="bookFilter" class="form-select form-select-sm filter-select">
               <option value="">All Books</option>
             </select>
-            <select id="categoryFilter" class="filter-select">
+            <select id="categoryFilter" class="form-select form-select-sm filter-select">
               <option value="">All Categories</option>
             </select>
-            <select id="appliesToFilter" class="filter-select">
+            <select id="appliesToFilter" class="form-select form-select-sm filter-select">
               <option value="">Applies To: All</option>
             </select>
-            <select id="locationFilter" class="filter-select">
+            <select id="locationFilter" class="form-select form-select-sm filter-select">
               <option value="">All Locations</option>
             </select>
-            <select id="timeScopeFilter" class="filter-select">
+            <select id="timeScopeFilter" class="form-select form-select-sm filter-select">
               <option value="">All Time Scopes</option>
             </select>
           </div>
@@ -278,6 +278,8 @@
             this.setupEventListeners();
             this.enhanceSelects();
             this.render();
+            // Update Hebrew date with mitzvot counts now that data is loaded
+            loadHebrewDate(this);
           } catch (error) {
             console.error("Error initializing app:", error);
             this.showError();
@@ -1310,10 +1312,96 @@
         }
       }
 
+      // Function to load and display the Hebrew date
+      async function loadHebrewDate(appInstance = null) {
+        try {
+          const today = new Date();
+          const year = today.getFullYear();
+          const month = today.getMonth() + 1;
+          const day = today.getDate();
+
+          // Format the English date
+          const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+          const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+          const dayName = dayNames[today.getDay()];
+          const monthName = monthNames[today.getMonth()];
+          const englishDate = `${dayName}. ${monthName}. ${day}, ${year}`;
+
+          const url = `https://www.hebcal.com/converter?cfg=json&gy=${year}&gm=${month}&gd=${day}&g2h=1`;
+          const response = await fetch(url);
+          const data = await response.json();
+
+          // Display the combined date with Hebrew date in English
+          const hebrewDateElement = document.getElementById("hebrewDate");
+          if (hebrewDateElement && data.hm && data.hd && data.hy) {
+            const hebrewDateEng = `${data.hm} ${data.hd}, ${data.hy}`;
+
+            // Build parts array
+            let parts = [];
+
+            // Date part
+            parts.push(
+              `<span class="date-part"><i data-lucide="calendar" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle;"></i> ${englishDate} | ${hebrewDateEng}</span>`
+            );
+
+            // Add events if available
+            if (data.events && data.events.length > 0) {
+              // Extract parashat from events
+              const parashat = data.events.find((e) => e.startsWith("Parashat "));
+              const otherEvents = data.events.filter((e) => !e.startsWith("Parashat "));
+
+              if (parashat) {
+                const parashaName = parashat.replace("Parashat ", "");
+                let parashaText = `<i data-lucide="scroll-text" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle;"></i> ${parashaName}`;
+
+                // Count mitzvot for this parasha if data is available
+                if (appInstance && appInstance.data && appInstance.data.mitzvot) {
+                  const parashotInName = parashaName.split("-").map((p) => p.trim());
+                  const mitzvotInParasha = appInstance.data.mitzvot.filter((m) => parashotInName.some((p) => m.parasha && m.parasha.includes(p)));
+
+                  const positiveMitzvot = mitzvotInParasha.filter((m) => m.type === "Positive").length;
+                  const negativeMitzvot = mitzvotInParasha.filter((m) => m.type === "Negative").length;
+
+                  if (mitzvotInParasha.length > 0) {
+                    parashaText += ` (${positiveMitzvot} pos, ${negativeMitzvot} neg)`;
+                  } else {
+                    parashaText += ` (No mitzvot)`;
+                  }
+                }
+
+                parts.push(`<span class="parasha-part">${parashaText}</span>`);
+              }
+
+              if (otherEvents.length > 0) {
+                parts.push(
+                  `<span class="events-part"><i data-lucide="sparkles" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle;"></i> ${otherEvents.join(", ")}</span>`
+                );
+              }
+            }
+
+            hebrewDateElement.innerHTML = parts.join(' <span class="separator">•</span> ');
+
+            // Re-initialize Lucide icons for the newly added elements
+            if (typeof lucide !== "undefined") {
+              lucide.createIcons();
+            }
+          }
+        } catch (error) {
+          console.error("Failed to load Hebrew date:", error);
+          const hebrewDateElement = document.getElementById("hebrewDate");
+          if (hebrewDateElement) {
+            hebrewDateElement.innerHTML = "";
+          }
+        }
+      }
+
       // Initialize the app when the page loads
       let app;
       document.addEventListener("DOMContentLoaded", () => {
         app = new MitzvotApp();
+
+        // Load Hebrew date
+        loadHebrewDate();
 
         // Show beta notice on first visit
         if (!localStorage.getItem("betaNoticeSeen")) {

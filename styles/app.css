@@ -28,24 +28,53 @@ body {
   background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
   color: white;
   padding: 30px;
+  padding-top: 10px;
 }
 
 .header-top {
   text-align: center;
   margin-bottom: 25px;
-}
-
-.header-title-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  /* margin-bottom: 10px; */
   position: relative;
 }
 
+.header-title-wrapper {
+  margin-bottom: 20px;
+}
+
 .header-title-wrapper h1 {
-  margin: 0;
+  /* margin-top: 15px;
+  margin-bottom: 0; */
+  /* text-align: center;
+  flex-shrink: 0; */
+}
+
+.header-date {
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0; */
+  text-align: center;
+  font-size: 0.85em;
+  opacity: 0.85;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.4;
+  /* max-width: 700px; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-date .separator {
+  opacity: 0.5;
+}
+
+.header-date .date-part,
+.header-date .parasha-part,
+.header-date .events-part {
+  white-space: nowrap;
 }
 
 .header-hebrew-text {
@@ -114,23 +143,25 @@ body {
 
 /* Title: Hebrew and English side-by-side */
 .app-title {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: baseline;
-  gap: 10px;
+  /* gap: 10px; */
 }
 .app-title .title-he {
   font-family: "Noto Serif Hebrew", "Times New Roman", serif;
 }
-.app-title .title-en {
+.app-title .title-en,
+.title-en {
   font-weight: 700;
   font-family: "Cardo", Georgia, "Times New Roman", serif;
 }
 
 /* Subtle separator between EN and HE in title */
-.app-title .title-sep {
+.subtitle .title-sep {
   color: rgba(255, 255, 255, 0.75);
   font-weight: 400;
   opacity: 0.85;
+  margin: 5px;
   /* slightly smaller to reduce visual weight */
   font-size: 0.9em;
 }
@@ -138,6 +169,7 @@ body {
 .header .subtitle {
   font-size: 1.2em;
   opacity: 0.9;
+  /* font-family: "Cardo", serif; */
 }
 
 .stats {
@@ -161,7 +193,7 @@ body {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
-  display: none;
+  /* display: none; */
 }
 .stat-label {
   font-size: 0.8em;
@@ -174,11 +206,11 @@ body {
 }
 
 .stat-positive .stat-icon {
-  /* color: #2ecc71; */
+  color: #2ecc71;
 }
 
 .stat-negative .stat-icon {
-  /* color: #e74c3c; */
+  color: #e74c3c;
 }
 
 .stat-content {
@@ -195,7 +227,7 @@ body {
 }
 
 .controls {
-  padding: 25px;
+  padding: 10px 20px;
   background-color: #f8f9fa;
   border-bottom: 1px solid #dee2e6;
   display: flex;
@@ -225,6 +257,12 @@ body {
   animation: slideDown 0.3s ease;
 }
 
+/* Set fixed width for select filters */
+.filter-select {
+  width: 200px;
+  flex-shrink: 0;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -234,25 +272,6 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.more-filters-btn {
-  padding: 8px 15px;
-  border: 2px solid #7f8c8d;
-  background-color: white;
-  color: #7f8c8d;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.more-filters-btn:hover {
-  background-color: #7f8c8d;
-  color: white;
 }
 
 .language-controls {
@@ -276,39 +295,9 @@ body {
   }
 }
 
-.language-controls label {
-  font-weight: 600;
-  color: #555;
-  margin: 0;
-  font-size: 0.9em;
-}
-
 /* Minimal Tom Select styling */
 .ts-wrapper {
   min-width: 150px;
-}
-
-.sort-controls {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.sort-btn {
-  padding: 8px 15px;
-  border: 2px solid #3498db;
-  background-color: white;
-  color: #3498db;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 14px;
-}
-
-.sort-btn:hover,
-.sort-btn.active {
-  background-color: #3498db;
-  color: white;
 }
 
 .loading {
@@ -337,37 +326,22 @@ body {
   }
 }
 
-.table-lang-btn {
-  padding: 6px 12px;
-  border: 2px solid #3498db;
-  background: white;
-  color: #3498db;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.9em;
-  transition: all 0.2s ease;
-  font-family: "Cardo", Georgia, "Times New Roman", serif;
-}
-
-.table-lang-btn:hover {
-  background: #e8f4f8;
-}
-
-.table-lang-btn.active {
-  background: #3498db;
-  color: white;
-}
-
-/* Ensure Hebrew variant in toggle uses Hebrew font */
+/* Font styling for language buttons */
 .table-lang-btn[data-lang="he"],
 .language-btn[data-lang="he"] {
   font-family: "Noto Serif Hebrew", "Times New Roman", serif;
 }
 
-/* Default other language buttons to Cardo to match writings/table aesthetic */
 .language-btn,
 .table-lang-btn:not([data-lang="he"]) {
   font-family: "Cardo", Georgia, "Times New Roman", serif;
+}
+
+/* Active state for language buttons using Bootstrap classes */
+.table-lang-btn.active {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  color: white !important;
 }
 
 .table-container {
