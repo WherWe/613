@@ -48,7 +48,7 @@
       </button>
     </div>
 
-    <div class="container">
+    <div class="container mt-2">
       <div class="header">
         <div class="header-top">
           <div class="header-date" id="hebrewDate">Loading...</div>
@@ -58,13 +58,10 @@
           </div>
         </div>
         <div class="header-title-wrapper">
-          <h1 class="app-title">
-            <!-- <span class="title-he" lang="he" dir="rtl">תרי״ג</span>
-            <span class="title-sep" aria-hidden="true">–</span> -->
-            <span class="title-en1"><span class="title-en">TARYAG</span><i class="text-success1 small">.online</i></span>
-          </h1>
+          <h1 class="app-title title-en">TARYAG</h1>
           <h2 class="subtitle title-en1">
-            <span class="title-he" lang="he" dir="rtl">תרי״ג</span><span class="title-sep" aria-hidden="true">:</span><span class="title-en">The 613 Mitzvot</span
+            Taryag.online
+            <span class="title-he d-none" lang="he" dir="rtl">תרי״ג</span><span class="title-sep" aria-hidden="true">:</span><span class="title-en">The 613 Mitzvot</span
             ><span class="title-sep" aria-hidden="true">-</span>Interactive Edition
           </h2>
         </div>
@@ -84,14 +81,14 @@
             <select id="parashaFilter" class="form-select form-select-sm filter-select">
               <option value="">All Parashot</option>
             </select>
-            <button id="moreFiltersBtn" class="btn btn-sm btn-outline-secondary" onclick="app.toggleMoreFilters()">
+            <button id="moreFiltersBtn" class="btn btn-sm btn-outline-dark" onclick="app.toggleMoreFilters()">
               <span id="moreFiltersText">More Filters</span>
               <span id="moreFiltersIcon">▼</span>
             </button>
             <div class="language-controls" id="tableLanguageToggle" style="display: none">
-              <button class="btn btn-sm btn-outline-primary table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
-              <button class="btn btn-sm btn-outline-primary table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
-              <button class="btn btn-sm btn-outline-primary table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
+              <button class="btn btn-sm btn-outline-dark table-lang-btn active" data-lang="en" onclick="app.setTableLanguage('en')">EN</button>
+              <button class="btn btn-sm btn-outline-dark table-lang-btn" data-lang="he" onclick="app.setTableLanguage('he')">עב</button>
+              <button class="btn btn-sm btn-outline-dark table-lang-btn" data-lang="both" onclick="app.setTableLanguage('both')">Both</button>
             </div>
           </div>
           <div class="secondary-filters" id="secondaryFilters" style="display: none">
@@ -641,25 +638,28 @@
 
           statsContainer.innerHTML = `
                     <div class="stat-card stat-total">
-                        <i data-lucide="hash" class="stat-icon"></i>
+                      
                         <div class="stat-content">
                             <span class="stat-number">${totalCount}</span>
                             <span class="stat-label">Total</span>
                         </div>
+                          <i data-lucide="hash" class="stat-icon"></i>
                     </div>
                     <div class="stat-card stat-positive">
-                        <i data-lucide="circle-plus" class="stat-icon"></i>
+                       
                         <div class="stat-content">
                             <span class="stat-number">${positiveCount}</span>
                             <span class="stat-label">Positive</span>
                         </div>
+                         <i data-lucide="circle-plus" class="stat-icon"></i>
                     </div>
                     <div class="stat-card stat-negative">
-                        <i data-lucide="circle-minus" class="stat-icon"></i>
+                      
                         <div class="stat-content">
                             <span class="stat-number">${negativeCount}</span>
                             <span class="stat-label">Negative</span>
                         </div>
+                          <i data-lucide="circle-minus" class="stat-icon"></i>
                     </div>
                 `;
 
