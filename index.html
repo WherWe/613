@@ -601,7 +601,12 @@
               !searchTerm ||
               mitzvah.title.toLowerCase().includes(searchTerm) ||
               (mitzvah.title_he && mitzvah.title_he.toLowerCase().includes(searchTerm)) ||
-              mitzvah.description.toLowerCase().includes(searchTerm);
+              mitzvah.description.toLowerCase().includes(searchTerm) ||
+              (mitzvah.classification && mitzvah.classification.category && mitzvah.classification.category.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.sub_category && mitzvah.classification.sub_category.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.location && mitzvah.classification.location.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.time_scope && mitzvah.classification.time_scope.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.applies_to && mitzvah.classification.applies_to.some((a) => a.toLowerCase().includes(searchTerm)));
 
             const matchesType = !typeFilter || mitzvah.type === typeFilter;
             const matchesBook = !bookFilter || mitzvah.book_en === bookFilter;

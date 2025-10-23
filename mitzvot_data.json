@@ -10981,7 +10981,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Exchange Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 27:10"
+        ]
+      }
     },
     {
       "id": 352,
@@ -10999,7 +11012,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Exchange Consecration",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 27:10"
+        ]
+      }
     },
     {
       "id": 353,
@@ -11017,7 +11043,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Beast Appraisal",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 27:11-12"
+        ]
+      }
     },
     {
       "id": 354,
@@ -11035,7 +11074,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "House Appraisal",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 27:14"
+        ]
+      }
     },
     {
       "id": 355,
@@ -11054,7 +11106,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Field Appraisal",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 27:16"
+        ]
+      }
     },
     {
       "id": 356,
@@ -11072,7 +11137,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Sacrifice Type Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 27:26"
+        ]
+      }
     },
     {
       "id": 357,
@@ -11091,7 +11169,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Dedications to Priests",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 27:28"
+        ]
+      }
     },
     {
       "id": 358,
@@ -11107,7 +11198,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Dedicated Land - Sale Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 27:28"
+        ]
+      }
     },
     {
       "id": 359,
@@ -11124,7 +11228,20 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Dedicated Field - Redemption Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Leviticus 27:28"
+        ]
+      }
     },
     {
       "id": 360,
@@ -11145,7 +11262,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Animal Tithe",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Priests",
+          "Levites"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 27:32"
+        ]
+      }
     },
     {
       "id": 361,
@@ -11164,7 +11296,22 @@
       "book_he": "ויקרא",
       "book_order": 3,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 33
+      "global_parasha_order": 33,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Animal Tithe - Sale Prohibition",
+        "applies_to": [
+          "Men",
+          "Women",
+          "Priests",
+          "Levites"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "Always",
+        "source_refs": [
+          "Leviticus 27:33"
+        ]
+      }
     },
     {
       "id": 362,
@@ -11182,7 +11329,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Temple Exclusion - Impure Persons",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Temple",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 5:2",
+          "Deuteronomy 23:11"
+        ]
+      }
     },
     {
       "id": 363,
@@ -11200,7 +11361,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Temple Entry Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Temple",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 5:3",
+          "Numbers 19:13"
+        ]
+      }
     },
     {
       "id": 364,
@@ -11220,7 +11395,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Repentance",
+        "sub_category": "Confession of Sin",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 5:6",
+          "Leviticus 5:5"
+        ]
+      }
     },
     {
       "id": 365,
@@ -11240,7 +11429,19 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Suspected Adulteress (Sotah)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Numbers 5:12-15"
+        ]
+      }
     },
     {
       "id": 366,
@@ -11257,7 +11458,19 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Sotah Sacrifice - Oil Prohibition",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Numbers 5:15"
+        ]
+      }
     },
     {
       "id": 367,
@@ -11273,7 +11486,19 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Sotah Sacrifice - Frankincense Prohibition",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Numbers 5:15"
+        ]
+      }
     },
     {
       "id": 368,
@@ -11293,7 +11518,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite - Wine Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 6:3"
+        ]
+      }
     },
     {
       "id": 369,
@@ -11309,7 +11547,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite - Fresh Grapes Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 6:3"
+        ]
+      }
     },
     {
       "id": 370,
@@ -11323,7 +11574,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite - Raisins Prohibition",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 6:3"
+        ]
+      }
     },
     {
       "id": 371,
@@ -11337,7 +11601,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Laws",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Nazirite Term",
+        "source_refs": [
+          "Numbers 6:4",
+          "Nazir 38b"
+        ]
+      }
     },
     {
       "id": 372,
@@ -11353,7 +11631,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Laws",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Nazirite Term",
+        "source_refs": [
+          "Numbers 6:4",
+          "Nazir 38b"
+        ]
+      }
     },
     {
       "id": 373,
@@ -11372,7 +11664,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Laws",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Nazirite Term",
+        "source_refs": [
+          "Numbers 6:5",
+          "Nazir 39a-40a"
+        ]
+      }
     },
     {
       "id": 374,
@@ -11392,7 +11698,23 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Laws",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Nazirite Term",
+        "source_refs": [
+          "Numbers 6:5",
+          "Nazir 4b",
+          "Nazir 19a",
+          "Nazir 19b"
+        ]
+      }
     },
     {
       "id": 375,
@@ -11410,7 +11732,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Laws",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Nazirite Term",
+        "source_refs": [
+          "Numbers 6:6",
+          "Nazir 43a"
+        ]
+      }
     },
     {
       "id": 376,
@@ -11431,7 +11767,24 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Laws",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "During Nazirite Term",
+        "source_refs": [
+          "Numbers 6:7",
+          "Numbers 6:9",
+          "Leviticus 21:22",
+          "Nazir 49b",
+          "Nazir 44a"
+        ]
+      }
     },
     {
       "id": 377,
@@ -11449,7 +11802,23 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Personal Status",
+        "sub_category": "Nazirite Completion",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Temple (for sacrifices)",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 6:13",
+          "Numbers 6:9",
+          "Mishnah Middot 2:5",
+          "Nazir 46a"
+        ]
+      }
     },
     {
       "id": 378,
@@ -11468,7 +11837,22 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Priestly Blessing",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 6:23",
+          "Megillah 23b",
+          "Sotah 38b",
+          "Taanit 26b"
+        ]
+      }
     },
     {
       "id": 379,
@@ -11487,7 +11871,24 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 35
+      "global_parasha_order": 35,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Ark Transportation",
+        "applies_to": [
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "When Ark Moved",
+        "source_refs": [
+          "Numbers 7:9",
+          "Joshua 3:3-6",
+          "I Chronicles 15:14-15",
+          "II Chronicles 35:3",
+          "Sotah 33b-34a"
+        ]
+      }
     },
     {
       "id": 380,
@@ -11507,7 +11908,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 36
+      "global_parasha_order": 36,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Pesach Sheni",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 9:11",
+          "Pesachim 73a",
+          "Pesachim 93a-95a"
+        ]
+      }
     },
     {
       "id": 381,
@@ -11525,7 +11940,22 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 36
+      "global_parasha_order": 36,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Pesach Sheni",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 9:11",
+          "Pesachim 40a",
+          "Pesachim 39a",
+          "Pesachim 95a"
+        ]
+      }
     },
     {
       "id": 382,
@@ -11539,7 +11969,19 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 36
+      "global_parasha_order": 36,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Pesach Sheni",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 9:12"
+        ]
+      }
     },
     {
       "id": 383,
@@ -11553,7 +11995,19 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 36
+      "global_parasha_order": 36,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Pesach Sheni",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 9:12"
+        ]
+      }
     },
     {
       "id": 384,
@@ -11571,7 +12025,25 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 36
+      "global_parasha_order": 36,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Priestly Duties",
+        "applies_to": [
+          "Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Always (during sacrifices and war)",
+        "source_refs": [
+          "Numbers 10:9-10",
+          "Numbers 10:8",
+          "Rosh HaShanah 29a",
+          "Arakhin 13a",
+          "Menachot 28a",
+          "Mishnah Tamid 7:3",
+          "Taanit 19a"
+        ]
+      }
     },
     {
       "id": 385,
@@ -11595,7 +12067,24 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 37
+      "global_parasha_order": 37,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Priestly Gifts",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Eretz Yisrael (Torah), Anywhere (Rabbinic)",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 15:20",
+          "Eruvin 93a",
+          "Mishnah Challah 3:1",
+          "Mishnah Challah 2:7",
+          "Ketubot 20a"
+        ]
+      }
     },
     {
       "id": 386,
@@ -11619,7 +12108,25 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 37
+      "global_parasha_order": 37,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Tzitzit",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 15:18",
+          "Numbers 15:39",
+          "Deuteronomy 22:12",
+          "Menachot 43b",
+          "Menachot 38a-42a",
+          "Shabbat 32b",
+          "Menachot 41a"
+        ]
+      }
     },
     {
       "id": 387,
@@ -11637,7 +12144,24 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 37
+      "global_parasha_order": 37,
+      "classification": {
+        "category": "Thought and Belief",
+        "sub_category": "Forbidden Thoughts",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 15:39",
+          "Berakhot 12b",
+          "Kiddushin 40a",
+          "Judges 14:3",
+          "Avot 4:2"
+        ]
+      }
     },
     {
       "id": 388,
@@ -11656,7 +12180,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Temple Guard",
+        "applies_to": [
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 18:4",
+          "Mishnah Middot 1:1-2"
+        ]
+      }
     },
     {
       "id": 389,
@@ -11674,7 +12212,23 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Service Boundaries",
+        "applies_to": [
+          "Kohanim",
+          "Levites"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 4:19",
+          "Numbers 18:3",
+          "Mishnah Shekalim 5:1",
+          "Taanit 27a"
+        ]
+      }
     },
     {
       "id": 390,
@@ -11692,7 +12246,22 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Service Restrictions",
+        "applies_to": [
+          "All non-Kohanim"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 18:4",
+          "Numbers 18:22",
+          "Zevachim 32a",
+          "Yoma 24a"
+        ]
+      }
     },
     {
       "id": 391,
@@ -11708,7 +12277,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Temple Guard Nullification",
+        "applies_to": [
+          "Levites"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 18:22",
+          "Sefer HaChinukh 391"
+        ]
+      }
     },
     {
       "id": 392,
@@ -11728,7 +12310,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Firstborn Redemption",
+        "applies_to": [
+          "Israelites"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 18:15-16",
+          "Sefer HaChinukh 392"
+        ]
+      }
     },
     {
       "id": 393,
@@ -11746,7 +12341,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Firstborn Pure Animal",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 18:17",
+          "Sefer HaChinukh 393"
+        ]
+      }
     },
     {
       "id": 394,
@@ -11765,7 +12373,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Levite Service",
+        "applies_to": [
+          "Levites"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 18:23",
+          "Numbers 8:24-25",
+          "Sefer HaChinukh 394"
+        ]
+      }
     },
     {
       "id": 395,
@@ -11783,7 +12405,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "First Tithe",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 18:24",
+          "Leviticus 27:30",
+          "Sefer HaChinukh 395"
+        ]
+      }
     },
     {
       "id": 396,
@@ -11801,7 +12437,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 38
+      "global_parasha_order": 38,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Tithe from Tithe (Terumot Maaser)",
+        "applies_to": [
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 18:26-29",
+          "Sefer HaChinukh 396"
+        ]
+      }
     },
     {
       "id": 397,
@@ -11823,7 +12472,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 39
+      "global_parasha_order": 39,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Red Heifer",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 19:2-10",
+          "Sefer HaChinukh 397"
+        ]
+      }
     },
     {
       "id": 398,
@@ -11839,7 +12501,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 39
+      "global_parasha_order": 39,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Impurity of Dead Body",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 19:14",
+          "Sefer HaChinukh 398"
+        ]
+      }
     },
     {
       "id": 399,
@@ -11857,7 +12532,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 39
+      "global_parasha_order": 39,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Niddah Waters (Sprinkling)",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 19:19-21",
+          "Sefer HaChinukh 399"
+        ]
+      }
     },
     {
       "id": 400,
@@ -11883,7 +12571,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 41
+      "global_parasha_order": 41,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "Laws of Inheritance",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 27:8-11",
+          "Sefer HaChinukh 400"
+        ]
+      }
     },
     {
       "id": 401,
@@ -11901,7 +12602,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 41
+      "global_parasha_order": 41,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Regular Daily Sacrifices",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 28:2-8",
+          "Sefer HaChinukh 401"
+        ]
+      }
     },
     {
       "id": 402,
@@ -11917,7 +12631,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 41
+      "global_parasha_order": 41,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Additional Shabbat Sacrifice",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 28:9-10",
+          "Sefer HaChinukh 402"
+        ]
+      }
     },
     {
       "id": 403,
@@ -11934,7 +12661,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 41
+      "global_parasha_order": 41,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Additional Monthly Sacrifice (Rosh Chodesh)",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 28:11-15",
+          "Sefer HaChinukh 403"
+        ]
+      }
     },
     {
       "id": 404,
@@ -11948,7 +12688,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 41
+      "global_parasha_order": 41,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Additional Shavuot Sacrifice",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 28:26-31",
+          "Sefer HaChinukh 404"
+        ]
+      }
     },
     {
       "id": 405,
@@ -11968,7 +12721,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 8,
-      "global_parasha_order": 41
+      "global_parasha_order": 41,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Shofar on Rosh Hashanah",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 29:1",
+          "Leviticus 25:9",
+          "Sefer HaChinukh 405"
+        ]
+      }
     },
     {
       "id": 406,
@@ -11990,7 +12757,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 42
+      "global_parasha_order": 42,
+      "classification": {
+        "category": "Vows and Oaths",
+        "sub_category": "Abrogation of Vows",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 30:3",
+          "Sefer HaChinukh 406"
+        ]
+      }
     },
     {
       "id": 407,
@@ -12008,7 +12788,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 42
+      "global_parasha_order": 42,
+      "classification": {
+        "category": "Vows and Oaths",
+        "sub_category": "Not Profaning Words from Vows",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 30:3",
+          "Sefer HaChinukh 407"
+        ]
+      }
     },
     {
       "id": 408,
@@ -12026,7 +12819,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 43
+      "global_parasha_order": 43,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Cities for Levites",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 35:2-8",
+          "Sefer HaChinukh 408"
+        ]
+      }
     },
     {
       "id": 409,
@@ -12044,7 +12850,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 43
+      "global_parasha_order": 43,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Killing Liable Person Before Trial",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Numbers 35:12",
+          "Sefer HaChinukh 409"
+        ]
+      }
     },
     {
       "id": 410,
@@ -12063,7 +12882,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 43
+      "global_parasha_order": 43,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Cities of Refuge",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 35:25-28",
+          "Sefer HaChinukh 410"
+        ]
+      }
     },
     {
       "id": 411,
@@ -12081,7 +12913,21 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 43
+      "global_parasha_order": 43,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Witness Not Ruling",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 35:30",
+          "Deuteronomy 17:6",
+          "Sefer HaChinukh 411"
+        ]
+      }
     },
     {
       "id": 412,
@@ -12099,7 +12945,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 43
+      "global_parasha_order": 43,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "No Ransom for Murderer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 35:31",
+          "Sefer HaChinukh 412"
+        ]
+      }
     },
     {
       "id": 413,
@@ -12115,7 +12974,20 @@
       "book_he": "במדבר",
       "book_order": 4,
       "parasha_order_within_book": 10,
-      "global_parasha_order": 43
+      "global_parasha_order": 43,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "No Ransom for Exile",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Numbers 35:32",
+          "Sefer HaChinukh 413"
+        ]
+      }
     },
     {
       "id": 414,
@@ -12134,7 +13006,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 44
+      "global_parasha_order": 44,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Appointing Ignorant Judge",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 1:17",
+          "Sefer HaChinukh 414"
+        ]
+      }
     },
     {
       "id": 415,
@@ -12152,7 +13037,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 1,
-      "global_parasha_order": 44
+      "global_parasha_order": 44,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Judge Not Fearing",
+        "applies_to": [
+          "Judges"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 1:17",
+          "Sefer HaChinukh 415"
+        ]
+      }
     },
     {
       "id": 416,
@@ -12170,7 +13068,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Not Desiring",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 5:18",
+          "Sefer HaChinukh 416"
+        ]
+      }
     },
     {
       "id": 417,
@@ -12188,7 +13099,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Thought and Belief",
+        "sub_category": "Unification of God",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 6:4",
+          "Sefer HaChinukh 417"
+        ]
+      }
     },
     {
       "id": 418,
@@ -12206,7 +13130,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Thought and Belief",
+        "sub_category": "Loving God",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 6:5",
+          "Sefer HaChinukh 418"
+        ]
+      }
     },
     {
       "id": 419,
@@ -12227,7 +13164,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Torah Study",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 6:7",
+          "Sefer HaChinukh 419"
+        ]
+      }
     },
     {
       "id": 420,
@@ -12248,7 +13198,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Recitation of Shema",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 6:7",
+          "Sefer HaChinukh 420"
+        ]
+      }
     },
     {
       "id": 421,
@@ -12271,7 +13234,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Tefillin of Arm",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Weekdays",
+        "source_refs": [
+          "Deuteronomy 6:8",
+          "Sefer HaChinukh 421"
+        ]
+      }
     },
     {
       "id": 422,
@@ -12287,7 +13263,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Tefillin of Head",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Weekdays",
+        "source_refs": [
+          "Deuteronomy 6:8",
+          "Sefer HaChinukh 422"
+        ]
+      }
     },
     {
       "id": 423,
@@ -12306,7 +13295,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Mezuzah",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 6:9",
+          "Sefer HaChinukh 423"
+        ]
+      }
     },
     {
       "id": 424,
@@ -12325,7 +13327,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Prophets and Prophecy",
+        "sub_category": "Not Testing True Prophet",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 6:16",
+          "Sefer HaChinukh 424"
+        ]
+      }
     },
     {
       "id": 425,
@@ -12344,7 +13359,21 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Conquest of Israel",
+        "sub_category": "Killing Seven Nations",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 7:2",
+          "Deuteronomy 20:17",
+          "Sefer HaChinukh 425"
+        ]
+      }
     },
     {
       "id": 426,
@@ -12362,7 +13391,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Favoring Idolater",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 7:2",
+          "Sefer HaChinukh 426"
+        ]
+      }
     },
     {
       "id": 427,
@@ -12380,7 +13422,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 2,
-      "global_parasha_order": 45
+      "global_parasha_order": 45,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Not Marrying Idolaters",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 7:3",
+          "Sefer HaChinukh 427"
+        ]
+      }
     },
     {
       "id": 428,
@@ -12398,7 +13453,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Benefiting from Idolatry Coverings",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 7:25",
+          "Sefer HaChinukh 428"
+        ]
+      }
     },
     {
       "id": 429,
@@ -12419,7 +13487,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Benefiting from Idolatry Offering",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 7:26",
+          "Sefer HaChinukh 429"
+        ]
+      }
     },
     {
       "id": 430,
@@ -12452,7 +13533,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Blessing After Food",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 8:10",
+          "Sefer HaChinukh 430"
+        ]
+      }
     },
     {
       "id": 431,
@@ -12470,7 +13564,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Loving Converts",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 10:19",
+          "Sefer HaChinukh 431"
+        ]
+      }
     },
     {
       "id": 432,
@@ -12488,7 +13595,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Thought and Belief",
+        "sub_category": "Fearing God",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 10:20",
+          "Sefer HaChinukh 432"
+        ]
+      }
     },
     {
       "id": 433,
@@ -12510,7 +13630,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Daily Observance",
+        "sub_category": "Prayer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 10:20",
+          "Sefer HaChinukh 433"
+        ]
+      }
     },
     {
       "id": 434,
@@ -12528,7 +13661,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Torah Study",
+        "sub_category": "Clinging to Torah Sages",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 10:20",
+          "Sefer HaChinukh 434"
+        ]
+      }
     },
     {
       "id": 435,
@@ -12546,7 +13692,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 3,
-      "global_parasha_order": 46
+      "global_parasha_order": 46,
+      "classification": {
+        "category": "Vows and Oaths",
+        "sub_category": "Swearing Truthfully in His Name",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 10:20",
+          "Sefer HaChinukh 435"
+        ]
+      }
     },
     {
       "id": 436,
@@ -12564,7 +13723,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Destroying Idolatry",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 12:2-3",
+          "Sefer HaChinukh 436"
+        ]
+      }
     },
     {
       "id": 437,
@@ -12583,7 +13755,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Temple",
+        "sub_category": "Not Destroying Holy Things",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 12:4",
+          "Sefer HaChinukh 437"
+        ]
+      }
     },
     {
       "id": 438,
@@ -12601,7 +13786,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Bringing Vows on First Festival",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:5-6",
+          "Sefer HaChinukh 438"
+        ]
+      }
     },
     {
       "id": 439,
@@ -12615,7 +13813,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Not Sacrificing Outside Temple",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:13",
+          "Sefer HaChinukh 439"
+        ]
+      }
     },
     {
       "id": 440,
@@ -12633,7 +13844,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Sacrificing in Choice House",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:14",
+          "Sefer HaChinukh 440"
+        ]
+      }
     },
     {
       "id": 441,
@@ -12652,7 +13876,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Redeeming Blemished Consecrated Animals",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:15-16",
+          "Sefer HaChinukh 441"
+        ]
+      }
     },
     {
       "id": 442,
@@ -12669,7 +13906,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Second Tithe Grain Outside Jerusalem",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 442"
+        ]
+      }
     },
     {
       "id": 443,
@@ -12685,7 +13935,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Second Tithe Wine Outside Jerusalem",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 443"
+        ]
+      }
     },
     {
       "id": 444,
@@ -12702,7 +13965,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Second Tithe Oil Outside Jerusalem",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 444"
+        ]
+      }
     },
     {
       "id": 445,
@@ -12718,7 +13994,21 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Firstborn Outside Jerusalem",
+        "applies_to": [
+          "Priests",
+          "Non-Priests"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 445"
+        ]
+      }
     },
     {
       "id": 446,
@@ -12736,7 +14026,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Higher-Level Consecrated Foods Outside Yard",
+        "applies_to": [
+          "Priests"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 446"
+        ]
+      }
     },
     {
       "id": 447,
@@ -12753,7 +14056,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Meat of Burnt-Offering",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 447"
+        ]
+      }
     },
     {
       "id": 448,
@@ -12771,7 +14087,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Lower-Level Consecrated Before Sprinkling",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 448"
+        ]
+      }
     },
     {
       "id": 449,
@@ -12790,7 +14119,21 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "First-Fruits Before Placement",
+        "applies_to": [
+          "Priests",
+          "Israelites"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:17",
+          "Sefer HaChinukh 449"
+        ]
+      }
     },
     {
       "id": 450,
@@ -12808,7 +14151,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Not Forsaking Levite",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 12:19",
+          "Sefer HaChinukh 450"
+        ]
+      }
     },
     {
       "id": 451,
@@ -12834,7 +14190,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Slaughter",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 12:21",
+          "Sefer HaChinukh 451"
+        ]
+      }
     },
     {
       "id": 452,
@@ -12853,7 +14222,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Limb from Living Animal",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 12:23",
+          "Sefer HaChinukh 452"
+        ]
+      }
     },
     {
       "id": 453,
@@ -12869,7 +14251,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Temple",
+        "sub_category": "Bringing Consecrated Things to Temple",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 12:26",
+          "Sefer HaChinukh 453"
+        ]
+      }
     },
     {
       "id": 454,
@@ -12888,7 +14283,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Torah Law",
+        "sub_category": "Not Adding to Commandments",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 13:1",
+          "Sefer HaChinukh 454"
+        ]
+      }
     },
     {
       "id": 455,
@@ -12904,7 +14312,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Torah Law",
+        "sub_category": "Not Subtracting from Commandments",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 13:1",
+          "Sefer HaChinukh 455"
+        ]
+      }
     },
     {
       "id": 456,
@@ -12922,7 +14343,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Listening to False Prophet",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:2-4",
+          "Sefer HaChinukh 456"
+        ]
+      }
     },
     {
       "id": 457,
@@ -12938,7 +14372,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Loving Seducer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:9",
+          "Sefer HaChinukh 457"
+        ]
+      }
     },
     {
       "id": 458,
@@ -12955,7 +14402,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Ceasing Hatred of Seducer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:9",
+          "Sefer HaChinukh 458"
+        ]
+      }
     },
     {
       "id": 459,
@@ -12971,7 +14431,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Saving Seducer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:9",
+          "Sefer HaChinukh 459"
+        ]
+      }
     },
     {
       "id": 460,
@@ -12985,7 +14458,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Advocating Innocence for Seducer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:9",
+          "Sefer HaChinukh 460"
+        ]
+      }
     },
     {
       "id": 461,
@@ -13001,7 +14487,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Refraining from Guilt for Seducer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:9",
+          "Sefer HaChinukh 461"
+        ]
+      }
     },
     {
       "id": 462,
@@ -13019,7 +14518,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Seducing to Idolatry",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 13:12",
+          "Sefer HaChinukh 462"
+        ]
+      }
     },
     {
       "id": 463,
@@ -13040,7 +14552,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Investigating Witnesses",
+        "applies_to": [
+          "Courts"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 13:15",
+          "Sefer HaChinukh 463"
+        ]
+      }
     },
     {
       "id": 464,
@@ -13058,7 +14583,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Conquest of Israel",
+        "sub_category": "Burning Enticed City",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:16-17",
+          "Sefer HaChinukh 464"
+        ]
+      }
     },
     {
       "id": 465,
@@ -13075,7 +14613,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Conquest of Israel",
+        "sub_category": "Not Rebuilding Enticed City",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:17",
+          "Sefer HaChinukh 465"
+        ]
+      }
     },
     {
       "id": 466,
@@ -13089,7 +14640,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Conquest of Israel",
+        "sub_category": "Property of Enticed City",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 13:18",
+          "Sefer HaChinukh 466"
+        ]
+      }
     },
     {
       "id": 467,
@@ -13107,7 +14671,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Mourning",
+        "sub_category": "Not Gashing Oneself",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 14:1",
+          "Sefer HaChinukh 467"
+        ]
+      }
     },
     {
       "id": 468,
@@ -13124,7 +14701,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Mourning",
+        "sub_category": "Not Making Bald Spot for Dead",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 14:1",
+          "Sefer HaChinukh 468"
+        ]
+      }
     },
     {
       "id": 469,
@@ -13142,7 +14732,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Not Eating Disqualified Consecrated",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 14:3",
+          "Sefer HaChinukh 469"
+        ]
+      }
     },
     {
       "id": 470,
@@ -13156,7 +14759,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Checking Signs of Bird",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 14:11",
+          "Sefer HaChinukh 470"
+        ]
+      }
     },
     {
       "id": 471,
@@ -13175,7 +14791,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Not Eating Flying Swarming Creatures",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 14:19",
+          "Sefer HaChinukh 471"
+        ]
+      }
     },
     {
       "id": 472,
@@ -13195,7 +14824,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Dietary Laws",
+        "sub_category": "Not Eating Dead Animal (Nevelah)",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 14:21",
+          "Sefer HaChinukh 472"
+        ]
+      }
     },
     {
       "id": 473,
@@ -13213,7 +14855,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Second Tithe",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 14:22-23",
+          "Sefer HaChinukh 473"
+        ]
+      }
     },
     {
       "id": 474,
@@ -13230,7 +14885,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Poor Tithe",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 14:28-29",
+          "Sefer HaChinukh 474"
+        ]
+      }
     },
     {
       "id": 475,
@@ -13246,7 +14914,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Time and Calendar",
+        "sub_category": "Not Claiming Debt After Sabbatical",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 15:2",
+          "Sefer HaChinukh 475"
+        ]
+      }
     },
     {
       "id": 476,
@@ -13264,7 +14945,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Pressing Foreigner for Debt",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 15:3",
+          "Sefer HaChinukh 476"
+        ]
+      }
     },
     {
       "id": 477,
@@ -13285,7 +14979,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Time and Calendar",
+        "sub_category": "Releasing Loans in Seventh Year",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 15:2",
+          "Sefer HaChinukh 477"
+        ]
+      }
     },
     {
       "id": 478,
@@ -13301,7 +15008,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Not Hardening Heart Against Poor",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 15:7",
+          "Sefer HaChinukh 478"
+        ]
+      }
     },
     {
       "id": 479,
@@ -13321,7 +15041,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Charity",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 15:8",
+          "Sefer HaChinukh 479"
+        ]
+      }
     },
     {
       "id": 480,
@@ -13340,7 +15073,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Refraining from Lending Before Sabbatical",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 15:9",
+          "Sefer HaChinukh 480"
+        ]
+      }
     },
     {
       "id": 481,
@@ -13356,7 +15102,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Not Sending Hebrew Slave Empty",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 15:13",
+          "Sefer HaChinukh 481"
+        ]
+      }
     },
     {
       "id": 482,
@@ -13374,7 +15133,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Endowing Departing Slave",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 15:14",
+          "Sefer HaChinukh 482"
+        ]
+      }
     },
     {
       "id": 483,
@@ -13394,7 +15166,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Not Working with Consecrated Animals",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 15:19",
+          "Sefer HaChinukh 483"
+        ]
+      }
     },
     {
       "id": 484,
@@ -13408,7 +15193,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Not Shearing Consecrated Animals",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 15:19",
+          "Sefer HaChinukh 484"
+        ]
+      }
     },
     {
       "id": 485,
@@ -13426,7 +15224,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Not Eating Chametz After Midday",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Festival",
+        "source_refs": [
+          "Deuteronomy 16:3",
+          "Sefer HaChinukh 485"
+        ]
+      }
     },
     {
       "id": 486,
@@ -13444,7 +15255,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Not Leaving Festival Sacrifice to Third Day",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 16:4",
+          "Sefer HaChinukh 486"
+        ]
+      }
     },
     {
       "id": 487,
@@ -13462,7 +15286,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Not Sacrificing Pesach on Individual Altar",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 16:5",
+          "Sefer HaChinukh 487"
+        ]
+      }
     },
     {
       "id": 488,
@@ -13480,7 +15317,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Rejoicing on Festivals",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Jerusalem",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 16:14",
+          "Sefer HaChinukh 488"
+        ]
+      }
     },
     {
       "id": 489,
@@ -13497,7 +15347,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Appearing on Festivals",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 16:16",
+          "Sefer HaChinukh 489"
+        ]
+      }
     },
     {
       "id": 490,
@@ -13511,7 +15374,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 4,
-      "global_parasha_order": 47
+      "global_parasha_order": 47,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Not Appearing Without Sacrifice",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 16:16",
+          "Sefer HaChinukh 490"
+        ]
+      }
     },
     {
       "id": 491,
@@ -13532,7 +15408,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Appointing Judges and Officers",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 16:18",
+          "Sefer HaChinukh 491"
+        ]
+      }
     },
     {
       "id": 492,
@@ -13549,7 +15438,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Planting Tree-Idols",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 16:21",
+          "Sefer HaChinukh 492"
+        ]
+      }
     },
     {
       "id": 493,
@@ -13566,7 +15468,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Worship and Idolatry",
+        "sub_category": "Not Erecting Matsevah",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 16:22",
+          "Sefer HaChinukh 493"
+        ]
+      }
     },
     {
       "id": 494,
@@ -13584,7 +15499,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Not Sacrificing Temporary Blemish",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 17:1",
+          "Sefer HaChinukh 494"
+        ]
+      }
     },
     {
       "id": 495,
@@ -13602,7 +15530,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Obeying Court",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 17:11",
+          "Sefer HaChinukh 495"
+        ]
+      }
     },
     {
       "id": 496,
@@ -13625,7 +15566,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Straying from Court's Words",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 17:11",
+          "Sefer HaChinukh 496"
+        ]
+      }
     },
     {
       "id": 497,
@@ -13644,7 +15598,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Monarchy",
+        "sub_category": "Appointing King",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 17:15",
+          "Sefer HaChinukh 497"
+        ]
+      }
     },
     {
       "id": 498,
@@ -13664,7 +15631,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Monarchy",
+        "sub_category": "Not Establishing Foreign King",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 17:15",
+          "Sefer HaChinukh 498"
+        ]
+      }
     },
     {
       "id": 499,
@@ -13682,7 +15662,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Monarchy",
+        "sub_category": "King Not Amassing Horses",
+        "applies_to": [
+          "King"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 17:16",
+          "Sefer HaChinukh 499"
+        ]
+      }
     },
     {
       "id": 500,
@@ -13700,7 +15693,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Conquest of Israel",
+        "sub_category": "Not Dwelling in Egypt",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Egypt",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 17:16",
+          "Sefer HaChinukh 500"
+        ]
+      }
     },
     {
       "id": 501,
@@ -13717,7 +15723,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Monarchy",
+        "sub_category": "King Not Amassing Wives",
+        "applies_to": [
+          "King"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 17:17",
+          "Sefer HaChinukh 501"
+        ]
+      }
     },
     {
       "id": 502,
@@ -13734,7 +15753,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Monarchy",
+        "sub_category": "King Not Amassing Wealth",
+        "applies_to": [
+          "King"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 17:17",
+          "Sefer HaChinukh 502"
+        ]
+      }
     },
     {
       "id": 503,
@@ -13751,7 +15783,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Monarchy",
+        "sub_category": "King Writing Torah Scroll",
+        "applies_to": [
+          "King"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 17:18",
+          "Sefer HaChinukh 503"
+        ]
+      }
     },
     {
       "id": 504,
@@ -13769,7 +15814,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Levites Not Inheriting Land",
+        "applies_to": [
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 18:1",
+          "Sefer HaChinukh 504"
+        ]
+      }
     },
     {
       "id": 505,
@@ -13786,7 +15844,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Levites Not Taking Spoils",
+        "applies_to": [
+          "Levites"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 18:1",
+          "Sefer HaChinukh 505"
+        ]
+      }
     },
     {
       "id": 506,
@@ -13807,7 +15878,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Giving Foreleg, Jaw, and Maw",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:3",
+          "Sefer HaChinukh 506"
+        ]
+      }
     },
     {
       "id": 507,
@@ -13829,7 +15913,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "Great Tithe for Priest (Terumah)",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 18:4",
+          "Sefer HaChinukh 507"
+        ]
+      }
     },
     {
       "id": 508,
@@ -13847,7 +15944,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Priesthood and Levites",
+        "sub_category": "First Shearing",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 18:4",
+          "Sefer HaChinukh 508"
+        ]
+      }
     },
     {
       "id": 509,
@@ -13866,7 +15976,21 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Temple Service",
+        "sub_category": "Priests and Levites Working in Shifts",
+        "applies_to": [
+          "Priests",
+          "Levites"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 18:6-8",
+          "Sefer HaChinukh 509"
+        ]
+      }
     },
     {
       "id": 510,
@@ -13884,7 +16008,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Occult Practices",
+        "sub_category": "Not Engaging in Clairvoyance",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:10",
+          "Sefer HaChinukh 510"
+        ]
+      }
     },
     {
       "id": 511,
@@ -13901,7 +16038,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Occult Practices",
+        "sub_category": "Not Doing Magic",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:10",
+          "Sefer HaChinukh 511"
+        ]
+      }
     },
     {
       "id": 512,
@@ -13920,7 +16070,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Occult Practices",
+        "sub_category": "Not Invoking Charm",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:11",
+          "Sefer HaChinukh 512"
+        ]
+      }
     },
     {
       "id": 513,
@@ -13938,7 +16101,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Occult Practices",
+        "sub_category": "Not Asking Master of Ov",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:11",
+          "Sefer HaChinukh 513"
+        ]
+      }
     },
     {
       "id": 514,
@@ -13954,7 +16130,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Occult Practices",
+        "sub_category": "Not Asking Yidaaoni",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:11",
+          "Sefer HaChinukh 514"
+        ]
+      }
     },
     {
       "id": 515,
@@ -13972,7 +16161,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Occult Practices",
+        "sub_category": "Not Inquiring of Dead",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:11",
+          "Sefer HaChinukh 515"
+        ]
+      }
     },
     {
       "id": 516,
@@ -13990,7 +16192,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Prophets and Prophecy",
+        "sub_category": "Heeding True Prophet",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 18:15",
+          "Sefer HaChinukh 516"
+        ]
+      }
     },
     {
       "id": 517,
@@ -14008,7 +16223,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Prophets and Prophecy",
+        "sub_category": "Not Prophesying Falsely",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:20",
+          "Sefer HaChinukh 517"
+        ]
+      }
     },
     {
       "id": 518,
@@ -14026,7 +16254,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Prophets and Prophecy",
+        "sub_category": "Not Prophesying in Name of Idolatry",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 18:20",
+          "Sefer HaChinukh 518"
+        ]
+      }
     },
     {
       "id": 519,
@@ -14044,7 +16285,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Prophets and Prophecy",
+        "sub_category": "Not Fearing False Prophet's Death",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 18:22",
+          "Sefer HaChinukh 519"
+        ]
+      }
     },
     {
       "id": 520,
@@ -14062,7 +16316,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Preparing Cities of Refuge",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 19:2-3",
+          "Sefer HaChinukh 520"
+        ]
+      }
     },
     {
       "id": 521,
@@ -14080,7 +16347,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Showing Pity on Killer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 19:13",
+          "Sefer HaChinukh 521"
+        ]
+      }
     },
     {
       "id": 522,
@@ -14098,7 +16378,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Civil Law",
+        "sub_category": "Not Removing Landmark",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 19:14",
+          "Sefer HaChinukh 522"
+        ]
+      }
     },
     {
       "id": 523,
@@ -14119,7 +16412,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Establishing Matter with One Witness",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 19:15",
+          "Sefer HaChinukh 523"
+        ]
+      }
     },
     {
       "id": 524,
@@ -14137,7 +16443,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Punishing Collusive Witness",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 19:19",
+          "Sefer HaChinukh 524"
+        ]
+      }
     },
     {
       "id": 525,
@@ -14155,7 +16474,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Not Being Terrified in War",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 20:3",
+          "Sefer HaChinukh 525"
+        ]
+      }
     },
     {
       "id": 526,
@@ -14173,7 +16505,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Anointing Priest for War",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 20:2",
+          "Sefer HaChinukh 526"
+        ]
+      }
     },
     {
       "id": 527,
@@ -14192,7 +16537,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Sending Peace to Besieged Cities",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 20:10",
+          "Sefer HaChinukh 527"
+        ]
+      }
     },
     {
       "id": 528,
@@ -14206,7 +16564,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Conquest of Israel",
+        "sub_category": "Not Keeping Seven Nations Alive",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 20:16",
+          "Sefer HaChinukh 528"
+        ]
+      }
     },
     {
       "id": 529,
@@ -14225,7 +16596,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Not Destroying Fruit Trees",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 20:19",
+          "Sefer HaChinukh 529"
+        ]
+      }
     },
     {
       "id": 530,
@@ -14243,7 +16627,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Beheading Calf (Eglah Arufah)",
+        "applies_to": [
+          "Community"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 21:4",
+          "Sefer HaChinukh 530"
+        ]
+      }
     },
     {
       "id": 531,
@@ -14261,7 +16658,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 5,
-      "global_parasha_order": 48
+      "global_parasha_order": 48,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Working Eglah Arufah Land",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 21:4",
+          "Sefer HaChinukh 531"
+        ]
+      }
     },
     {
       "id": 532,
@@ -14279,7 +16689,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Law of Beautiful Captive (Yefat Toar)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 21:11-13",
+          "Sefer HaChinukh 532"
+        ]
+      }
     },
     {
       "id": 533,
@@ -14295,7 +16718,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Not Selling Yefat Toar",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 21:14",
+          "Sefer HaChinukh 533"
+        ]
+      }
     },
     {
       "id": 534,
@@ -14311,7 +16747,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Not Enslaving Yefat Toar",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 21:14",
+          "Sefer HaChinukh 534"
+        ]
+      }
     },
     {
       "id": 535,
@@ -14329,7 +16778,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Hanging Executed Person",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 21:22",
+          "Sefer HaChinukh 535"
+        ]
+      }
     },
     {
       "id": 536,
@@ -14343,7 +16805,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Leaving Hanged Overnight",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 21:23",
+          "Sefer HaChinukh 536"
+        ]
+      }
     },
     {
       "id": 537,
@@ -14361,7 +16836,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Burial",
+        "sub_category": "Burying Dead Same Day",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 21:23",
+          "Sefer HaChinukh 537"
+        ]
+      }
     },
     {
       "id": 538,
@@ -14380,7 +16868,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Returning Lost Item",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:1",
+          "Sefer HaChinukh 538"
+        ]
+      }
     },
     {
       "id": 539,
@@ -14396,7 +16897,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Not Avoiding Lost Item",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:3",
+          "Sefer HaChinukh 539"
+        ]
+      }
     },
     {
       "id": 540,
@@ -14412,7 +16926,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Helping Fellow's Fallen Beast",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:4",
+          "Sefer HaChinukh 540"
+        ]
+      }
     },
     {
       "id": 541,
@@ -14428,7 +16955,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Interpersonal Relations",
+        "sub_category": "Helping Load Burden",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:4",
+          "Sefer HaChinukh 541"
+        ]
+      }
     },
     {
       "id": 542,
@@ -14446,7 +16986,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Modesty and Dress",
+        "sub_category": "Woman Not Wearing Men's Adornments",
+        "applies_to": [
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:5",
+          "Sefer HaChinukh 542"
+        ]
+      }
     },
     {
       "id": 543,
@@ -14464,7 +17017,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Modesty and Dress",
+        "sub_category": "Man Not Wearing Women's Clothes",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:5",
+          "Sefer HaChinukh 543"
+        ]
+      }
     },
     {
       "id": 544,
@@ -14480,7 +17046,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Animal Welfare",
+        "sub_category": "Not Taking Mother with Young",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:6",
+          "Sefer HaChinukh 544"
+        ]
+      }
     },
     {
       "id": 545,
@@ -14505,7 +17084,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Animal Welfare",
+        "sub_category": "Sending Away Mother Bird",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:7",
+          "Sefer HaChinukh 545"
+        ]
+      }
     },
     {
       "id": 546,
@@ -14525,7 +17117,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Safety and Health",
+        "sub_category": "Parapet on Roof",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:8",
+          "Sefer HaChinukh 546"
+        ]
+      }
     },
     {
       "id": 547,
@@ -14541,7 +17146,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Safety and Health",
+        "sub_category": "Not Leaving Stumbling Block",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:8",
+          "Sefer HaChinukh 547"
+        ]
+      }
     },
     {
       "id": 548,
@@ -14560,7 +17178,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Forbidden Mixtures",
+        "sub_category": "Not Planting Kilayim in Vineyard",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:9",
+          "Sefer HaChinukh 548"
+        ]
+      }
     },
     {
       "id": 549,
@@ -14578,7 +17209,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Forbidden Mixtures",
+        "sub_category": "Not Eating Kilayim of Vineyard",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:9",
+          "Sefer HaChinukh 549"
+        ]
+      }
     },
     {
       "id": 550,
@@ -14596,7 +17240,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Forbidden Mixtures",
+        "sub_category": "Not Working Two Species Together",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:10",
+          "Sefer HaChinukh 550"
+        ]
+      }
     },
     {
       "id": 551,
@@ -14615,7 +17272,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Forbidden Mixtures",
+        "sub_category": "Not Wearing Shaatnez",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:11",
+          "Sefer HaChinukh 551"
+        ]
+      }
     },
     {
       "id": 552,
@@ -14638,7 +17308,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Marriage Contract and Betrothal",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:13",
+          "Sefer HaChinukh 552"
+        ]
+      }
     },
     {
       "id": 553,
@@ -14656,7 +17339,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Slanderer's Wife Remaining Married",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:19",
+          "Sefer HaChinukh 553"
+        ]
+      }
     },
     {
       "id": 554,
@@ -14672,7 +17368,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Slanderer Not Divorcing Wife",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:19",
+          "Sefer HaChinukh 554"
+        ]
+      }
     },
     {
       "id": 555,
@@ -14690,7 +17399,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Stoning for Capital Crime",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:24",
+          "Sefer HaChinukh 555"
+        ]
+      }
     },
     {
       "id": 556,
@@ -14708,7 +17430,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Punishing Coerced Person",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 22:26",
+          "Sefer HaChinukh 556"
+        ]
+      }
     },
     {
       "id": 557,
@@ -14727,7 +17462,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Rapist Marrying Victim",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:29",
+          "Sefer HaChinukh 557"
+        ]
+      }
     },
     {
       "id": 558,
@@ -14744,7 +17492,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Rapist Not Divorcing Wife",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 22:29",
+          "Sefer HaChinukh 558"
+        ]
+      }
     },
     {
       "id": 559,
@@ -14762,7 +17523,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Eunuch Not Marrying Israelite",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:2",
+          "Sefer HaChinukh 559"
+        ]
+      }
     },
     {
       "id": 560,
@@ -14780,7 +17554,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Mamzer Not Marrying Israelite",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:3",
+          "Sefer HaChinukh 560"
+        ]
+      }
     },
     {
       "id": 561,
@@ -14798,7 +17585,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Ammonite/Moabite Not Entering Congregation",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:4",
+          "Sefer HaChinukh 561"
+        ]
+      }
     },
     {
       "id": 562,
@@ -14815,7 +17615,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Warfare",
+        "sub_category": "Not Seeking Peace with Ammon/Moab",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 23:7",
+          "Sefer HaChinukh 562"
+        ]
+      }
     },
     {
       "id": 563,
@@ -14833,7 +17646,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Not Distancing Third-Generation Edomite",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:8",
+          "Sefer HaChinukh 563"
+        ]
+      }
     },
     {
       "id": 564,
@@ -14849,7 +17675,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Not Distancing Third-Generation Egyptian",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:8",
+          "Sefer HaChinukh 564"
+        ]
+      }
     },
     {
       "id": 565,
@@ -14867,7 +17706,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Impure Not Entering Temple Mount",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 23:11",
+          "Sefer HaChinukh 565"
+        ]
+      }
     },
     {
       "id": 566,
@@ -14885,7 +17737,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Camp Purity",
+        "sub_category": "Designated Place for Defecation",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 23:13",
+          "Sefer HaChinukh 566"
+        ]
+      }
     },
     {
       "id": 567,
@@ -14901,7 +17766,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Camp Purity",
+        "sub_category": "Spike for Digging",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 23:14",
+          "Sefer HaChinukh 567"
+        ]
+      }
     },
     {
       "id": 568,
@@ -14919,7 +17797,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Not Returning Escaped Slave",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 23:16",
+          "Sefer HaChinukh 568"
+        ]
+      }
     },
     {
       "id": 569,
@@ -14937,7 +17828,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Slavery Laws",
+        "sub_category": "Not Oppressing Escaped Slave",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 23:17",
+          "Sefer HaChinukh 569"
+        ]
+      }
     },
     {
       "id": 570,
@@ -14956,7 +17860,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Sexual Prohibitions",
+        "sub_category": "No Relations Without Marriage",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:18",
+          "Sefer HaChinukh 570"
+        ]
+      }
     },
     {
       "id": 571,
@@ -14974,7 +17891,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Sacrifices",
+        "sub_category": "Not Bringing Prostitute Fee or Dog Price",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 23:19",
+          "Sefer HaChinukh 571"
+        ]
+      }
     },
     {
       "id": 572,
@@ -14990,7 +17920,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Giving Interest to Israelite",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:20",
+          "Sefer HaChinukh 572"
+        ]
+      }
     },
     {
       "id": 573,
@@ -15008,7 +17951,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Lending to Gentile with Interest",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:21",
+          "Sefer HaChinukh 573"
+        ]
+      }
     },
     {
       "id": 574,
@@ -15022,7 +17978,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Vows and Oaths",
+        "sub_category": "Not Delaying Vows",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:22",
+          "Sefer HaChinukh 574"
+        ]
+      }
     },
     {
       "id": 575,
@@ -15045,7 +18014,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Vows and Oaths",
+        "sub_category": "Fulfilling Vows",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:24",
+          "Sefer HaChinukh 575"
+        ]
+      }
     },
     {
       "id": 576,
@@ -15063,7 +18045,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Worker Eating from Produce",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:25",
+          "Sefer HaChinukh 576"
+        ]
+      }
     },
     {
       "id": 577,
@@ -15079,7 +18074,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Worker Not Taking More Than Eating",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:25",
+          "Sefer HaChinukh 577"
+        ]
+      }
     },
     {
       "id": 578,
@@ -15095,7 +18103,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Worker Not Eating During Work",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 23:26",
+          "Sefer HaChinukh 578"
+        ]
+      }
     },
     {
       "id": 579,
@@ -15129,7 +18150,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Divorcing with Get",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 24:1",
+          "Sefer HaChinukh 579"
+        ]
+      }
     },
     {
       "id": 580,
@@ -15147,7 +18181,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Not Remarrying Divorced Wife",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 24:4",
+          "Sefer HaChinukh 580"
+        ]
+      }
     },
     {
       "id": 581,
@@ -15163,7 +18210,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Groom Not Leaving Home First Year",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:5",
+          "Sefer HaChinukh 581"
+        ]
+      }
     },
     {
       "id": 582,
@@ -15181,7 +18241,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Groom Rejoicing with Wife First Year",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:5",
+          "Sefer HaChinukh 582"
+        ]
+      }
     },
     {
       "id": 583,
@@ -15200,7 +18273,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Taking Food-Making Vessels as Surety",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:6",
+          "Sefer HaChinukh 583"
+        ]
+      }
     },
     {
       "id": 584,
@@ -15219,7 +18305,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Purity and Impurity",
+        "sub_category": "Not Removing Tzaraat Signs",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:8",
+          "Sefer HaChinukh 584"
+        ]
+      }
     },
     {
       "id": 585,
@@ -15237,7 +18336,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Taking Surety by Force",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:10",
+          "Sefer HaChinukh 585"
+        ]
+      }
     },
     {
       "id": 586,
@@ -15253,7 +18365,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Withholding Surety from Owner",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:12",
+          "Sefer HaChinukh 586"
+        ]
+      }
     },
     {
       "id": 587,
@@ -15272,7 +18397,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Returning Surety When Needed",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:13",
+          "Sefer HaChinukh 587"
+        ]
+      }
     },
     {
       "id": 588,
@@ -15290,7 +18428,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Paying Worker Same Day",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:15",
+          "Sefer HaChinukh 588"
+        ]
+      }
     },
     {
       "id": 589,
@@ -15313,7 +18464,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Relatives Not Testifying",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:16",
+          "Sefer HaChinukh 589"
+        ]
+      }
     },
     {
       "id": 590,
@@ -15329,7 +18493,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Perverting Stranger/Orphan Judgment",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:17",
+          "Sefer HaChinukh 590"
+        ]
+      }
     },
     {
       "id": 591,
@@ -15347,7 +18524,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Taking Widow's Garment as Surety",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 24:17",
+          "Sefer HaChinukh 591"
+        ]
+      }
     },
     {
       "id": 592,
@@ -15365,7 +18555,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Leaving Forgotten for Poor",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 24:19",
+          "Sefer HaChinukh 592"
+        ]
+      }
     },
     {
       "id": 593,
@@ -15382,7 +18585,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Not Returning for Forgotten",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 24:19",
+          "Sefer HaChinukh 593"
+        ]
+      }
     },
     {
       "id": 594,
@@ -15400,7 +18616,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Lashing Evildoer",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:2",
+          "Sefer HaChinukh 594"
+        ]
+      }
     },
     {
       "id": 595,
@@ -15419,7 +18648,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Exceeding Forty Lashes",
+        "applies_to": [
+          "Court"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:3",
+          "Sefer HaChinukh 595"
+        ]
+      }
     },
     {
       "id": 596,
@@ -15437,7 +18679,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Animal Welfare",
+        "sub_category": "Not Muzzling Working Animal",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 25:4",
+          "Sefer HaChinukh 596"
+        ]
+      }
     },
     {
       "id": 597,
@@ -15453,7 +18708,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Levirate Wife Not Marrying Until Released",
+        "applies_to": [
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:5",
+          "Sefer HaChinukh 597"
+        ]
+      }
     },
     {
       "id": 598,
@@ -15476,7 +18744,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Levirate Marriage (Yibum)",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:5",
+          "Sefer HaChinukh 598"
+        ]
+      }
     },
     {
       "id": 599,
@@ -15503,7 +18784,21 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Family Law",
+        "sub_category": "Chalitzah (Release from Levirate)",
+        "applies_to": [
+          "Men",
+          "Women"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:9",
+          "Sefer HaChinukh 599"
+        ]
+      }
     },
     {
       "id": 600,
@@ -15524,7 +18819,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Saving Pursued by Killing Pursuer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:12",
+          "Sefer HaChinukh 600"
+        ]
+      }
     },
     {
       "id": 601,
@@ -15540,7 +18848,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Judicial System",
+        "sub_category": "Not Pitying Pursuer",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:12",
+          "Sefer HaChinukh 601"
+        ]
+      }
     },
     {
       "id": 602,
@@ -15558,7 +18879,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Business Ethics",
+        "sub_category": "Not Having Deficient Weights",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 25:14",
+          "Sefer HaChinukh 602"
+        ]
+      }
     },
     {
       "id": 603,
@@ -15577,7 +18911,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Amalek",
+        "sub_category": "Remembering What Amalek Did",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 25:17",
+          "Sefer HaChinukh 603"
+        ]
+      }
     },
     {
       "id": 604,
@@ -15595,7 +18942,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Amalek",
+        "sub_category": "Blotting Out Amalek",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 25:19",
+          "Sefer HaChinukh 604"
+        ]
+      }
     },
     {
       "id": 605,
@@ -15611,7 +18971,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 6,
-      "global_parasha_order": 49
+      "global_parasha_order": 49,
+      "classification": {
+        "category": "Amalek",
+        "sub_category": "Not Forgetting Amalek",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 25:19",
+          "Sefer HaChinukh 605"
+        ]
+      }
     },
     {
       "id": 606,
@@ -15632,7 +19005,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 50
+      "global_parasha_order": 50,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Recital Over First-Fruits",
+        "applies_to": [
+          "Men"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 26:5-10",
+          "Sefer HaChinukh 606"
+        ]
+      }
     },
     {
       "id": 607,
@@ -15650,7 +19036,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 50
+      "global_parasha_order": 50,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Declaration of Tithes",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Eretz Yisrael",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 26:13",
+          "Sefer HaChinukh 607"
+        ]
+      }
     },
     {
       "id": 608,
@@ -15668,7 +19067,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 50
+      "global_parasha_order": 50,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Not Eating Second Tithe in Bereavement",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 26:14",
+          "Sefer HaChinukh 608"
+        ]
+      }
     },
     {
       "id": 609,
@@ -15686,7 +19098,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 50
+      "global_parasha_order": 50,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Not Eating Second Tithe in Impurity",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 26:14",
+          "Sefer HaChinukh 609"
+        ]
+      }
     },
     {
       "id": 610,
@@ -15704,7 +19129,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 50
+      "global_parasha_order": 50,
+      "classification": {
+        "category": "Agricultural Laws",
+        "sub_category": "Second Tithe Only for Food/Drink",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Conditional",
+        "source_refs": [
+          "Deuteronomy 26:14",
+          "Sefer HaChinukh 610"
+        ]
+      }
     },
     {
       "id": 611,
@@ -15724,7 +19162,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 7,
-      "global_parasha_order": 50
+      "global_parasha_order": 50,
+      "classification": {
+        "category": "Thought and Belief",
+        "sub_category": "Walking in God's Ways (Imitatio Dei)",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 28:9",
+          "Sefer HaChinukh 611"
+        ]
+      }
     },
     {
       "id": 612,
@@ -15743,7 +19194,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 52
+      "global_parasha_order": 52,
+      "classification": {
+        "category": "Festivals and Holidays",
+        "sub_category": "Hakhel (Gathering on Sukkot)",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Temple",
+        "time_scope": "Temple Era",
+        "source_refs": [
+          "Deuteronomy 31:12",
+          "Sefer HaChinukh 612"
+        ]
+      }
     },
     {
       "id": 613,
@@ -15764,7 +19228,20 @@
       "book_he": "דברים",
       "book_order": 5,
       "parasha_order_within_book": 9,
-      "global_parasha_order": 52
+      "global_parasha_order": 52,
+      "classification": {
+        "category": "Torah Law",
+        "sub_category": "Writing Torah Scroll",
+        "applies_to": [
+          "All"
+        ],
+        "location": "Anywhere",
+        "time_scope": "Always",
+        "source_refs": [
+          "Deuteronomy 31:19",
+          "Sefer HaChinukh 613"
+        ]
+      }
     }
   ]
 }
