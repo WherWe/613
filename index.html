@@ -15,6 +15,9 @@
     <!-- Tom Select CSS (from vendor) -->
     <link rel="stylesheet" href="vendor/tom-select/css/tom-select.bootstrap5.css" />
 
+    <!-- Select2 CSS (from vendor) -->
+    <link rel="stylesheet" href="vendor/select2/css/select2.min.css" />
+
     <!-- Custom styles -->
     <link rel="stylesheet" href="styles/app.css" />
   </head>
@@ -32,8 +35,8 @@
           <h1 class="app-title title-en">TARYAG</h1>
           <h2 class="subtitle title-en1">
             Taryag.online
-            <span class="title-he d-none" lang="he" dir="rtl">תרי״ג</span><span class="title-sep" aria-hidden="true">:</span><span class="title-en">The 613 Mitzvot</span
-            ><span class="title-sep" aria-hidden="true">-</span>Interactive Edition
+            <span class="title-he d-none" lang="he" dir="rtl">תרי״ג</span><span class="title-sep" aria-hidden="true">:</span><span class="title-en">The 613 Mitzvot</span>
+            <!-- <span class="title-sep" aria-hidden="true">-</span>Interactive Edition -->
           </h2>
         </div>
         <div class="header-bottom">
@@ -159,6 +162,15 @@
       </div>
     </div>
 
+    <!-- jQuery (from vendor - required by Select2) -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap JS (from vendor - includes tooltip/popover functionality) -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Select2 library (from vendor) -->
+    <script src="vendor/select2/js/select2.min.js"></script>
+
     <!-- Tom Select library (from vendor) -->
     <script src="vendor/tom-select/js/tom-select.complete.min.js"></script>
 
@@ -261,36 +273,40 @@
         }
 
         enhanceSelects() {
-          // Helper to init Tom Select with clear button
-          const initTS = (selector, key) => {
-            const el = document.querySelector(selector);
-            if (!el) return;
+          // Helper to init Select2 with consistent settings
+          const initSelect2 = (selector, key, options = {}) => {
+            const el = $(selector);
+            if (!el.length) return;
             try {
               // Destroy existing instance if any
-              if (this.selects[key] && this.selects[key].destroy) {
-                this.selects[key].destroy();
+              if (el.data("select2")) {
+                el.select2("destroy");
               }
-              this.selects[key] = new TomSelect(el, {
-                create: false,
-                allowEmptyOption: true,
-                plugins: ["clear_button"],
-                maxItems: 1,
-                render: {
-                  option: (data, escape) => `<div>${escape(data.text)}</div>`,
-                },
-              });
+
+              // Default config
+              const config = {
+                placeholder: options.placeholder || "All",
+                allowClear: true,
+                width: "100%",
+                minimumResultsForSearch: options.minimumResultsForSearch || 5,
+                theme: "classic",
+                ...options.config,
+              };
+
+              this.selects[key] = el.select2(config).data("select2");
             } catch (e) {
-              console.warn("Tom Select init failed for", selector, e);
+              console.warn("Select2 init failed for", selector, e);
             }
           };
 
-          initTS("#typeFilter", "type");
-          initTS("#bookFilter", "book");
-          initTS("#parashaFilter", "parasha");
-          initTS("#categoryFilter", "category");
-          initTS("#appliesToFilter", "appliesTo");
-          initTS("#locationFilter", "location");
-          initTS("#timeScopeFilter", "timeScope");
+          // Initialize all filters with Select2
+          initSelect2("#typeFilter", "type", { placeholder: "All Types" });
+          initSelect2("#bookFilter", "book", { placeholder: "All Books" });
+          initSelect2("#parashaFilter", "parasha", { placeholder: "All Parashot" });
+          initSelect2("#categoryFilter", "category", { placeholder: "All Categories" });
+          initSelect2("#appliesToFilter", "appliesTo", { placeholder: "Applies To" });
+          initSelect2("#locationFilter", "location", { placeholder: "All Locations" });
+          initSelect2("#timeScopeFilter", "timeScope", { placeholder: "All Time Scopes" });
         }
 
         // Helper function to truncate text at sentence end
@@ -441,36 +457,32 @@
           });
 
           // Book filter
-          document.getElementById("bookFilter").addEventListener("change", (e) => {
+          $("#bookFilter").on("change", (e) => {
             // Reset parasha filter when book changes
-            if (this.selects.parasha) {
-              this.selects.parasha.setValue("", true);
-            } else {
-              document.getElementById("parashaFilter").value = "";
-            }
+            $("#parashaFilter").val("").trigger("change");
             this.renderParashaFilter();
             this.filterData();
           });
 
           // Parasha filter
-          document.getElementById("parashaFilter").addEventListener("change", (e) => {
+          $("#parashaFilter").on("change", (e) => {
             this.filterData();
           });
 
           // Classification filters
-          document.getElementById("categoryFilter").addEventListener("change", (e) => {
+          $("#categoryFilter").on("change", (e) => {
             this.filterData();
           });
 
-          document.getElementById("appliesToFilter").addEventListener("change", (e) => {
+          $("#appliesToFilter").on("change", (e) => {
             this.filterData();
           });
 
-          document.getElementById("locationFilter").addEventListener("change", (e) => {
+          $("#locationFilter").on("change", (e) => {
             this.filterData();
           });
 
-          document.getElementById("timeScopeFilter").addEventListener("change", (e) => {
+          $("#timeScopeFilter").on("change", (e) => {
             this.filterData();
           });
 
@@ -566,6 +578,14 @@
         renderScopeFilters() {
           const el = document.getElementById("scopeFilters");
           if (!el) return;
+
+          // Dispose existing tooltips before re-rendering
+          const existingTooltips = el.querySelectorAll('[data-bs-toggle="tooltip"]');
+          existingTooltips.forEach((el) => {
+            const tooltip = bootstrap.Tooltip.getInstance(el);
+            if (tooltip) tooltip.dispose();
+          });
+
           const scopes = [
             { key: "men", label: "Men", icon: "👨", title: "Applies to Men" },
             { key: "women", label: "Women", icon: "👩", title: "Applies to Women" },
@@ -579,17 +599,54 @@
             .map((s) => {
               const active = this.activeScopeKey === s.key ? "active" : "";
               const muted = this.activeScopeKey && this.activeScopeKey !== s.key ? "muted" : "";
-              return `<button class="scope-chip ${active} ${muted}" title="${s.title}" aria-label="${s.label}" aria-pressed="${active ? "true" : "false"}" onclick="app.toggleScopeFilter('${
-                s.key
-              }')">${s.icon}</button>`;
+              return `<button class="scope-chip ${active} ${muted}" data-bs-toggle="tooltip" data-bs-placement="top" title="${s.title}" aria-label="${s.label}" aria-pressed="${
+                active ? "true" : "false"
+              }" onclick="app.toggleScopeFilter('${s.key}')">${s.icon}</button>`;
             })
             .join("");
           el.innerHTML = `<div class="scope-chip-row">${chips}</div>`;
+
+          // Initialize Bootstrap tooltips
+          const tooltipTriggerList = el.querySelectorAll('[data-bs-toggle="tooltip"]');
+          [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
         }
 
         toggleScopeFilter(key) {
           this.activeScopeKey = this.activeScopeKey === key ? "" : key;
           this.currentPage = 1;
+
+          // Sync scope filter with dropdown filters
+          if (this.activeScopeKey) {
+            switch (key) {
+              case "men":
+                $("#appliesToFilter").val("Men").trigger("change");
+                break;
+              case "women":
+                $("#appliesToFilter").val("Women").trigger("change");
+                break;
+              case "all_israel":
+                $("#appliesToFilter").val("All Israel").trigger("change");
+                break;
+              case "israel":
+                $("#locationFilter").val("Eretz Yisrael").trigger("change");
+                break;
+              case "anywhere":
+                $("#locationFilter").val("Anywhere").trigger("change");
+                break;
+              case "always":
+                $("#timeScopeFilter").val("Always").trigger("change");
+                break;
+              case "temple":
+                $("#timeScopeFilter").val("Temple Era").trigger("change");
+                break;
+            }
+          } else {
+            // Clear all dropdowns when deactivating scope filter
+            $("#appliesToFilter").val("").trigger("change");
+            $("#locationFilter").val("").trigger("change");
+            $("#timeScopeFilter").val("").trigger("change");
+          }
+
           this.filterData();
         }
 
@@ -714,6 +771,14 @@
 
         renderStats() {
           const statsContainer = document.getElementById("stats");
+
+          // Dispose existing tooltips before re-rendering
+          const existingTooltips = statsContainer.querySelectorAll('[data-bs-toggle="tooltip"]');
+          existingTooltips.forEach((el) => {
+            const tooltip = bootstrap.Tooltip.getInstance(el);
+            if (tooltip) tooltip.dispose();
+          });
+
           // Global counts (tooltips only)
           const positiveCount = this.data ? this.data.mitzvot.filter((m) => m.type === "Positive").length : 0;
           const negativeCount = this.data ? this.data.mitzvot.filter((m) => m.type === "Negative").length : 0;
@@ -726,12 +791,12 @@
 
           statsContainer.innerHTML = `
             <div class="scope-chip-row">
-              <button class="scope-chip positive ${positiveActive} ${positiveMuted}" title="Positive — ${positiveCount}" aria-label="Positive" aria-pressed="${
+              <button class="scope-chip positive ${positiveActive} ${positiveMuted}" data-bs-toggle="tooltip" data-bs-placement="top" title="Positive — ${positiveCount}" aria-label="Positive" aria-pressed="${
             this.typeFilter === "Positive"
           }" onclick="app.setTypeFilter('Positive')">
                 <i data-lucide="circle-plus" class="chip-icon"></i>
               </button>
-              <button class="scope-chip negative ${negativeActive} ${negativeMuted}" title="Negative — ${negativeCount}" aria-label="Negative" aria-pressed="${
+              <button class="scope-chip negative ${negativeActive} ${negativeMuted}" data-bs-toggle="tooltip" data-bs-placement="top" title="Negative — ${negativeCount}" aria-label="Negative" aria-pressed="${
             this.typeFilter === "Negative"
           }" onclick="app.setTypeFilter('Negative')">
                 <i data-lucide="circle-minus" class="chip-icon"></i>
@@ -742,6 +807,10 @@
           if (typeof lucide !== "undefined") {
             lucide.createIcons();
           }
+
+          // Initialize Bootstrap tooltips
+          const tooltipTriggerList = statsContainer.querySelectorAll('[data-bs-toggle="tooltip"]');
+          [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
         }
 
         renderParashaFilter() {
@@ -763,18 +832,19 @@
             .sort((a, b) => a[1] - b[1])
             .map(([parasha]) => parasha);
 
+          // Update select options
+          const currentValue = parashaFilter.value;
           const html = '<option value="">All Parashot</option>' + parashot.map((parasha) => `<option value="${parasha}">${parasha}</option>`).join("");
-          if (this.selects.parasha) {
-            const ts = this.selects.parasha;
-            const prev = ts.getValue();
-            ts.clearOptions();
-            ts.addOption({ value: "", text: "All Parashot" });
-            parashot.forEach((p) => ts.addOption({ value: p, text: p }));
-            const next = prev && parashot.includes(prev) ? prev : "";
-            ts.setValue(next, true);
-            ts.refreshOptions(false);
-          } else {
-            parashaFilter.innerHTML = html;
+          parashaFilter.innerHTML = html;
+
+          // Restore previous selection if still valid
+          if (currentValue && parashot.includes(currentValue)) {
+            parashaFilter.value = currentValue;
+          }
+
+          // Trigger Select2 update
+          if ($(parashaFilter).data("select2")) {
+            $(parashaFilter).trigger("change.select2");
           }
         }
 
@@ -796,18 +866,20 @@
             .sort((a, b) => a[1] - b[1])
             .map(([book]) => book);
 
+          // Update select options
+          const $bookFilter = $("#bookFilter");
+          const currentValue = $bookFilter.val();
           const html = '<option value="">All Books</option>' + books.map((book) => `<option value="${book}">${book}</option>`).join("");
-          if (this.selects.book) {
-            const ts = this.selects.book;
-            const prev = ts.getValue();
-            ts.clearOptions();
-            ts.addOption({ value: "", text: "All Books" });
-            books.forEach((b) => ts.addOption({ value: b, text: b }));
-            ts.setValue(prev || "", true);
-            ts.refreshOptions(false);
-          } else {
-            bookFilter.innerHTML = html;
+
+          $bookFilter.html(html);
+
+          // Restore previous selection if still valid
+          if (currentValue && books.includes(currentValue)) {
+            $bookFilter.val(currentValue);
           }
+
+          // Trigger Select2 update
+          $bookFilter.trigger("change.select2");
         }
 
         renderClassificationFilters() {
@@ -823,53 +895,41 @@
             ...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.applies_to && Array.isArray(m.classification.applies_to)).flatMap((m) => m.classification.applies_to)),
           ].sort();
 
-          // Populate category filter
-          const categoryFilter = document.getElementById("categoryFilter");
-          if (this.selects.category) {
-            const ts = this.selects.category;
-            ts.clearOptions();
-            ts.addOption({ value: "", text: "All Categories" });
-            categories.forEach((c) => ts.addOption({ value: c, text: c }));
-            ts.refreshOptions(false);
-          } else {
-            categoryFilter.innerHTML = '<option value="">All Categories</option>' + categories.map((cat) => `<option value="${cat}">${cat}</option>`).join("");
+          // Update category filter
+          const $categoryFilter = $("#categoryFilter");
+          const categoryValue = $categoryFilter.val(); // Save current value
+          $categoryFilter.html('<option value="">All Categories</option>' + categories.map((cat) => `<option value="${cat}">${cat}</option>`).join(""));
+          if (categoryValue && categories.includes(categoryValue)) {
+            $categoryFilter.val(categoryValue); // Restore value if still valid
           }
+          $categoryFilter.trigger("change.select2");
 
-          // Populate applies to filter
-          const appliesToFilter = document.getElementById("appliesToFilter");
-          if (this.selects.appliesTo) {
-            const ts = this.selects.appliesTo;
-            ts.clearOptions();
-            ts.addOption({ value: "", text: "Applies To: All" });
-            appliesTo.forEach((p) => ts.addOption({ value: p, text: p }));
-            ts.refreshOptions(false);
-          } else {
-            appliesToFilter.innerHTML = '<option value="">Applies To: All</option>' + appliesTo.map((person) => `<option value="${person}">${person}</option>`).join("");
+          // Update applies to filter
+          const $appliesToFilter = $("#appliesToFilter");
+          const appliesToValue = $appliesToFilter.val(); // Save current value
+          $appliesToFilter.html('<option value="">Applies To: All</option>' + appliesTo.map((person) => `<option value="${person}">${person}</option>`).join(""));
+          if (appliesToValue && appliesTo.includes(appliesToValue)) {
+            $appliesToFilter.val(appliesToValue); // Restore value if still valid
           }
+          $appliesToFilter.trigger("change.select2");
 
-          // Populate location filter
-          const locationFilter = document.getElementById("locationFilter");
-          if (this.selects.location) {
-            const ts = this.selects.location;
-            ts.clearOptions();
-            ts.addOption({ value: "", text: "All Locations" });
-            locations.forEach((l) => ts.addOption({ value: l, text: l }));
-            ts.refreshOptions(false);
-          } else {
-            locationFilter.innerHTML = '<option value="">All Locations</option>' + locations.map((loc) => `<option value="${loc}">${loc}</option>`).join("");
+          // Update location filter
+          const $locationFilter = $("#locationFilter");
+          const locationValue = $locationFilter.val(); // Save current value
+          $locationFilter.html('<option value="">All Locations</option>' + locations.map((loc) => `<option value="${loc}">${loc}</option>`).join(""));
+          if (locationValue && locations.includes(locationValue)) {
+            $locationFilter.val(locationValue); // Restore value if still valid
           }
+          $locationFilter.trigger("change.select2");
 
-          // Populate time scope filter
-          const timeScopeFilter = document.getElementById("timeScopeFilter");
-          if (this.selects.timeScope) {
-            const ts = this.selects.timeScope;
-            ts.clearOptions();
-            ts.addOption({ value: "", text: "All Time Scopes" });
-            timeScopes.forEach((t) => ts.addOption({ value: t, text: t }));
-            ts.refreshOptions(false);
-          } else {
-            timeScopeFilter.innerHTML = '<option value="">All Time Scopes</option>' + timeScopes.map((ts) => `<option value="${ts}">${ts}</option>`).join("");
+          // Update time scope filter
+          const $timeScopeFilter = $("#timeScopeFilter");
+          const timeScopeValue = $timeScopeFilter.val(); // Save current value
+          $timeScopeFilter.html('<option value="">All Time Scopes</option>' + timeScopes.map((ts) => `<option value="${ts}">${ts}</option>`).join(""));
+          if (timeScopeValue && timeScopes.includes(timeScopeValue)) {
+            $timeScopeFilter.val(timeScopeValue); // Restore value if still valid
           }
+          $timeScopeFilter.trigger("change.select2");
         }
 
         renderTable() {

@@ -33,6 +33,9 @@ try {
   // Bootstrap CSS
   copyFile(path.join(ROOT, "node_modules", "bootstrap", "dist", "css", "bootstrap.min.css"), path.join(vendor, "bootstrap", "css", "bootstrap.min.css"));
 
+  // Bootstrap JS (bundle includes Popper for tooltips)
+  copyFile(path.join(ROOT, "node_modules", "bootstrap", "dist", "js", "bootstrap.bundle.min.js"), path.join(vendor, "bootstrap", "js", "bootstrap.bundle.min.js"));
+
   // Tom Select CSS + JS
   copyFile(path.join(ROOT, "node_modules", "tom-select", "dist", "css", "tom-select.bootstrap5.css"), path.join(vendor, "tom-select", "css", "tom-select.bootstrap5.css"));
   copyFile(path.join(ROOT, "node_modules", "tom-select", "dist", "js", "tom-select.complete.min.js"), path.join(vendor, "tom-select", "js", "tom-select.complete.min.js"));
@@ -47,6 +50,13 @@ try {
 
   // SweetAlert2
   copyFile(path.join(ROOT, "node_modules", "sweetalert2", "dist", "sweetalert2.all.min.js"), path.join(vendor, "sweetalert2", "sweetalert2.all.min.js"));
+
+  // jQuery (required by Select2)
+  copyFile(path.join(ROOT, "node_modules", "jquery", "dist", "jquery.min.js"), path.join(vendor, "jquery", "jquery.min.js"));
+
+  // Select2 CSS + JS
+  copyFile(path.join(ROOT, "node_modules", "select2", "dist", "css", "select2.min.css"), path.join(vendor, "select2", "css", "select2.min.css"));
+  copyFile(path.join(ROOT, "node_modules", "select2", "dist", "js", "select2.min.js"), path.join(vendor, "select2", "js", "select2.min.js"));
 
   console.log("Vendor build complete.");
 } catch (err) {
