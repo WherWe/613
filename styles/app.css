@@ -104,6 +104,13 @@ body {
   flex-wrap: wrap;
 }
 
+/* Header stats in header */
+.header-stats {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
 /* Search box in header */
 .header .search-box {
   flex: 1;
@@ -187,6 +194,21 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.stat-card:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card.active {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .stat-icon {
@@ -247,6 +269,127 @@ body {
   gap: 10px;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+/* Scope icon chips panel */
+.scope-filters {
+  display: flex;
+  align-items: center;
+}
+
+.scope-chip-row {
+  display: flex;
+  gap: 6px;
+}
+
+.scope-chip {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #dcdfe3;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.scope-chip .chip-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.scope-chip:hover {
+  border-color: #bfc5cc;
+  transform: translateY(-1px);
+}
+
+.scope-chip.active {
+  border-color: #6c757d;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.scope-chip.muted {
+  opacity: 0.45;
+}
+
+/* Type-specific active colors for icon-only chips */
+.scope-chip.positive.active {
+  background: #d4edda;
+  color: #155724;
+  border-color: rgba(21, 87, 36, 0.35);
+}
+
+.scope-chip.negative.active {
+  background: #f8d7da;
+  color: #721c24;
+  border-color: rgba(114, 28, 36, 0.35);
+}
+
+/* Compact type filter chips */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 16px;
+  border: 1px solid #dcdfe3;
+  background: #ffffff;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-chip .chip-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.filter-chip .chip-count {
+  font-weight: 700;
+}
+
+.filter-chip:hover {
+  border-color: #bfc5cc;
+  transform: translateY(-1px);
+}
+
+.filter-chip.active {
+  border-color: #6c757d;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.filter-chip.muted {
+  opacity: 0.45;
+}
+
+/* Type-specific active colors */
+.filter-chip.positive.active {
+  background: #d4edda;
+  color: #155724;
+  border-color: rgba(21, 87, 36, 0.35);
+}
+
+.filter-chip.negative.active {
+  background: #f8d7da;
+  color: #721c24;
+  border-color: rgba(114, 28, 36, 0.35);
+}
+
+.filter-chip.active:not(.positive):not(.negative) {
+  background: #e9ecef;
+  color: #343a40;
 }
 
 .secondary-filters {
@@ -451,6 +594,16 @@ tr:hover {
 .negative {
   background-color: #f8d7da;
   color: #721c24;
+}
+
+/* Mitzvah number badge - uses positive/negative colors */
+.mitzvah-number-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .mitzvah-title {

@@ -4,50 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The 613 Mitzvot | Interactive Sefer HaChinukh</title>
-    <meta
-      name="description"
-      content="Explore the 613 mitzvot with interactive tools, search, and filters. Based on Sefer HaChinukh. English and Hebrew. Discover, learn, and study the commandments."
-    />
-    <meta name="keywords" content="613 mitzvot, commandments, Sefer HaChinukh, Torah, Jewish, Judaism, interactive, English, Hebrew, parasha, mitzvah" />
-    <meta property="og:title" content="The 613 Mitzvot | Interactive Sefer HaChinukh" />
-    <meta property="og:description" content="Explore all 613 mitzvot interactively. Search, filter, and learn about each commandment in English and Hebrew." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.taryag.online/" />
-    <meta property="og:image" content="https://www.taryag.online/images/og-image.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The 613 Mitzvot | Interactive Sefer HaChinukh" />
-    <meta name="twitter:description" content="Explore all 613 mitzvot interactively. Search, filter, and learn about each commandment in English and Hebrew." />
-    <meta name="twitter:image" content="https://www.taryag.online/images/og-image.jpg" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+
     <!-- Bootstrap CSS (from vendor) -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
-    <!-- Local fonts (Cardo + Noto Serif Hebrew) -->
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <!-- Tom Select Bootstrap theme (from vendor) -->
-    <link rel="stylesheet" href="vendor/tom-select/css/tom-select.bootstrap5.css" />
-    <!-- App styles -->
-    <link rel="stylesheet" href="styles/app.css" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
-    <meta name="theme-color" content="#0B1321" />
+    <!-- Fonts (from vendor) -->
+    <link rel="stylesheet" href="styles/fonts.css" />
+
+    <!-- Tom Select CSS (from vendor) -->
+    <link rel="stylesheet" href="vendor/tom-select/css/tom-select.bootstrap5.css" />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
-    <!-- Subtle Beta Banner -->
-    <div class="alert alert-light m-0 rounded-0 text-center py-2" role="alert" id="topBanner" style="border-left: none; border-right: none; border-top: none; font-size: 0.9rem; position: relative">
-      <strong>⚠️ Beta:</strong> This project is still new and evolving. Please double-check with your own or official sources when using this information. Feedback welcome at
-      <a href="mailto:moxaku@gmail.com" class="alert-link">moxaku@gmail.com</a>
-      <button
-        type="button"
-        onclick="document.getElementById('topBanner').style.display='none'"
-        style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; font-size: 1.2rem; line-height: 1; cursor: pointer; opacity: 0.5"
-        onmouseover="this.style.opacity='1'"
-        onmouseout="this.style.opacity='0.5'"
-        aria-label="Close"
-      >
-        &times;
-      </button>
-    </div>
-
     <div class="container mt-2">
       <div class="header">
         <div class="header-top">
@@ -69,8 +40,8 @@
           <div class="search-box">
             <input type="text" id="searchInput" placeholder="Search mitzvot..." />
           </div>
-          <div class="stats" id="stats">
-            <!-- Stats will be loaded dynamically -->
+          <div class="header-stats" id="headerStats">
+            <!-- Stats cards will be displayed here -->
           </div>
         </div>
       </div>
@@ -78,6 +49,12 @@
       <div class="controls">
         <div class="filter-controls">
           <div class="primary-filters">
+            <div class="stats" id="stats">
+              <!-- Stats will be loaded dynamically as clickable filters -->
+            </div>
+            <div class="scope-filters" id="scopeFilters">
+              <!-- Scope icon filters will be rendered here -->
+            </div>
             <select id="parashaFilter" class="form-select form-select-sm filter-select">
               <option value="">All Parashot</option>
             </select>
@@ -92,11 +69,6 @@
             </div>
           </div>
           <div class="secondary-filters" id="secondaryFilters" style="display: none">
-            <select id="typeFilter" class="form-select form-select-sm filter-select">
-              <option value="">All Types</option>
-              <option value="Positive">Positive</option>
-              <option value="Negative">Negative</option>
-            </select>
             <select id="bookFilter" class="form-select form-select-sm filter-select">
               <option value="">All Books</option>
             </select>
@@ -253,6 +225,8 @@
           this.tableLanguage = "en"; // Language for table descriptions
           this.currentMitzvahId = null;
           this.moreFiltersVisible = false;
+          this.typeFilter = ""; // "" = all, "Positive", "Negative"
+          this.activeScopeKey = ""; // one of scope keys or ""
 
           // Feature flags
           // Disable MTG-style card previews for now
@@ -466,11 +440,6 @@
             this.filterData();
           });
 
-          // Type filter
-          document.getElementById("typeFilter").addEventListener("change", (e) => {
-            this.filterData();
-          });
-
           // Book filter
           document.getElementById("bookFilter").addEventListener("change", (e) => {
             // Reset parasha filter when book changes
@@ -586,9 +555,72 @@
           });
         }
 
+        setTypeFilter(type) {
+          // Toggle behavior: clicking the active type clears it back to All
+          this.typeFilter = this.typeFilter === type ? "" : type;
+          this.currentPage = 1; // Reset to first page
+          this.filterData();
+        }
+
+        // Render compact scope icon filters panel
+        renderScopeFilters() {
+          const el = document.getElementById("scopeFilters");
+          if (!el) return;
+          const scopes = [
+            { key: "men", label: "Men", icon: "👨", title: "Applies to Men" },
+            { key: "women", label: "Women", icon: "👩", title: "Applies to Women" },
+            { key: "all_israel", label: "All Israel", icon: "👥", title: "All Israel" },
+            { key: "israel", label: "Eretz Yisrael", icon: "🇮🇱", title: "Eretz Yisrael" },
+            { key: "anywhere", label: "Anywhere", icon: "🌍", title: "Anywhere" },
+            { key: "always", label: "Always", icon: "⏰", title: "Always" },
+            { key: "temple", label: "Temple Era", icon: "🏛️", title: "Temple Era" },
+          ];
+          const chips = scopes
+            .map((s) => {
+              const active = this.activeScopeKey === s.key ? "active" : "";
+              const muted = this.activeScopeKey && this.activeScopeKey !== s.key ? "muted" : "";
+              return `<button class="scope-chip ${active} ${muted}" title="${s.title}" aria-label="${s.label}" aria-pressed="${active ? "true" : "false"}" onclick="app.toggleScopeFilter('${
+                s.key
+              }')">${s.icon}</button>`;
+            })
+            .join("");
+          el.innerHTML = `<div class="scope-chip-row">${chips}</div>`;
+        }
+
+        toggleScopeFilter(key) {
+          this.activeScopeKey = this.activeScopeKey === key ? "" : key;
+          this.currentPage = 1;
+          this.filterData();
+        }
+
+        matchesScope(mitzvah, key) {
+          const c = mitzvah.classification || {};
+          const applies = Array.isArray(c.applies_to) ? c.applies_to : [];
+          const loc = c.location || "";
+          const time = c.time_scope || "";
+          switch (key) {
+            case "men":
+              return applies.includes("Men");
+            case "women":
+              return applies.includes("Women");
+            case "all_israel":
+              return applies.includes("All Israel") || (applies.includes("Men") && applies.includes("Women"));
+            case "israel":
+              return /Eretz Yisrael|Israel/i.test(loc);
+            case "anywhere":
+              return loc === "Anywhere";
+            case "always":
+              return time === "Always";
+            case "temple":
+              return /Temple/i.test(time) || /Temple/i.test(loc);
+            default:
+              return true;
+          }
+        }
+
         filterData() {
           const searchTerm = document.getElementById("searchInput").value.toLowerCase();
-          const typeFilter = document.getElementById("typeFilter").value;
+          const typeFilter = this.typeFilter; // Use the stat card filter instead
           const bookFilter = document.getElementById("bookFilter").value;
           const parashaFilter = document.getElementById("parashaFilter").value;
           const categoryFilter = document.getElementById("categoryFilter").value;
@@ -612,6 +644,7 @@
                 mitzvah.classification.applies_to.some((a) => a.toLowerCase().includes(searchTerm)));
 
             const matchesType = !typeFilter || mitzvah.type === typeFilter;
+            const matchesScope = !this.activeScopeKey || this.matchesScope(mitzvah, this.activeScopeKey);
             const matchesBook = !bookFilter || mitzvah.book_en === bookFilter;
             const matchesParasha = !parashaFilter || mitzvah.parasha === parashaFilter;
 
@@ -623,7 +656,7 @@
             const matchesLocation = !locationFilter || (mitzvah.classification && mitzvah.classification.location === locationFilter);
             const matchesTimeScope = !timeScopeFilter || (mitzvah.classification && mitzvah.classification.time_scope === timeScopeFilter);
 
-            return matchesSearch && matchesType && matchesBook && matchesParasha && matchesCategory && matchesAppliesTo && matchesLocation && matchesTimeScope;
+            return matchesSearch && matchesType && matchesScope && matchesBook && matchesParasha && matchesCategory && matchesAppliesTo && matchesLocation && matchesTimeScope;
           });
 
           this.sortData();
@@ -633,47 +666,79 @@
 
         render() {
           this.renderStats();
+          this.renderHeaderStats();
           this.renderBookFilter();
+          this.renderScopeFilters();
           this.renderParashaFilter();
           this.renderClassificationFilters();
           this.renderTable();
           this.renderPagination();
         }
 
-        renderStats() {
-          const statsContainer = document.getElementById("stats");
+        renderHeaderStats() {
+          const container = document.getElementById("headerStats");
+          if (!container) return;
+
           const totalCount = this.filteredData.length;
           const positiveCount = this.filteredData.filter((m) => m.type === "Positive").length;
           const negativeCount = this.filteredData.filter((m) => m.type === "Negative").length;
 
-          statsContainer.innerHTML = `
-                    <div class="stat-card stat-total">
-                      
-                        <div class="stat-content">
-                            <span class="stat-number">${totalCount}</span>
-                            <span class="stat-label">Total</span>
-                        </div>
-                          <i data-lucide="hash" class="stat-icon"></i>
-                    </div>
-                    <div class="stat-card stat-positive">
-                       
-                        <div class="stat-content">
-                            <span class="stat-number">${positiveCount}</span>
-                            <span class="stat-label">Positive</span>
-                        </div>
-                         <i data-lucide="circle-plus" class="stat-icon"></i>
-                    </div>
-                    <div class="stat-card stat-negative">
-                      
-                        <div class="stat-content">
-                            <span class="stat-number">${negativeCount}</span>
-                            <span class="stat-label">Negative</span>
-                        </div>
-                          <i data-lucide="circle-minus" class="stat-icon"></i>
-                    </div>
-                `;
+          container.innerHTML = `
+            <div class="stat-card stat-total">
+              <div class="stat-content">
+                <span class="stat-number">${totalCount}</span>
+                <span class="stat-label">Total</span>
+              </div>
+              <i data-lucide="hash" class="stat-icon"></i>
+            </div>
+            <div class="stat-card stat-positive">
+              <div class="stat-content">
+                <span class="stat-number">${positiveCount}</span>
+                <span class="stat-label">Positive</span>
+              </div>
+              <i data-lucide="circle-plus" class="stat-icon"></i>
+            </div>
+            <div class="stat-card stat-negative">
+              <div class="stat-content">
+                <span class="stat-number">${negativeCount}</span>
+                <span class="stat-label">Negative</span>
+              </div>
+              <i data-lucide="circle-minus" class="stat-icon"></i>
+            </div>
+          `;
 
-          // Initialize Lucide icons
+          if (typeof lucide !== "undefined") {
+            lucide.createIcons();
+          }
+        }
+
+        renderStats() {
+          const statsContainer = document.getElementById("stats");
+          // Global counts (tooltips only)
+          const positiveCount = this.data ? this.data.mitzvot.filter((m) => m.type === "Positive").length : 0;
+          const negativeCount = this.data ? this.data.mitzvot.filter((m) => m.type === "Negative").length : 0;
+
+          const anyTypeActive = this.typeFilter !== "";
+          const positiveActive = this.typeFilter === "Positive" ? "active" : "";
+          const negativeActive = this.typeFilter === "Negative" ? "active" : "";
+          const positiveMuted = anyTypeActive && this.typeFilter !== "Positive" ? "muted" : "";
+          const negativeMuted = anyTypeActive && this.typeFilter !== "Negative" ? "muted" : "";
+
+          statsContainer.innerHTML = `
+            <div class="scope-chip-row">
+              <button class="scope-chip positive ${positiveActive} ${positiveMuted}" title="Positive — ${positiveCount}" aria-label="Positive" aria-pressed="${
+            this.typeFilter === "Positive"
+          }" onclick="app.setTypeFilter('Positive')">
+                <i data-lucide="circle-plus" class="chip-icon"></i>
+              </button>
+              <button class="scope-chip negative ${negativeActive} ${negativeMuted}" title="Negative — ${negativeCount}" aria-label="Negative" aria-pressed="${
+            this.typeFilter === "Negative"
+          }" onclick="app.setTypeFilter('Negative')">
+                <i data-lucide="circle-minus" class="chip-icon"></i>
+              </button>
+            </div>
+          `;
+
           if (typeof lucide !== "undefined") {
             lucide.createIcons();
           }
@@ -1100,9 +1165,24 @@
           // Build content
           const sidebarContent = document.getElementById("sidebarContent");
           let html = '<div class="sidebar-meta">';
-          html += `<div><strong>ID:</strong> ${mitzvah.id}</div>`;
-          html += `<div><strong>Type:</strong> ${mitzvah.type}</div>`;
-          html += `<div><strong>Parasha:</strong> ${mitzvah.parasha}</div>`;
+
+          // Mitzvah number badge with type color
+          const typeClass = mitzvah.type.toLowerCase();
+          html += `<div><strong>Mitzvah:</strong> <span class="mitzvah-number-badge ${typeClass}">#${mitzvah.id}</span></div>`;
+
+          // Type with badge
+          html += `<div><strong>Type:</strong> <span class="mitzvah-type ${typeClass}">${mitzvah.type}</span></div>`;
+
+          // Parasha - show in appropriate language
+          let parashaDisplay = "";
+          if (this.currentLanguage === "en") {
+            parashaDisplay = mitzvah.parasha;
+          } else if (this.currentLanguage === "he" && mitzvahHe) {
+            parashaDisplay = `<span class="text-he">${mitzvahHe.parasha}</span>`;
+          } else if (this.currentLanguage === "both") {
+            parashaDisplay = `${mitzvah.parasha} / <span class="text-he">${mitzvahHe ? mitzvahHe.parasha : mitzvah.parasha}</span>`;
+          }
+          html += `<div><strong>Parasha:</strong> ${parashaDisplay}</div>`;
           html += "</div>";
 
           // Description
