@@ -4833,7 +4833,9 @@
       "classification": {
         "category": "Temple and Sacrifices",
         "sub_category": "Priesthood conduct and service protocol",
-        "applies_to": "Priests (Kohanim); High Priest (extension)",
+        "applies_to": [
+          "Priests (Kohanim); High Priest (extension)"
+        ],
         "location": "Temple",
         "time_scope": "When the Temple stands; during service",
         "source_refs": [
@@ -4866,7 +4868,9 @@
       "classification": {
         "category": "Temple and Sacrifices",
         "sub_category": "Entry/service restrictions; rulings while intoxicated",
-        "applies_to": "Priests (service); all judges/deciders (rulings)",
+        "applies_to": [
+          "Priests (service); all judges/deciders (rulings)"
+        ],
         "location": "Temple (service); Anywhere (rulings)",
         "time_scope": "When the Temple stands (service); Always (rulings)",
         "source_refs": [
@@ -4894,7 +4898,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Kashrut signs — land animals",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -4925,7 +4931,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited species — land animals",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -4953,7 +4961,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Kashrut signs — fish",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -4981,7 +4991,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited species — fish without fins and scales",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5013,7 +5025,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited species — impure birds",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5040,7 +5054,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Kashrut signs — locusts/grasshoppers",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5073,7 +5089,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — eight swarming creatures (sheratzim)",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "When the Temple stands (practical implications)",
         "source_refs": [
@@ -5104,7 +5122,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — foods and drinks",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "When the Temple stands (practical implications)",
         "source_refs": [
@@ -5131,7 +5151,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — carcass (nevelah)",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "When the Temple stands (practical implications)",
         "source_refs": [
@@ -5159,7 +5181,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited species — swarming things of the ground",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5196,7 +5220,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited — insects from produce (when considered ‘of the ground’)",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5227,7 +5253,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited species — swarming creatures of the waters",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5256,7 +5284,9 @@
       "classification": {
         "category": "Dietary Laws",
         "sub_category": "Prohibited species — creatures from decay",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Anywhere",
         "time_scope": "Always",
         "source_refs": [
@@ -5290,7 +5320,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — woman after childbirth (yoledet)",
-        "applies_to": "Women postpartum",
+        "applies_to": [
+          "Women postpartum"
+        ],
         "location": "Anywhere",
         "time_scope": "When the Temple stands (practical implications)",
         "source_refs": [
@@ -5319,7 +5351,9 @@
       "classification": {
         "category": "Temple and Sacrifices",
         "sub_category": "Consumption of consecrated foods — purity required",
-        "applies_to": "All who eat consecrated foods (priests and Israelites)",
+        "applies_to": [
+          "All who eat consecrated foods (priests and Israelites)"
+        ],
         "location": "Sancta consumption",
         "time_scope": "When the Temple stands",
         "source_refs": [
@@ -5348,7 +5382,9 @@
       "classification": {
         "category": "Temple and Sacrifices",
         "sub_category": "Offerings — woman after childbirth",
-        "applies_to": "Women postpartum",
+        "applies_to": [
+          "Women postpartum"
+        ],
         "location": "Temple",
         "time_scope": "When the Temple stands",
         "source_refs": [
@@ -5381,7 +5417,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — tzaraat of a person (metsora)",
-        "applies_to": "Anyone with suspected tzaraat; priests for determination",
+        "applies_to": [
+          "Anyone with suspected tzaraat; priests for determination"
+        ],
         "location": "Anywhere (requires priestly determination)",
         "time_scope": "When priests qualified to inspect are available",
         "source_refs": [
@@ -5409,7 +5447,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tzaraat — prohibition to shave netek lesion",
-        "applies_to": "Anyone with a netek (scalp/beard scab)",
+        "applies_to": [
+          "Anyone with a netek (scalp/beard scab)"
+        ],
         "location": "Anywhere",
         "time_scope": "When priests adjudicate tzaraat",
         "source_refs": [
@@ -5439,7 +5479,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tzaraat — conduct and public declaration",
-        "applies_to": "Metzora (confirmed)",
+        "applies_to": [
+          "Metzora (confirmed)"
+        ],
         "location": "Outside the camp/city; public spaces",
         "time_scope": "When applicable (during affliction)",
         "source_refs": [
@@ -5467,7 +5509,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tzaraat — garments",
-        "applies_to": "Owners of affected garments; priests (inspection)",
+        "applies_to": [
+          "Owners of affected garments; priests (inspection)"
+        ],
         "location": "Anywhere",
         "time_scope": "When priests adjudicate tzaraat",
         "source_refs": [
@@ -5496,7 +5540,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tzaraat — purification procedure (cedar, hyssop, birds)",
-        "applies_to": "Metzora (person/garment/house) in purification",
+        "applies_to": [
+          "Metzora (person/garment/house) in purification"
+        ],
         "location": "Outside/near Temple as prescribed",
         "time_scope": "When the Temple stands / priests officiate",
         "source_refs": [
@@ -5527,7 +5573,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tzaraat — second shaving on seventh day",
-        "applies_to": "Metzora in purification",
+        "applies_to": [
+          "Metzora in purification"
+        ],
         "location": "Anywhere",
         "time_scope": "When priests adjudicate tzaraat",
         "source_refs": [
@@ -5561,7 +5609,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "General — immersion (mikveh)",
-        "applies_to": "All Israelites",
+        "applies_to": [
+          "All Israelites"
+        ],
         "location": "Mikveh or flowing spring",
         "time_scope": "Always (for purification)",
         "source_refs": [
@@ -5589,7 +5639,9 @@
       "classification": {
         "category": "Temple and Sacrifices",
         "sub_category": "Offerings — metzora on the eighth day",
-        "applies_to": "Metzora (lacking atonement)",
+        "applies_to": [
+          "Metzora (lacking atonement)"
+        ],
         "location": "Temple",
         "time_scope": "When the Temple stands",
         "source_refs": [
@@ -5618,7 +5670,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tzaraat — houses",
-        "applies_to": "Homeowners in Eretz Israel; priests (inspection)",
+        "applies_to": [
+          "Homeowners in Eretz Israel; priests (inspection)"
+        ],
         "location": "Eretz Israel",
         "time_scope": "When priests adjudicate tzaraat",
         "source_refs": [
@@ -5648,7 +5702,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — zav (male discharge)",
-        "applies_to": "Men experiencing zav discharge",
+        "applies_to": [
+          "Men experiencing zav discharge"
+        ],
         "location": "Anywhere",
         "time_scope": "When the Temple stands (practical implications)",
         "source_refs": [
@@ -5676,7 +5732,9 @@
       "classification": {
         "category": "Temple and Sacrifices",
         "sub_category": "Offerings — zav on the eighth day",
-        "applies_to": "Men who were zav and recovered (lacking atonement)",
+        "applies_to": [
+          "Men who were zav and recovered (lacking atonement)"
+        ],
         "location": "Temple",
         "time_scope": "When the Temple stands",
         "source_refs": [
@@ -5704,7 +5762,9 @@
       "classification": {
         "category": "Ritual Purity",
         "sub_category": "Tumah — semen emission",
-        "applies_to": "Men (and those who come in contact)",
+        "applies_to": [
+          "Men (and those who come in contact)"
+        ],
         "location": "Anywhere",
         "time_scope": "When the Temple stands (practical implications)",
         "source_refs": [

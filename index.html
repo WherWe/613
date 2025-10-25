@@ -380,7 +380,7 @@
           const c = mitzvah.classification;
 
           // Applies To icons
-          if (c.applies_to && c.applies_to.length > 0) {
+          if (c.applies_to && Array.isArray(c.applies_to) && c.applies_to.length > 0) {
             if (c.applies_to.includes("All Israel") || (c.applies_to.includes("Men") && c.applies_to.includes("Women"))) {
               icons.push('<span class="icon-badge icon-all" title="All Israel">👥</span>');
             } else if (c.applies_to.includes("Men")) {
@@ -606,7 +606,7 @@
               (mitzvah.classification && mitzvah.classification.sub_category && mitzvah.classification.sub_category.toLowerCase().includes(searchTerm)) ||
               (mitzvah.classification && mitzvah.classification.location && mitzvah.classification.location.toLowerCase().includes(searchTerm)) ||
               (mitzvah.classification && mitzvah.classification.time_scope && mitzvah.classification.time_scope.toLowerCase().includes(searchTerm)) ||
-              (mitzvah.classification && mitzvah.classification.applies_to && mitzvah.classification.applies_to.some((a) => a.toLowerCase().includes(searchTerm)));
+              (mitzvah.classification && mitzvah.classification.applies_to && Array.isArray(mitzvah.classification.applies_to) && mitzvah.classification.applies_to.some((a) => a.toLowerCase().includes(searchTerm)));
 
             const matchesType = !typeFilter || mitzvah.type === typeFilter;
             const matchesBook = !bookFilter || mitzvah.book_en === bookFilter;
@@ -614,7 +614,7 @@
 
             // Classification filters
             const matchesCategory = !categoryFilter || (mitzvah.classification && mitzvah.classification.category === categoryFilter);
-            const matchesAppliesTo = !appliesToFilter || (mitzvah.classification && mitzvah.classification.applies_to && mitzvah.classification.applies_to.includes(appliesToFilter));
+            const matchesAppliesTo = !appliesToFilter || (mitzvah.classification && mitzvah.classification.applies_to && Array.isArray(mitzvah.classification.applies_to) && mitzvah.classification.applies_to.includes(appliesToFilter));
             const matchesLocation = !locationFilter || (mitzvah.classification && mitzvah.classification.location === locationFilter);
             const matchesTimeScope = !timeScopeFilter || (mitzvah.classification && mitzvah.classification.time_scope === timeScopeFilter);
 
@@ -749,7 +749,7 @@
           const timeScopes = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.time_scope).map((m) => m.classification.time_scope))].sort();
 
           // Get all unique "applies_to" values (flatten arrays)
-          const appliesTo = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.applies_to).flatMap((m) => m.classification.applies_to))].sort();
+          const appliesTo = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.applies_to && Array.isArray(m.classification.applies_to)).flatMap((m) => m.classification.applies_to))].sort();
 
           // Populate category filter
           const categoryFilter = document.getElementById("categoryFilter");
