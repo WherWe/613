@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "description": "Hierarchical mapping of time_scope values: main time categories contain specific variants",
+    "version": "1.0",
+    "main_time_count": 7,
+    "specific_count": 41
+  },
+  "hierarchy": {
+    "Always": {
+      "description": "Ongoing obligation with no time restriction",
+      "specifics": ["Always", "Always (during sacrifices and war)", "Always (for purification)", "Always (with ordained judges)"]
+    },
+    "Conditional": {
+      "description": "Depends on specific circumstances or situations",
+      "specifics": ["Conditional", "When applicable (during affliction)", "When conditions permit", "During Nazirite Term", "When Ark Moved", "Day of offering until night"]
+    },
+    "Temple Era": {
+      "description": "When the Temple stands or during Temple times",
+      "specifics": [
+        "Temple Era",
+        "During Temple times",
+        "During Temple times (for offering)",
+        "When Temple exists",
+        "When the Temple stands",
+        "When the Temple stands (practical implications)",
+        "When the Temple stands (service); Always (rulings)",
+        "When the Temple stands / priests officiate",
+        "When the Temple stands; during service",
+        "Daily during Temple times",
+        "Annual during Temple times",
+        "Before each service during Temple times",
+        "When leftover occurs (Temple times)"
+      ]
+    },
+    "Festivals": {
+      "description": "Jewish holidays and festival times",
+      "specifics": [
+        "Festival",
+        "Pesach (7 days)",
+        "Pesach (Temple Era)",
+        "Pesach, Shavuot, Sukkot",
+        "14th Nissan",
+        "14th Nissan (Temple Era)",
+        "15th Nissan Evening",
+        "15th Nissan Evening (Temple Era)",
+        "Fourteenth of Nissan"
+      ]
+    },
+    "Weekly/Regular": {
+      "description": "Shabbat, weekdays, or daily obligations",
+      "specifics": ["Shabbat", "Weekdays", "Weekly", "Daily"]
+    },
+    "Cyclical": {
+      "description": "Sabbatical and other multi-year cycles",
+      "specifics": ["Seventh year", "Seventh year cycle"]
+    },
+    "Specific Authority": {
+      "description": "When specific authorities or institutions exist",
+      "specifics": ["When Sanhedrin exists", "When priests adjudicate tzaraat", "When priests qualified to inspect are available"]
+    }
+  },
+  "specific_to_main": {
+    "14th Nissan": "Festivals",
+    "14th Nissan (Temple Era)": "Festivals",
+    "15th Nissan Evening": "Festivals",
+    "15th Nissan Evening (Temple Era)": "Festivals",
+    "Always": "Always",
+    "Always (during sacrifices and war)": "Always",
+    "Always (for purification)": "Always",
+    "Always (with ordained judges)": "Always",
+    "Annual during Temple times": "Temple Era",
+    "Before each service during Temple times": "Temple Era",
+    "Conditional": "Conditional",
+    "Daily": "Weekly/Regular",
+    "Daily during Temple times": "Temple Era",
+    "Day of offering until night": "Conditional",
+    "During Nazirite Term": "Conditional",
+    "During Temple times": "Temple Era",
+    "During Temple times (for offering)": "Temple Era",
+    "Festival": "Festivals",
+    "Fourteenth of Nissan": "Festivals",
+    "Pesach (7 days)": "Festivals",
+    "Pesach (Temple Era)": "Festivals",
+    "Pesach, Shavuot, Sukkot": "Festivals",
+    "Seventh year": "Cyclical",
+    "Seventh year cycle": "Cyclical",
+    "Shabbat": "Weekly/Regular",
+    "Temple Era": "Temple Era",
+    "Weekdays": "Weekly/Regular",
+    "Weekly": "Weekly/Regular",
+    "When Ark Moved": "Conditional",
+    "When Sanhedrin exists": "Specific Authority",
+    "When Temple exists": "Temple Era",
+    "When applicable (during affliction)": "Conditional",
+    "When conditions permit": "Conditional",
+    "When leftover occurs (Temple times)": "Temple Era",
+    "When priests adjudicate tzaraat": "Specific Authority",
+    "When priests qualified to inspect are available": "Specific Authority",
+    "When the Temple stands": "Temple Era",
+    "When the Temple stands (practical implications)": "Temple Era",
+    "When the Temple stands (service); Always (rulings)": "Temple Era",
+    "When the Temple stands / priests officiate": "Temple Era",
+    "When the Temple stands; during service": "Temple Era"
+  }
+}

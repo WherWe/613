@@ -32,12 +32,11 @@
           </div>
         </div>
         <div class="header-title-wrapper">
-          <h1 class="app-title title-en">TARYAG</h1>
-          <h2 class="subtitle title-en1">
-            Taryag.online
-            <span class="title-he d-none" lang="he" dir="rtl">תרי״ג</span><span class="title-sep" aria-hidden="true">:</span><span class="title-en">The 613 Mitzvot</span>
-            <!-- <span class="title-sep" aria-hidden="true">-</span>Interactive Edition -->
-          </h2>
+          <h1 class="app-title title-en">TARYAG — The 613</h1>
+          <!-- <h1 class="app-title title-en">TARYAG</h1> -->
+          <!-- <h2 class="subtitle title-en">The 613 Mitzvot</h2> -->
+          <!-- <h2 class="tagline subtitle title-en">Based on Sefer HaChinukh</h2> -->
+          <p class="tagline subtitle title-en1">Learn and explore the 613 mitzvot — based on the teachings of Sefer HaChinukh</p>
         </div>
         <div class="header-bottom">
           <div class="search-box">
@@ -52,16 +51,15 @@
       <div class="controls">
         <div class="filter-controls">
           <div class="primary-filters">
+            <span class="filter-label">Quick filters:</span>
             <div class="stats" id="stats">
               <!-- Stats will be loaded dynamically as clickable filters -->
             </div>
+            <span class="separator d-none d-md-inline">|</span>
             <div class="scope-filters" id="scopeFilters">
               <!-- Scope icon filters will be rendered here -->
             </div>
-            <select id="parashaFilter" class="form-select form-select-sm filter-select">
-              <option value="">All Parashot</option>
-            </select>
-            <button id="moreFiltersBtn" class="btn btn-sm btn-outline-dark" onclick="app.toggleMoreFilters()">
+            <button id="moreFiltersBtn" class="btn btn-sm btn-light" onclick="app.toggleMoreFilters()">
               <span id="moreFiltersText">More Filters</span>
               <span id="moreFiltersIcon">▼</span>
             </button>
@@ -72,21 +70,42 @@
             </div>
           </div>
           <div class="secondary-filters" id="secondaryFilters" style="display: none">
-            <select id="bookFilter" class="form-select form-select-sm filter-select">
-              <option value="">All Books</option>
-            </select>
-            <select id="categoryFilter" class="form-select form-select-sm filter-select">
-              <option value="">All Categories</option>
-            </select>
-            <select id="appliesToFilter" class="form-select form-select-sm filter-select">
-              <option value="">Applies To: All</option>
-            </select>
-            <select id="locationFilter" class="form-select form-select-sm filter-select">
-              <option value="">All Locations</option>
-            </select>
-            <select id="timeScopeFilter" class="form-select form-select-sm filter-select">
-              <option value="">All Time Scopes</option>
-            </select>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i data-lucide="book-open" style="width: 16px; height: 16px"></i></span>
+              <select id="bookFilter" class="form-select form-select-sm filter-select">
+                <option value="">All Books</option>
+              </select>
+            </div>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i data-lucide="scroll-text" style="width: 16px; height: 16px"></i></span>
+              <select id="parashaFilter" class="form-select form-select-sm filter-select">
+                <option value="">All Parashot</option>
+              </select>
+            </div>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i data-lucide="folder" style="width: 16px; height: 16px"></i></span>
+              <select id="categoryFilter" class="form-select form-select-sm filter-select">
+                <option value="">All Categories</option>
+              </select>
+            </div>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i data-lucide="users" style="width: 16px; height: 16px"></i></span>
+              <select id="appliesToFilter" class="form-select form-select-sm filter-select">
+                <option value="">Applies To: All</option>
+              </select>
+            </div>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i data-lucide="map-pin" style="width: 16px; height: 16px"></i></span>
+              <select id="locationFilter" class="form-select form-select-sm filter-select">
+                <option value="">All Locations</option>
+              </select>
+            </div>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i data-lucide="clock" style="width: 16px; height: 16px"></i></span>
+              <select id="timeScopeFilter" class="form-select form-select-sm filter-select">
+                <option value="">All Time Scopes</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
@@ -263,6 +282,7 @@
             await this.loadData();
             this.setupEventListeners();
             this.enhanceSelects();
+            lucide.createIcons(); // Initialize filter icons
             this.render();
             // Update Hebrew date with mitzvot counts now that data is loaded
             loadHebrewDate(this);
@@ -691,10 +711,16 @@
               mitzvah.title.toLowerCase().includes(searchTerm) ||
               (mitzvah.title_he && mitzvah.title_he.toLowerCase().includes(searchTerm)) ||
               mitzvah.description.toLowerCase().includes(searchTerm) ||
-              (mitzvah.classification && mitzvah.classification.category && mitzvah.classification.category.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.main_category && mitzvah.classification.main_category.toLowerCase().includes(searchTerm)) ||
               (mitzvah.classification && mitzvah.classification.sub_category && mitzvah.classification.sub_category.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.main_location && mitzvah.classification.main_location.toLowerCase().includes(searchTerm)) ||
               (mitzvah.classification && mitzvah.classification.location && mitzvah.classification.location.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification && mitzvah.classification.main_time_scope && mitzvah.classification.main_time_scope.toLowerCase().includes(searchTerm)) ||
               (mitzvah.classification && mitzvah.classification.time_scope && mitzvah.classification.time_scope.toLowerCase().includes(searchTerm)) ||
+              (mitzvah.classification &&
+                mitzvah.classification.main_applies_to &&
+                Array.isArray(mitzvah.classification.main_applies_to) &&
+                mitzvah.classification.main_applies_to.some((a) => a.toLowerCase().includes(searchTerm))) ||
               (mitzvah.classification &&
                 mitzvah.classification.applies_to &&
                 Array.isArray(mitzvah.classification.applies_to) &&
@@ -706,12 +732,15 @@
             const matchesParasha = !parashaFilter || mitzvah.parasha === parashaFilter;
 
             // Classification filters
-            const matchesCategory = !categoryFilter || (mitzvah.classification && mitzvah.classification.category === categoryFilter);
+            const matchesCategory = !categoryFilter || (mitzvah.classification && mitzvah.classification.main_category === categoryFilter);
             const matchesAppliesTo =
               !appliesToFilter ||
-              (mitzvah.classification && mitzvah.classification.applies_to && Array.isArray(mitzvah.classification.applies_to) && mitzvah.classification.applies_to.includes(appliesToFilter));
-            const matchesLocation = !locationFilter || (mitzvah.classification && mitzvah.classification.location === locationFilter);
-            const matchesTimeScope = !timeScopeFilter || (mitzvah.classification && mitzvah.classification.time_scope === timeScopeFilter);
+              (mitzvah.classification &&
+                mitzvah.classification.main_applies_to &&
+                Array.isArray(mitzvah.classification.main_applies_to) &&
+                mitzvah.classification.main_applies_to.includes(appliesToFilter));
+            const matchesLocation = !locationFilter || (mitzvah.classification && mitzvah.classification.main_location === locationFilter);
+            const matchesTimeScope = !timeScopeFilter || (mitzvah.classification && mitzvah.classification.main_time_scope === timeScopeFilter);
 
             return matchesSearch && matchesType && matchesScope && matchesBook && matchesParasha && matchesCategory && matchesAppliesTo && matchesLocation && matchesTimeScope;
           });
@@ -884,15 +913,17 @@
 
         renderClassificationFilters() {
           // Get unique values from classifications
-          const categories = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.category).map((m) => m.classification.category))].sort();
+          const categories = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.main_category).map((m) => m.classification.main_category))].sort();
 
-          const locations = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.location).map((m) => m.classification.location))].sort();
+          const locations = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.main_location).map((m) => m.classification.main_location))].sort();
 
-          const timeScopes = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.time_scope).map((m) => m.classification.time_scope))].sort();
+          const timeScopes = [...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.main_time_scope).map((m) => m.classification.main_time_scope))].sort();
 
-          // Get all unique "applies_to" values (flatten arrays)
+          // Get all unique "main_applies_to" values (flatten arrays) - using main groups instead of specific values
           const appliesTo = [
-            ...new Set(this.data.mitzvot.filter((m) => m.classification && m.classification.applies_to && Array.isArray(m.classification.applies_to)).flatMap((m) => m.classification.applies_to)),
+            ...new Set(
+              this.data.mitzvot.filter((m) => m.classification && m.classification.main_applies_to && Array.isArray(m.classification.main_applies_to)).flatMap((m) => m.classification.main_applies_to)
+            ),
           ].sort();
 
           // Update category filter

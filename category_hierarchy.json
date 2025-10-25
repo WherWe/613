@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "description": "Hierarchical mapping of mitzvah categories: main categories contain subcategories",
+    "version": "1.0",
+    "main_category_count": 15,
+    "subcategory_count": 70
+  },
+  "hierarchy": {
+    "Faith and Belief": {
+      "description": "Core beliefs, monotheism, and relationship with God",
+      "subcategories": [
+        "Faith and Belief",
+        "Faith and Sanctity",
+        "Thought and Belief",
+        "Belief and Blasphemy",
+        "Idolatry",
+        "Idolatry and Forbidden Practices",
+        "Worship and Idolatry",
+        "Occult Practices"
+      ]
+    },
+    "Torah and Study": {
+      "description": "Torah study, transmission, and prophets",
+      "subcategories": ["Torah Study", "Torah Law", "Prophets and Prophecy"]
+    },
+    "Temple and Worship": {
+      "description": "Temple service, sacrifices, and sacred worship",
+      "subcategories": ["Temple", "Temple Service", "Temple and Sacrifices", "Sacrifices"]
+    },
+    "Priesthood": {
+      "description": "Kohanim and Levites: service, gifts, purity, and sanctity",
+      "subcategories": ["Priesthood and Levites", "Priestly Service", "Priestly Gifts", "Priestly Sanctity", "Priestly Purity", "Priestly Marriage"]
+    },
+    "Purity and Ritual": {
+      "description": "Ritual purity laws, impurity, and purification",
+      "subcategories": ["Purity and Impurity", "Ritual Purity", "Camp Purity"]
+    },
+    "Shabbat and Festivals": {
+      "description": "Weekly Shabbat, festivals, and holy days",
+      "subcategories": ["Shabbat and Rest", "Sabbath and Festivals", "Festival Laws", "Festivals and Holidays", "Calendar and Time", "Time and Calendar"]
+    },
+    "Daily Life and Observance": {
+      "description": "Daily mitzvot, covenant signs, and personal conduct",
+      "subcategories": ["Daily Observance", "Covenant Signs", "Personal Conduct", "Modesty and Dress", "Repentance"]
+    },
+    "Dietary Laws": {
+      "description": "Kashrut, forbidden foods, and eating restrictions",
+      "subcategories": ["Dietary Laws", "Kashrut", "Forbidden Mixtures", "Animal Welfare"]
+    },
+    "Agriculture and Land": {
+      "description": "Agricultural laws, gifts, tithes, and land-based mitzvot",
+      "subcategories": ["Agricultural Laws", "Agricultural Gifts", "Agricultural Laws and Gifts"]
+    },
+    "Family and Relationships": {
+      "description": "Marriage, family law, and interpersonal relations",
+      "subcategories": ["Family Law", "Personal Status", "Sexual Prohibitions", "Interpersonal Relations", "Interpersonal Ethics"]
+    },
+    "Ethics and Character": {
+      "description": "Moral conduct, charity, kindness, and proper speech",
+      "subcategories": ["Ethics and Character", "Charity and Kindness", "Speech and Oaths", "Vows and Oaths", "Oaths and Vows", "Respect for Authority"]
+    },
+    "Civil and Financial Law": {
+      "description": "Property, business, labor, and financial regulations",
+      "subcategories": ["Civil Law", "Civil and Tort Law", "Criminal and Civil Law", "Property Law", "Financial Law", "Business Ethics", "Labor Law", "Slavery Laws"]
+    },
+    "Judicial System": {
+      "description": "Courts, judges, and legal procedure",
+      "subcategories": ["Judicial System", "Judicial Law", "Criminal Law"]
+    },
+    "National Life": {
+      "description": "Monarchy, warfare, conquest of Israel, and Amalek",
+      "subcategories": ["Monarchy", "Warfare", "Conquest of Israel", "Amalek"]
+    },
+    "Life and Death": {
+      "description": "Safety, health, burial, and mourning",
+      "subcategories": ["Safety and Health", "Burial", "Mourning"]
+    }
+  },
+  "subcategory_to_main": {
+    "Agricultural Gifts": "Agriculture and Land",
+    "Agricultural Laws": "Agriculture and Land",
+    "Agricultural Laws and Gifts": "Agriculture and Land",
+    "Amalek": "National Life",
+    "Animal Welfare": "Dietary Laws",
+    "Belief and Blasphemy": "Faith and Belief",
+    "Burial": "Life and Death",
+    "Business Ethics": "Civil and Financial Law",
+    "Calendar and Time": "Shabbat and Festivals",
+    "Camp Purity": "Purity and Ritual",
+    "Charity and Kindness": "Ethics and Character",
+    "Civil Law": "Civil and Financial Law",
+    "Civil and Tort Law": "Civil and Financial Law",
+    "Conquest of Israel": "National Life",
+    "Covenant Signs": "Daily Life and Observance",
+    "Criminal Law": "Judicial System",
+    "Criminal and Civil Law": "Civil and Financial Law",
+    "Daily Observance": "Daily Life and Observance",
+    "Dietary Laws": "Dietary Laws",
+    "Ethics and Character": "Ethics and Character",
+    "Faith and Belief": "Faith and Belief",
+    "Faith and Sanctity": "Faith and Belief",
+    "Family Law": "Family and Relationships",
+    "Festival Laws": "Shabbat and Festivals",
+    "Festivals and Holidays": "Shabbat and Festivals",
+    "Financial Law": "Civil and Financial Law",
+    "Forbidden Mixtures": "Dietary Laws",
+    "Idolatry": "Faith and Belief",
+    "Idolatry and Forbidden Practices": "Faith and Belief",
+    "Interpersonal Ethics": "Family and Relationships",
+    "Interpersonal Relations": "Family and Relationships",
+    "Judicial Law": "Judicial System",
+    "Judicial System": "Judicial System",
+    "Kashrut": "Dietary Laws",
+    "Labor Law": "Civil and Financial Law",
+    "Modesty and Dress": "Daily Life and Observance",
+    "Monarchy": "National Life",
+    "Mourning": "Life and Death",
+    "Oaths and Vows": "Ethics and Character",
+    "Occult Practices": "Faith and Belief",
+    "Personal Conduct": "Daily Life and Observance",
+    "Personal Status": "Family and Relationships",
+    "Priesthood and Levites": "Priesthood",
+    "Priestly Gifts": "Priesthood",
+    "Priestly Marriage": "Priesthood",
+    "Priestly Purity": "Priesthood",
+    "Priestly Sanctity": "Priesthood",
+    "Priestly Service": "Priesthood",
+    "Property Law": "Civil and Financial Law",
+    "Prophets and Prophecy": "Torah and Study",
+    "Purity and Impurity": "Purity and Ritual",
+    "Repentance": "Daily Life and Observance",
+    "Respect for Authority": "Ethics and Character",
+    "Ritual Purity": "Purity and Ritual",
+    "Sabbath and Festivals": "Shabbat and Festivals",
+    "Sacrifices": "Temple and Worship",
+    "Safety and Health": "Life and Death",
+    "Sexual Prohibitions": "Family and Relationships",
+    "Shabbat and Rest": "Shabbat and Festivals",
+    "Slavery Laws": "Civil and Financial Law",
+    "Speech and Oaths": "Ethics and Character",
+    "Temple": "Temple and Worship",
+    "Temple Service": "Temple and Worship",
+    "Temple and Sacrifices": "Temple and Worship",
+    "Thought and Belief": "Faith and Belief",
+    "Time and Calendar": "Shabbat and Festivals",
+    "Torah Law": "Torah and Study",
+    "Torah Study": "Torah and Study",
+    "Vows and Oaths": "Ethics and Character",
+    "Warfare": "National Life",
+    "Worship and Idolatry": "Faith and Belief"
+  }
+}

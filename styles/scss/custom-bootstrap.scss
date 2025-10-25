@@ -1,0 +1,136 @@
+// Custom Bootstrap Theme for 613 Mitzvot
+// Matches the purple-blue gradient color scheme
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Custom Color Variables - matching your app's palette
+$primary: #3498db; // Bright blue (used in header gradient, links, active states)
+$secondary: #2c3e50; // Dark blue-gray (header gradient start)
+$success: #155724; // Dark green (positive mitzvot)
+$danger: #721c24; // Dark red (negative mitzvot)
+$warning: #f57c00; // Orange (time-always icon)
+$info: #1976d2; // Blue (men icon)
+$light: #f8f9fa; // Light gray (backgrounds)
+$dark: #2c3e50; // Dark blue-gray
+
+// Custom theme colors
+$purple-light: #667eea; // Body gradient start
+$purple-dark: #764ba2; // Body gradient end
+$blue-bright: #3498db; // Primary blue
+$blue-darker: #2980b9; // Darker blue variant
+
+// Positive/Negative mitzvot colors
+$positive-bg: #d4edda;
+$positive-text: #155724;
+$negative-bg: #f8d7da;
+$negative-text: #721c24;
+
+// Gray scale
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #bfc5cc;
+$gray-600: #6c757d;
+$gray-700: #555555;
+$gray-800: #343a40;
+$gray-900: #2c3e50;
+
+// Body - can't use gradient in Bootstrap var, will apply via custom CSS
+$body-bg: #f8f9fa; // Fallback light gray
+$body-color: $gray-900;
+
+// Links
+$link-color: $primary;
+$link-hover-color: darken($primary, 15%);
+
+// Borders
+$border-color: $gray-300;
+$border-radius: 0.375rem;
+$border-radius-sm: 0.25rem;
+$border-radius-lg: 0.5rem;
+
+// Buttons
+$btn-border-radius: 25px;
+$btn-border-radius-sm: 20px;
+$btn-border-radius-lg: 30px;
+
+// Cards
+$card-border-color: $gray-300;
+$card-border-radius: 15px;
+$card-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+// Tables
+$table-hover-bg: $gray-100;
+$table-striped-bg: rgba($gray-100, 0.5);
+
+// Forms
+$input-border-radius: 25px;
+$input-focus-border-color: rgba(255, 255, 255, 0.8);
+
+// Badge colors
+$badge-border-radius: 20px;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any optional Bootstrap CSS as needed
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+
+// 5. Include Bootstrap components you're using
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/pagination";
+@import "../../node_modules/bootstrap/scss/alert";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/dropdown";
+@import "../../node_modules/bootstrap/scss/modal";
+@import "../../node_modules/bootstrap/scss/tooltip";
+@import "../../node_modules/bootstrap/scss/popover";
+@import "../../node_modules/bootstrap/scss/close";
+
+// 6. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../../node_modules/bootstrap/scss/helpers";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+// 7. Custom utility classes for your app
+.bg-gradient-primary {
+  background: linear-gradient(135deg, $secondary 0%, $primary 100%) !important;
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(135deg, $purple-light 0%, $purple-dark 100%) !important;
+}
+
+.text-positive {
+  color: $positive-text !important;
+}
+
+.text-negative {
+  color: $negative-text !important;
+}
+
+.bg-positive {
+  background-color: $positive-bg !important;
+  color: $positive-text !important;
+}
+
+.bg-negative {
+  background-color: $negative-bg !important;
+  color: $negative-text !important;
+}

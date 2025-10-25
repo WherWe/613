@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 /* Copy runtime assets from node_modules into vendor/ for static hosting (e.g., Vercel)
- * - bootstrap CSS
+ * - bootstrap CSS (compiled from custom SCSS)
  * - tom-select JS + CSS
  * - @fontsource (Cardo + Noto Serif Hebrew) entire folders to preserve relative font URLs
  */
 
 const fs = require("fs");
 const path = require("path");
+const sass = require("sass");
 
 const ROOT = process.cwd();
 
@@ -30,8 +31,16 @@ try {
   const vendor = path.join(ROOT, "vendor");
   ensureDir(vendor);
 
-  // Bootstrap CSS
-  copyFile(path.join(ROOT, "node_modules", "bootstrap", "dist", "css", "bootstrap.min.css"), path.join(vendor, "bootstrap", "css", "bootstrap.min.css"));
+  // Compile custom Bootstrap SCSS
+  console.log("Compiling custom Bootstrap SCSS...");
+  const result = sass.compile(path.join(ROOT, "styles", "scss", "custom-bootstrap.scss"), {
+    style: "compressed",
+    sourceMap: false,
+  });
+  const bootstrapCssPath = path.join(vendor, "bootstrap", "css", "bootstrap.min.css");
+  ensureDir(path.dirname(bootstrapCssPath));
+  fs.writeFileSync(bootstrapCssPath, result.css);
+  console.log(`Compiled SCSS -> ${bootstrapCssPath}`);
 
   // Bootstrap JS (bundle includes Popper for tooltips)
   copyFile(path.join(ROOT, "node_modules", "bootstrap", "dist", "js", "bootstrap.bundle.min.js"), path.join(vendor, "bootstrap", "js", "bootstrap.bundle.min.js"));

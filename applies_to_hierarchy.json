@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "description": "Hierarchical mapping of 'applies_to' values: main groups contain specific applications",
+    "version": "1.0",
+    "main_group_count": 10,
+    "specific_count": 58
+  },
+  "hierarchy": {
+    "All Israel": {
+      "description": "All Jewish people regardless of status",
+      "specifics": ["All", "All Israel", "All Israelites", "All Jews", "Jews only", "Circumcised Jews only", "Community", "Community of Israel"]
+    },
+    "Men": {
+      "description": "Jewish men and adult males",
+      "specifics": ["Men", "Jewish men", "Adult Jewish men", "All Jewish males 20 years and older"]
+    },
+    "Women": {
+      "description": "Jewish women and specific female conditions",
+      "specifics": ["Women", "Women postpartum"]
+    },
+    "Priests (Kohanim)": {
+      "description": "Kohanim, High Priests, and priestly service",
+      "specifics": [
+        "Kohanim",
+        "Priests",
+        "Male priests",
+        "High Priest",
+        "High Priests",
+        "Kohen Gadol",
+        "Priests (Kohanim); High Priest (extension)",
+        "Priests (service); all judges/deciders (rulings)"
+      ]
+    },
+    "Levites": {
+      "description": "Levitical tribe members",
+      "specifics": ["Levites", "Kohanim and Levites"]
+    },
+    "Non-Priests (Israelites)": {
+      "description": "Jewish people who are not Kohanim or Levites",
+      "specifics": ["Israelites", "Israelites (not Kohanim/Levites)", "Non-Kohanim", "Non-Priests", "All non-Kohanim"]
+    },
+    "Authorities": {
+      "description": "Kings, judges, courts, and community leaders",
+      "specifics": ["King", "Kings of House of David", "Judges", "Court", "Courts", "Beit Din", "Court/Sanhedrin"]
+    },
+    "Landowners": {
+      "description": "Property owners in Israel",
+      "specifics": ["All landowners in Israel", "Homeowners in Eretz Israel; priests (inspection)", "Owners", "Owners of affected garments; priests (inspection)"]
+    },
+    "Those in Impurity/Special Status": {
+      "description": "People with specific conditions requiring purification or atonement",
+      "specifics": [
+        "Metzora",
+        "Metzora (confirmed)",
+        "Metzora (lacking atonement)",
+        "Metzora (person/garment/house) in purification",
+        "Metzora in purification",
+        "Men experiencing zav discharge",
+        "Men who were zav and recovered (lacking atonement)",
+        "Anyone with a netek (scalp/beard scab)",
+        "Anyone with suspected tzaraat; priests for determination",
+        "Nazir",
+        "Uncircumcised",
+        "Men (and those who come in contact)"
+      ]
+    },
+    "Specific Cases": {
+      "description": "Particular situations, offenses, or ritual contexts",
+      "specifics": [
+        "Individuals who sinned inadvertently",
+        "Individuals in doubt of excision-level sin",
+        "Individuals (Temple impurity, consecrated foods, oaths)",
+        "Anyone who misused consecrated property",
+        "Me'ilah offender",
+        "Thief/denier",
+        "Designated maidservant case",
+        "All who eat consecrated foods (priests and Israelites)",
+        "Offerers"
+      ]
+    }
+  },
+  "specific_to_main": {
+    "Adult Jewish men": "Men",
+    "All": "All Israel",
+    "All Israel": "All Israel",
+    "All Israelites": "All Israel",
+    "All Jewish males 20 years and older": "Men",
+    "All Jews": "All Israel",
+    "All landowners in Israel": "Landowners",
+    "All non-Kohanim": "Non-Priests (Israelites)",
+    "All who eat consecrated foods (priests and Israelites)": "Specific Cases",
+    "Anyone who misused consecrated property": "Specific Cases",
+    "Anyone with a netek (scalp/beard scab)": "Those in Impurity/Special Status",
+    "Anyone with suspected tzaraat; priests for determination": "Those in Impurity/Special Status",
+    "Beit Din": "Authorities",
+    "Circumcised Jews only": "All Israel",
+    "Community": "All Israel",
+    "Community of Israel": "All Israel",
+    "Court": "Authorities",
+    "Court/Sanhedrin": "Authorities",
+    "Courts": "Authorities",
+    "Designated maidservant case": "Specific Cases",
+    "High Priest": "Priests (Kohanim)",
+    "High Priests": "Priests (Kohanim)",
+    "Homeowners in Eretz Israel; priests (inspection)": "Landowners",
+    "Individuals (Temple impurity, consecrated foods, oaths)": "Specific Cases",
+    "Individuals in doubt of excision-level sin": "Specific Cases",
+    "Individuals who sinned inadvertently": "Specific Cases",
+    "Israelites": "Non-Priests (Israelites)",
+    "Israelites (not Kohanim/Levites)": "Non-Priests (Israelites)",
+    "Jewish men": "Men",
+    "Jews only": "All Israel",
+    "Judges": "Authorities",
+    "King": "Authorities",
+    "Kings of House of David": "Authorities",
+    "Kohanim": "Priests (Kohanim)",
+    "Kohanim and Levites": "Levites",
+    "Kohen Gadol": "Priests (Kohanim)",
+    "Levites": "Levites",
+    "Male priests": "Priests (Kohanim)",
+    "Me'ilah offender": "Specific Cases",
+    "Men": "Men",
+    "Men (and those who come in contact)": "Those in Impurity/Special Status",
+    "Men experiencing zav discharge": "Those in Impurity/Special Status",
+    "Men who were zav and recovered (lacking atonement)": "Those in Impurity/Special Status",
+    "Metzora": "Those in Impurity/Special Status",
+    "Metzora (confirmed)": "Those in Impurity/Special Status",
+    "Metzora (lacking atonement)": "Those in Impurity/Special Status",
+    "Metzora (person/garment/house) in purification": "Those in Impurity/Special Status",
+    "Metzora in purification": "Those in Impurity/Special Status",
+    "Nazir": "Those in Impurity/Special Status",
+    "Non-Kohanim": "Non-Priests (Israelites)",
+    "Non-Priests": "Non-Priests (Israelites)",
+    "Offerers": "Specific Cases",
+    "Owners": "Landowners",
+    "Owners of affected garments; priests (inspection)": "Landowners",
+    "Priests": "Priests (Kohanim)",
+    "Priests (Kohanim); High Priest (extension)": "Priests (Kohanim)",
+    "Priests (service); all judges/deciders (rulings)": "Priests (Kohanim)",
+    "Thief/denier": "Specific Cases",
+    "Uncircumcised": "Those in Impurity/Special Status",
+    "Women": "Women",
+    "Women postpartum": "Women"
+  }
+}

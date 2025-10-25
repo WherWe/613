@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "description": "Hierarchical mapping of location values: main locations contain specific variants",
+    "version": "1.0",
+    "main_location_count": 4,
+    "specific_count": 25
+  },
+  "hierarchy": {
+    "Anywhere": {
+      "description": "Can be performed anywhere, no geographic restriction",
+      "specifics": ["Anywhere", "Anywhere (paid to Temple)", "Anywhere (requires priestly determination)", "Anywhere the oil is found", "Everywhere"]
+    },
+    "Eretz Yisrael": {
+      "description": "Specific to the Land of Israel",
+      "specifics": ["Eretz Israel", "Eretz Yisrael", "Eretz Yisrael (primarily)", "Eretz Yisrael (Torah), Anywhere (Rabbinic)", "Land of Israel", "Land of Israel (ordained judges)"]
+    },
+    "Temple": {
+      "description": "Temple in Jerusalem and its precincts",
+      "specifics": [
+        "Temple",
+        "Temple (for sacrifices)",
+        "Temple (service); Anywhere (rulings)",
+        "Temple in Jerusalem",
+        "Temple or city (as applicable)",
+        "Temple precincts",
+        "Jerusalem/Temple",
+        "Outside/near Temple as prescribed",
+        "Payment anywhere; offering in Temple",
+        "Sancta consumption"
+      ]
+    },
+    "Jerusalem": {
+      "description": "The city of Jerusalem (not necessarily Temple)",
+      "specifics": ["Jerusalem"]
+    },
+    "Specific Places": {
+      "description": "Other specific locations or contexts",
+      "specifics": ["Egypt", "Mikveh or flowing spring", "Outside the camp/city; public spaces"]
+    }
+  },
+  "specific_to_main": {
+    "Anywhere": "Anywhere",
+    "Anywhere (paid to Temple)": "Anywhere",
+    "Anywhere (requires priestly determination)": "Anywhere",
+    "Anywhere the oil is found": "Anywhere",
+    "Egypt": "Specific Places",
+    "Eretz Israel": "Eretz Yisrael",
+    "Eretz Yisrael": "Eretz Yisrael",
+    "Eretz Yisrael (Torah), Anywhere (Rabbinic)": "Eretz Yisrael",
+    "Eretz Yisrael (primarily)": "Eretz Yisrael",
+    "Everywhere": "Anywhere",
+    "Jerusalem": "Jerusalem",
+    "Jerusalem/Temple": "Temple",
+    "Land of Israel": "Eretz Yisrael",
+    "Land of Israel (ordained judges)": "Eretz Yisrael",
+    "Mikveh or flowing spring": "Specific Places",
+    "Outside the camp/city; public spaces": "Specific Places",
+    "Outside/near Temple as prescribed": "Temple",
+    "Payment anywhere; offering in Temple": "Temple",
+    "Sancta consumption": "Temple",
+    "Temple": "Temple",
+    "Temple (for sacrifices)": "Temple",
+    "Temple (service); Anywhere (rulings)": "Temple",
+    "Temple in Jerusalem": "Temple",
+    "Temple or city (as applicable)": "Temple",
+    "Temple precincts": "Temple"
+  }
+}
